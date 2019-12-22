@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.webp'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -40,9 +39,9 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Junior Joy" />
-            </Link>
+            <a href="/" className="navbar-item" title="Logo">
+              <img src={'https://festive-euler-6ecc62.netlify.com/junior-joy/logo.webp'} alt="Junior Joy" />
+            </a>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -59,15 +58,15 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <a className="navbar-item" href="/about">
                 Info
-              </Link>
-              <Link className="navbar-item" to="/blog">
+              </a>
+              <a className="navbar-item" href="/blog">
                 Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
+              </a>
+              <a className="navbar-item" href="/contact">
                 Contact
-              </Link>
+              </a>
               <a className="navbar-item" href="/photobook">
                 Impressie
               </a>

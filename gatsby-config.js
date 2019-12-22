@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Junior Joy',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Next level jeugd tennis by Inspire, voor de kinderen van Joy Jaagpad...',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
