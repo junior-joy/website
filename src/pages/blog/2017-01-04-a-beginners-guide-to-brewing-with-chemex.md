@@ -7,7 +7,7 @@ description: >-
   of zichzelf op de borst te slaan. Op een negatieve manier zelfkritiek leveren
   zie ik dan weer wel vaak voorbij komen.
 featuredpost: false
-featuredimage: /img/chemex.jpg
+featuredimage: /img/teun-juichen.png
 tags:
   - brewing
   - chemex
