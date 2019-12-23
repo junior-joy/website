@@ -2,31 +2,26 @@
 templateKey: about-page
 title: Junior Joy
 ---
-<iframe src="https://player.vimeo.com/video/380052050" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="max-height:30vh"></iframe>
+<br>Junior Joy is een initiatief van Inspire Tennisopleiding en is er op gericht om de jeugd van Joy Jaagpad een fantastisch jeugdprogramma te bieden. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expressa vero in iis aetatibus, quae iam confirmatae sunt. At, si voluptas esset ato, physicum se voluit.
+<iframe src="https://player.vimeo.com/video/381180333" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Onze Trainers
 
-<div class="Author-wrapper">
-<article class="Author">
-<div class="Author-image">
+##### Teun Kuijken
 
-<img alt="Andy Crestodina" title="Andy Crestodina" src="https://www.inspiretoptennis.com/wp-content/uploads/2018/12/2z3a7632-kopie-736x414.jpg" style="width: 400px; height: 400px; object-fit: cover; float: left; margin:0.75rem;" class="AuthorImage noJsHide" scale="0">
+![](/img/img_2703.jpg "Teun Kuijken ")
 
-<a href="https://www.orbitmedia.com/andy-crestodina">Andy Crestodina</a> is the co-founder and CMO of Orbit Media. He's an international top-rated keynote speaker and the author of <a href="https://www.orbitmedia.com/content-chemistry">Content Chemistry: The Illustrated Guide to Content Marketing</a>. You can find Andy on <a href="https://www.linkedin.com/in/andycrestodina">LinkedIn</a> and <a title="Andy Crestodina on Twitter" href="http://www.twitter.com/crestodina" target="_blank" rel="noopener">Twitter</a>.                                </div>
+* Teun Kuijken 34 jaar  Oprichter Inspire
+* Manager en trainer Junior Joy 
+* Woonochtend in Amsterdam
+* CIOS diploma 
+* A / B gelicenseerd en C-licentie in aantocht.
 
-</article>
-</div>
+CIOS in Haarlem afgerond in 2007. <br>A- en B-licentie behaald tijdens CIOS.<br>C-opleiding wordt a.s. januari afgerond. <br> Tenniskids 1, 2 en 3.
 
-> Perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omnia haec ad utilitatem referantur, virum bonum non posse reperiri;
+Vanaf jonge leeftijd (+/- 13 jaar) was het voor Teun al duidelijk, “ik word tennistrainer". Ruim tien jaar heeft Teun op verschillende verenigingen en tennisscholen training gegeven maar vooral ook beleid uitgezet en advies gegeven. Na deze tien jaar besloot Teun zijn eigen tennisopleiding te starten, Inspire Top Tennis. In eerste instantie gericht op hoge kwaliteit training aan talentvolle jeugd. Nu is Teun met Inspire ook een bredere weg ingeslagen. Met de juiste partners en tennisverenigingen wil hij het tennis en vooral het jeugdtennis een boost geven die het nodig heeft.  
 
-<img alt="Andy Crestodina" title="Andy Crestodina" src="https://www.inspiretoptennis.com/wp-content/uploads/2018/12/2z3a7632-kopie-736x414.jpg" style="width: 400px; height: 400px; object-fit: cover; float: right; margin: 0.75rem;" class="AuthorImage noJsHide" scale="0">
+Het doel van Teun is om de jeugdleden van Joy Jaagpad helemaal verslingerd te laten raken aan de tennissport.  Doormiddel van een totaal programma dat aansluit op de behoefte en de leeftijd van het kind zullen kinderen vaker en met meer plezier op de Joy Jaagpad aanwezig zijn. 
 
-<a href="https://www.orbitmedia.com/andy-crestodina">Andy Crestodina</a> is the co-founder and CMO of Orbit Media. He's an international top-rated keynote speaker and the author of <a href="https://www.orbitmedia.com/content-chemistry">Content Chemistry: The Illustrated Guide to Content Marketing</a>. You can find Andy on <a href="https://www.linkedin.com/in/andycrestodina">LinkedIn</a> and <a title="Andy Crestodina on Twitter" href="http://www.twitter.com/crestodina" target="_blank" rel="noopener">Twitter</a>.                                </div>
-
-</article>
-</div>
-Honesta oratio, Socratica, Platonis etiam. Ergo illi.
-
-> Perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omnia haec ad utilitatem referantur, virum bonum non posse reperiri;
+**Teun is ambitieus, leergierig en staat open voor alle ideeën om van Junior Joy een groot succes te maken!**
