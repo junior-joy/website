@@ -1,19 +1,32 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: Junior Joy
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+<iframe src="https://player.vimeo.com/video/380052050" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="max-height:30vh"></iframe>
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expressa vero in iis aetatibus, quae iam confirmatae sunt. At, si voluptas esset ato, physicum se voluit.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+## Onze Trainers
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+<div class="Author-wrapper">
+<article class="Author">
+<div class="Author-image">
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+<img alt="Andy Crestodina" title="Andy Crestodina" src="https://www.inspiretoptennis.com/wp-content/uploads/2018/12/2z3a7632-kopie-736x414.jpg" style="width: 400px; height: 400px; object-fit: cover; float: left; margin:0.75rem;" class="AuthorImage noJsHide" scale="0">
+
+<a href="https://www.orbitmedia.com/andy-crestodina">Andy Crestodina</a> is the co-founder and CMO of Orbit Media. He's an international top-rated keynote speaker and the author of <a href="https://www.orbitmedia.com/content-chemistry">Content Chemistry: The Illustrated Guide to Content Marketing</a>. You can find Andy on <a href="https://www.linkedin.com/in/andycrestodina">LinkedIn</a> and <a title="Andy Crestodina on Twitter" href="http://www.twitter.com/crestodina" target="_blank" rel="noopener">Twitter</a>.                                </div>
+
+</article>
+</div>
+
+> Perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omnia haec ad utilitatem referantur, virum bonum non posse reperiri;
+
+<img alt="Andy Crestodina" title="Andy Crestodina" src="https://www.inspiretoptennis.com/wp-content/uploads/2018/12/2z3a7632-kopie-736x414.jpg" style="width: 400px; height: 400px; object-fit: cover; float: right; margin: 0.75rem;" class="AuthorImage noJsHide" scale="0">
+
+<a href="https://www.orbitmedia.com/andy-crestodina">Andy Crestodina</a> is the co-founder and CMO of Orbit Media. He's an international top-rated keynote speaker and the author of <a href="https://www.orbitmedia.com/content-chemistry">Content Chemistry: The Illustrated Guide to Content Marketing</a>. You can find Andy on <a href="https://www.linkedin.com/in/andycrestodina">LinkedIn</a> and <a title="Andy Crestodina on Twitter" href="http://www.twitter.com/crestodina" target="_blank" rel="noopener">Twitter</a>.                                </div>
+
+</article>
+</div>
+Honesta oratio, Socratica, Platonis etiam. Ergo illi.
+
+> Perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omnia haec ad utilitatem referantur, virum bonum non posse reperiri;
