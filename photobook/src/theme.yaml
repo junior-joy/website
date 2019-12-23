@@ -100,8 +100,8 @@ font:
 #TIME
 time:
   duration:
-    default: 0.5s
-    long: 1s
+    default: 0.2s
+    long: 0.5s
 
 
 # GENERAL TOKENS
