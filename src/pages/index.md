@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Next level jeugd tennis
-image: /img/home-jumbotron.jpg
+image: /img/img_7641.jpg
 subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma
 ---
 ## April 2020 start Junior Joy
