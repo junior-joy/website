@@ -20,7 +20,7 @@ class PaginatedGalleryTemplate extends React.Component {
         const highlight = (this.props.location && this.props.location.state ? this.props.location.state.highlight : -1)
         const navigateBack = () => {
           if (typeof window !== 'undefined') {
-            window.location.assign('/')
+            window.location.assign('/contact')
           }
         }
         return (<>
