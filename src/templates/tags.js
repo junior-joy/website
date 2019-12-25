@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { Link, graphql, navigate } from 'gatsby'
+import { Swipeable } from 'react-swipeable'
 import Layout from '../components/Layout'
 
 class TagRoute extends React.Component {
@@ -14,6 +15,8 @@ class TagRoute extends React.Component {
       </li>
     ))
     const tag = this.props.pageContext.tag
+    const nextTagPath = this.props.pageContext.nextTagPath
+    const prevTagPath = this.props.pageContext.prevTagPath
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const tagHeader = `${totalCount} post${
@@ -22,23 +25,28 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
-          <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
-            <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">Browse alle tags</Link>
-                </p>
+        <Swipeable
+          onSwipedLeft={nextTagPath ? () => navigate(nextTagPath) : () => {}}
+          onSwipedRight={prevTagPath ? () => navigate(prevTagPath) : () => {}}
+        >
+          <section className="section">
+            <Helmet title={`${tag} | ${title}`} />
+            <div className="container content">
+              <div className="columns">
+                <div
+                  className="column is-10 is-offset-1"
+                  style={{ marginBottom: '6rem' }}
+                >
+                  <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
+                  <ul className="taglist">{postLinks}</ul>
+                  <p>
+                    <Link to="/tags/">Browse alle tags</Link>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </Swipeable>
       </Layout>
     )
   }

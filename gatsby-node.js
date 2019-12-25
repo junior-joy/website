@@ -30,8 +30,28 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+    const blogPosts = posts.filter( edge => edge.node.frontmatter.templateKey === 'blog-post' )
+    const pages = posts.filter( edge => edge.node.frontmatter.templateKey !== 'blog-post' )
 
-    posts.forEach(edge => {
+    blogPosts.forEach( (edge, index) => {
+      const id = edge.node.id
+      const next = index === 0 ? blogPosts[blogPosts.length - 1].node : blogPosts[index - 1].node
+      const prev = index === blogPosts.length - 1 ? blogPosts[0].node : blogPosts[index + 1].node
+      createPage({
+        path: edge.node.fields.slug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        ),
+        // additional data can be passed via context
+        context: {
+          id,
+          next,
+          prev,
+        },
+      })
+    })
+    pages.forEach( (edge) => {
       const id = edge.node.id
       createPage({
         path: edge.node.fields.slug,
@@ -58,14 +78,18 @@ exports.createPages = ({ actions, graphql }) => {
     tags = _.uniq(tags)
 
     // Make tag pages
-    tags.forEach(tag => {
+    tags.forEach( (tag, index) => {
       const tagPath = `/tags/${_.kebabCase(tag)}/`
+      const nextTagPath = index === 0 ? `/tags/${_.kebabCase(tags[posts.length - 1])}/` : `/tags/${_.kebabCase(tags[index - 1])}/`
+      const prevTagPath = index === posts.length - 1 ? `/tags/${_.kebabCase(tags[0])}/` : `/tags/${_.kebabCase(tags[index + 1])}/`
 
       createPage({
         path: tagPath,
         component: path.resolve(`src/templates/tags.js`),
         context: {
           tag,
+          nextTagPath,
+          prevTagPath,
         },
       })
     })

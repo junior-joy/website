@@ -13,14 +13,20 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  next,
+  prev,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+  const navNext = () => navigate( next.fields.slug )
+  const navPrev = () => navigate( prev.fields.slug )
+  console.log(prev, next)
+  const trivialFun = () => ''
 
   return (
     <Swipeable
-      onSwipedLeft={() => navigate( '/contact' )}
-      onSwipedRight={() => navigate( '/blog' )}
+      onSwipedLeft={next ? navNext : trivialFun}
+      onSwipedRight={prev ? navPrev : trivialFun}
     >
       <section className="section">
         {helmet || ''}
@@ -62,8 +68,9 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pageContext, }) => {
   const { markdownRemark: post } = data
+  const { next, prev } = pageContext
 
   return (
     <Layout>
@@ -82,6 +89,8 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        next={next}
+        prev={prev}
       />
     </Layout>
   )

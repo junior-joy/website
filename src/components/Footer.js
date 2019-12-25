@@ -40,9 +40,9 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/photobook">
+                      <a className="navbar-item" href="/photobook">
                         Impressie
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <a
@@ -91,11 +91,11 @@ const Footer = class extends React.Component {
                   />
                 </a>
                 */}
-                <a title="instagram" target="_blank" href="https://www.instagram.com/inspiretoptennisamsterdam/">
+                <a rel="noreferrer" title="instagram" target="_blank" href="https://www.instagram.com/inspiretoptennisamsterdam/">
                   <img
                     src={instagram}
                     alt="Instagram"
-                    style={{ width: '2em', height: '2em', marginTop: '1em' }}
+                    style={{ height: '2em', marginTop: '1em', filter: 'invert(100%)' }}
                   />
                   <p
                     style={{ color: 'white' }}
