@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { Link, navigate, graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
+import { Swipeable } from 'react-swipeable'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -16,7 +17,9 @@ export const IndexPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
   return (
-  <div className="">
+  <Swipeable
+    onSwipedLeft={() => navigate( '/about' )}
+  >
     <div className="header-wrapper">
     <div
         className="header margin-top-0"
@@ -32,11 +35,12 @@ export const IndexPageTemplate = ({
             justifyContent: 'space-around',
             alignItems: 'left',
             flexDirection: 'column',
+            background: 'center',
             backgroundImage: `linear-gradient(
           rgba(1, 19, 17, 0.7),
           rgba(2, 38, 34, 0.7)
         ), url(${
-              !!( image && image.childImageSharp ) ? image.childImageSharp.fluid.src : 'https://images.unsplash.com/photo-1485908953667-cf6d88997642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3840&q=80'
+              !!( image && image.childImageSharp ) ? image.childImageSharp.fluid.src : ''
             })`,
           }}
         >
@@ -97,7 +101,8 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-  </div>
+    <div style={{ height: 'calc(300px + 5vw)', backgroundColor: '#075f57' }} />
+  </Swipeable>
 )}
 
 IndexPageTemplate.propTypes = {

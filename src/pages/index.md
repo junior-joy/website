@@ -11,7 +11,7 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div id="mc_embed_signup_scroll">
 <h2>Mis de inschrijving niet</h2>
-<div class="indicates-required"><span class="asterisk">_</span> Verplicht veld</div>
+<div class="indicates-required"><span class="asterisk">*</span> Verplicht veld</div>
 <div class="mc-field-group">
 <label for="mce-EMAIL">Email Adres  <span class="asterisk">*</span>
 </label>
@@ -49,4 +49,3 @@ Een goede binding met de vereniging vinden wij als trainers van groot belang. Ni
 De jeugd die ons Junior Joy programma volgen, doen veel meer dan alleen één tennisles per week.
 Lorem Ipsum, nostris blandis iacuit Laertiadaeque est Tritona, [pectora si
 tantum](http://valens.io/haec.php) tantumque missus quoque plumis **Atlante da** generum meminitque exstat!
-

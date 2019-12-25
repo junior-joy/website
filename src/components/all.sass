@@ -57,8 +57,6 @@ $black: #075f57
 
 .blog-preview
   position: relative
-  width: calc(120% - 5vw)
-  left: calc(-10% + 2.5vw)
   align-content: center
 
 .content .taglist
@@ -166,13 +164,14 @@ $navbar-breakpoint: 769px
   background-color: #d6400033
 .blog-list-item header
   display: flex
-  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
 
 @import "~bulma"
+
+
 
 .tile
   background-color: rgba(0, 0, 0, 0.1)
@@ -191,13 +190,6 @@ $navbar-breakpoint: 769px
   box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem
   background-color: rgb(247, 247, 247)
 
-
-.blog-list-item header
-  min-height: 8em
-
-.blog-list-item .excerpt
-  min-height: 18em
-
 .columns
   margin-left: 0
   margin-right: 0
@@ -209,7 +201,7 @@ p, h1, h2, h3, h4, a
 html
   font-size: 100%
   line-height: 1.5
-  background-color: rgb(235, 235, 235)
+  background-color: #e5eae9
 
   /* Hide Scrollbar */
   ::-webkit-scrollbar
@@ -220,7 +212,6 @@ html
   -ms-overflow-style: none
   overflow-y: scroll
   overflow-x: hidden
-
 
 // responsiveness
 +tablet-only

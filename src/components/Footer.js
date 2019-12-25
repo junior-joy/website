@@ -73,7 +73,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column is-4">
                 {/*
                 <a title="facebook" href="https://facebook.com">
                   <img
@@ -91,12 +91,16 @@ const Footer = class extends React.Component {
                   />
                 </a>
                 */}
-                <a title="instagram" href="https://www.instagram.com/inspiretoptennisamsterdam/">
+                <a title="instagram" target="_blank" href="https://www.instagram.com/inspiretoptennisamsterdam/">
                   <img
                     src={instagram}
                     alt="Instagram"
-                    style={{ width: '1em', height: '1em', marginTop: '1em' }}
+                    style={{ width: '2em', height: '2em', marginTop: '1em' }}
                   />
+                  <p
+                    style={{ color: 'white' }}
+                  > Instagram
+                  </p>
                 </a>
                 {/*
                 <a title="vimeo" href="https://vimeo.com">

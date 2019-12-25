@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Link, navigate } from "gatsby"
+import { Swipeable } from 'react-swipeable'
 import theme from "../theme.yaml"
 import { FaTimesCircle, FaArrowLeft, FaArrowRight, FaExpand, FaCompress, FaDownload } from 'react-icons/fa';
 import { GlobalStateContext } from "../components/globalState.js"
@@ -215,7 +216,10 @@ class PostcardTemplate extends React.Component {
         </Helmet>
         <GlobalStateContext.Consumer>
           {globalState => (
-              <>
+            <Swipeable
+              onSwipedRight={ () => this.handleKeyDown({ keyCode: 37 })}
+              onSwipedLeft={ () => this.handleKeyDown({ keyCode: 39 })}
+            >
                   <CornerCaseHandler g={globalState} currId={c.image.id} nextId={c.nextId} />
 
                   {/* Invisible helper links for prev/next navigation: clicking left side of the viewport links to prev, right side to next. */}
@@ -426,7 +430,7 @@ class PostcardTemplate extends React.Component {
 
                     `}
                   </style>
-              </>
+              </Swipeable>
         )}</GlobalStateContext.Consumer>
       </>
     )
