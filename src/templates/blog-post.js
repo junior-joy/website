@@ -20,7 +20,6 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
   const navNext = () => navigate( next.fields.slug )
   const navPrev = () => navigate( prev.fields.slug )
-  console.log(prev, next)
   const trivialFun = () => ''
 
   return (
