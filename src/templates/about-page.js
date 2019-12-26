@@ -12,6 +12,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
     <Swipeable
       onSwipedLeft={() => navigate( '/blog' )}
       onSwipedRight={() => navigate( '/' )}
+      onSwiped={console.log}
     >
       <section className="section section--gradient">
         <div className="container">

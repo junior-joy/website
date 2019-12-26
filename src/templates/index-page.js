@@ -16,9 +16,15 @@ export const IndexPageTemplate = ({
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
+  const navigateToPhotobook = () => {
+    if (typeof window !== 'undefined') {
+      window.location.assign('/photobook')
+    }
+  }
   return (
   <Swipeable
     onSwipedLeft={() => navigate( '/about' )}
+    onSwipedRight={navigateToPhotobook}
   >
     <div className="header-wrapper">
     <div

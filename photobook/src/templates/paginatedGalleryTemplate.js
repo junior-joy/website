@@ -18,7 +18,12 @@ class PaginatedGalleryTemplate extends React.Component {
     render() {
 
         const highlight = (this.props.location && this.props.location.state ? this.props.location.state.highlight : -1)
-        const navigateBack = () => {
+        const navigateNext = () => {
+          if (typeof window !== 'undefined') {
+            window.location.assign('/')
+          }
+        }
+        const navigatePrev = () => {
           if (typeof window !== 'undefined') {
             window.location.assign('/contact')
           }
@@ -31,7 +36,8 @@ class PaginatedGalleryTemplate extends React.Component {
                 <GlobalStateContext.Consumer>
                     {globalState => (
                         <Swipeable
-                          onSwipedRight={navigateBack}
+                          onSwipedLeft={navigateNext}
+                          onSwipedRight={navigatePrev}
                         >
                             <View
                                 globalState={globalState}
