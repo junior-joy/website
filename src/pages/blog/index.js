@@ -23,7 +23,7 @@ export default class BlogIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Junior Joy by Inspire
+            Het blog van Teun
           </h1>
         </div>
         <section className="section">

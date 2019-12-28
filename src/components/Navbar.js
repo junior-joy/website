@@ -46,12 +46,12 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="Junior Joy" />
             </Link>
             {onSwipedRight && (
-              <div onClick={onSwipedRight} className="navbar-item" title="Left">
+              <div onClick={onSwipedRight} className="navbar-item arrow" title="Left">
                 <FaArrowLeft />
               </div>
             )}
             {onSwipedLeft ? (
-              <div onClick={onSwipedLeft} className="navbar-item right" title="Right">
+              <div onClick={onSwipedLeft} className="navbar-item right arrow" title="Right">
                 <FaArrowRight />
               </div>
             ) : <div className="right" />}
