@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions}) => {
                                 src
                             }
                             fluid(quality: 90, maxWidth: 2048, traceSVG: { color: "#c0eae6" }) {
-                                tracedSVG
+                                base64
                                 aspectRatio
                                 src
                                 srcSet

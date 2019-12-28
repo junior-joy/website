@@ -43,10 +43,10 @@ const Navbar = class extends React.Component {
             <a href="/" className="navbar-item" title="Logo">
               <img src={'https://festive-euler-6ecc62.netlify.com/junior-joy/logo.webp'} alt="Junior Joy" />
             </a>
-            <a href="/contact" className="navbar-item" title="Left">
+            <a href="/contact" className="navbar-item arrow" title="Left">
               <FaArrowLeft />
             </a>
-            <a href="/" className="navbar-item right" title="Right">
+            <a href="/" className="navbar-item right arrow" title="Right">
               <FaArrowRight />
             </a>
             {/* Hamburger menu */}

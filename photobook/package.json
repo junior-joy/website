@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-photo-book",
+  "name": "fotoboek-juniorjoy",
   "private": true,
-  "description": "A Gatsby starter for sharing photosets.",
+  "description": "Fotoboek impressie van Junior Joy.",
   "version": "1.0.0",
   "author": "Baobab Koodaa <npm1232983x@baobab.fi>",
   "dependencies": {

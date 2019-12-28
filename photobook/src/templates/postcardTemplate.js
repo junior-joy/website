@@ -184,7 +184,7 @@ class PostcardTemplate extends React.Component {
       <>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{`Photo from Gatsby Starter Photo Book` /* Note: not a good idea to put image id here (needs JS to render the correct id). */}</title>
+          <title>{`Foto | Junior Joy` /* Note: not a good idea to put image id here (needs JS to render the correct id). */}</title>
 
           <style>
             {/*
@@ -289,9 +289,10 @@ class PostcardTemplate extends React.Component {
                   />
 
                   {/* Placeholder: If current image is not ready, display placeholder until current image has loaded, then transition. */}
+                  {console.log(c.image.fluid)}
                   <img
                     className={`currentImagePlaceholder ${this.state.currentImageLoaded ? "fade-out" : ""}`}
-                    src={c.image.fluid.tracedSVG}
+                    src={c.image.fluid.base64}
                     alt=""
                     style={{ zIndex: this.zIndexes["currentImagePlaceholder"], width: "100%", borderRadius: "0px" }}
                   />
