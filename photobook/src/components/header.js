@@ -74,7 +74,7 @@ const Navbar = class extends React.Component {
               <a className="navbar-item" href="/contact">
                 Contact
               </a>
-              <a className="navbar-item" href="/photobook">
+              <a className="navbar-item  is-active" href="/photobook">
                 Impressie
               </a>
             </div>
