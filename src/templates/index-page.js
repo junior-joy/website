@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, navigate, graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
-import { Swipeable } from 'react-swipeable'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -16,16 +15,8 @@ export const IndexPageTemplate = ({
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
-  const navigateToPhotobook = () => {
-    if (typeof window !== 'undefined') {
-      window.location.assign('/photobook')
-    }
-  }
   return (
-  <Swipeable
-    onSwipedLeft={() => navigate( '/about' )}
-    onSwipedRight={navigateToPhotobook}
-  >
+  <>
     <div className="header-wrapper">
     <div
         className="header margin-top-0"
@@ -108,7 +99,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
     <div style={{ height: 'calc(300px + 5vw)', backgroundColor: '#075f57' }} />
-  </Swipeable>
+  </>
 )}
 
 IndexPageTemplate.propTypes = {
@@ -121,9 +112,17 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
+  const navigateToPhotobook = () => {
+    if (typeof window !== 'undefined') {
+      window.location.assign('/photobook')
+    }
+  }
 
   return (
-    <Layout>
+    <Layout
+      onSwipedLeft={() => navigate( '/about' )}
+      onSwipedRight={navigateToPhotobook}
+    >
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}

@@ -3,34 +3,27 @@ import PropTypes from 'prop-types'
 import { graphql, navigate } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import { Swipeable } from 'react-swipeable'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <Swipeable
-      onSwipedLeft={() => navigate( '/blog' )}
-      onSwipedRight={() => navigate( '/' )}
-      onSwiped={console.log}
-    >
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="page">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="section">
-                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                    {title}
-                  </h2>
-                  <PageContent className="content" content={content} />
-                </div>
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="page">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="section">
+                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  {title}
+                </h2>
+                <PageContent className="content" content={content} />
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </Swipeable>
+      </div>
+    </section>
   )
 }
 
@@ -44,7 +37,10 @@ const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout
+      onSwipedLeft={() => navigate( '/blog' )}
+      onSwipedRight={() => navigate( '/' )}
+    >
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

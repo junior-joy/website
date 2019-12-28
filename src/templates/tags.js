@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql, navigate } from 'gatsby'
-import { Swipeable } from 'react-swipeable'
 import Layout from '../components/Layout'
 
 class TagRoute extends React.Component {
@@ -24,29 +23,27 @@ class TagRoute extends React.Component {
     } met tag “${tag}”`
 
     return (
-      <Layout>
-        <Swipeable
-          onSwipedLeft={nextTagPath ? () => navigate(nextTagPath) : () => {}}
-          onSwipedRight={prevTagPath ? () => navigate(prevTagPath) : () => {}}
-        >
-          <section className="section">
-            <Helmet title={`${tag} | ${title}`} />
-            <div className="container content">
-              <div className="columns">
-                <div
-                  className="column is-10 is-offset-1"
-                  style={{ marginBottom: '6rem' }}
-                >
-                  <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                  <ul className="taglist">{postLinks}</ul>
-                  <p>
-                    <Link to="/tags/">Browse alle tags</Link>
-                  </p>
-                </div>
+      <Layout
+        onSwipedLeft={nextTagPath ? () => navigate(nextTagPath) : () => {}}
+        onSwipedRight={prevTagPath ? () => navigate(prevTagPath) : () => {}}
+      >
+        <section className="section">
+          <Helmet title={`${tag} | ${title}`} />
+          <div className="container content">
+            <div className="columns">
+              <div
+                className="column is-10 is-offset-1"
+                style={{ marginBottom: '6rem' }}
+              >
+                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
+                <ul className="taglist">{postLinks}</ul>
+                <p>
+                  <Link to="/tags/">Browse alle tags</Link>
+                </p>
               </div>
             </div>
-          </section>
-        </Swipeable>
+          </div>
+        </section>
       </Layout>
     )
   }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import logo from '../img/logo.webp'
 
 const Navbar = class extends React.Component {
@@ -32,6 +33,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    const { onSwipedLeft, onSwipedRight } = this.props
     return (
       <nav
         className="navbar is-transparent"
@@ -43,6 +45,16 @@ const Navbar = class extends React.Component {
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Junior Joy" />
             </Link>
+            {onSwipedRight && (
+              <div onClick={onSwipedRight} className="navbar-item" title="Left">
+                <FaArrowLeft />
+              </div>
+            )}
+            {onSwipedLeft ? (
+              <div onClick={onSwipedLeft} className="navbar-item right" title="Right">
+                <FaArrowRight />
+              </div>
+            ) : <div className="right" />}
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}

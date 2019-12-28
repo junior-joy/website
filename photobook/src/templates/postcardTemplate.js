@@ -366,7 +366,6 @@ class PostcardTemplate extends React.Component {
                           right: 5%;
                           top: 3%;
                           bottom: 3%;
-                          max-height: 94%;
                           max-width: 90%;
 
                           @media only screen and (max-width: 1200px) {
@@ -374,7 +373,6 @@ class PostcardTemplate extends React.Component {
                             right: 0px;
                             top: 0px;
                             bottom: 0px;
-                            max-height: 100%;
                             max-width: 100%;
 
                             -webkit-box-shadow: 0 0 0 0 !important;

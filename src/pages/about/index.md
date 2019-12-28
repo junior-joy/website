@@ -21,11 +21,6 @@ title: Junior Joy
     allowfullscreen></iframe>
 </div>
 
-<script>
-window.onload = function(){
-  console.log('test')
-};
-</script>
 ## Onze Trainers
 
 ##### Teun Kuijken

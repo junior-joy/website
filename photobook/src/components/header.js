@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { Link } from 'gatsby'
 
 const Navbar = class extends React.Component {
@@ -41,6 +42,12 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <a href="/" className="navbar-item" title="Logo">
               <img src={'https://festive-euler-6ecc62.netlify.com/junior-joy/logo.webp'} alt="Junior Joy" />
+            </a>
+            <a href="/contact" className="navbar-item" title="Left">
+              <FaArrowLeft />
+            </a>
+            <a href="/" className="navbar-item right" title="Right">
+              <FaArrowRight />
             </a>
             {/* Hamburger menu */}
             <div
