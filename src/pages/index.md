@@ -40,7 +40,7 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 
 # Raak verslingerd aan tennis, de club en je vrienden
 
-![sfeer](/img/whatsapp-image-2018-04-08-at-16.21.48-1-.jpeg)
+![sfeer](/img/img_7641-kopie.jpg)
 
 Ons jeugdprogramma zorgt ervoor dat tennis verslavend leuk is, de club een tweede thuis wordt en je tennismaten echte vrienden worden.  
 
