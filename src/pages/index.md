@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 'Het nieuwe jeugdtennis van Joy Jaagpad '
-image: /img/img_7641.jpg
+image: /img/schermafbeelding-2019-12-30-om-20.13.20.png
 subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma
 ---
 ## April 2020 start Junior Joy
@@ -10,7 +10,7 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 <div id="mc_embed_signup">
 <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div id="mc_embed_signup_scroll">
-<h2>Mis de inschrijving niet</h2>
+<h2>Blijf op de hoogte. <br>Meld je aan voor de nieuwsbrief.</h2>
 <div class="indicates-required"><span class="asterisk">*</span> Verplicht veld</div>
 <div class="mc-field-group">
 <label for="mce-EMAIL">Email Adres  <span class="asterisk">*</span>
@@ -36,16 +36,20 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames\[0\]='EMAIL';ftypes\[0\]='email';fnames\[1\]='FNAME';ftypes\[1\]='text';fnames\[2\]='LNAME';ftypes\[2\]='text';fnames\[3\]='ADDRESS';ftypes\[3\]='address';fnames\[4\]='PHONE';ftypes\[4\]='phone';fnames\[5\]='BIRTHDAY';ftypes\[5\]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
-### Wij bieden meer dan alleen trainingen
+### Wij bieden meer dan alleen trainingen!
 
 # Raak verslingerd aan tennis, de club en je vrienden
 
-![sfeer](http://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/1570268/920938_403880.png)
+![sfeer](/img/schermafbeelding-2019-12-30-om-20.21.46.png)
 
-### Sterke connectie met vereniging
+Ons jeugdprogramma zorgt ervoor dat tennis verslavend leuk is, de club een tweede thuis wordt en je tennismaten echte vrienden worden.  
 
-Een goede binding met de vereniging vinden wij als trainers van groot belang. Niet alleen voor ons als trainers maar ook voor de jeugd van Joy Jaagpad.
+Als jij meedoet met het Junior Joy tennisprogramma dan doe veel meer dan alleen een tennistraining. Al vanaf jongs af aan zorgen we er voor dat jij regelmatig op de club leuke en leerzame activiteiten kunt volgen. 
 
-De jeugd die ons Junior Joy programma volgen, doen veel meer dan alleen één tennisles per week.
-Lorem Ipsum, nostris blandis iacuit Laertiadaeque est Tritona, [pectora si
-tantum](http://valens.io/haec.php) tantumque missus quoque plumis **Atlante da** generum meminitque exstat!
+Daarbij heb je de mogelijkheid, voor hetzelfde geld, niet één maar twee of zelfs drie keer per week te komen trainen. Naast één uur vaste trainingsgroep per week, bieden we op meerdere momenten inlooptrainingen. 
+
+In het Junior Joy programma hebben we drie belangrijke pijlers:
+
+* **Plezier**;  is waar alles begint, jij vind tennis super leuk! 
+* (wed)**Strijd**; is wat je moet leren, en hier helpen wij jou bij! 
+* **Ontwikkeling**; beter worden is het doel, hier gaan we voor zorgen!
