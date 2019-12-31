@@ -289,7 +289,6 @@ class PostcardTemplate extends React.Component {
                   />
 
                   {/* Placeholder: If current image is not ready, display placeholder until current image has loaded, then transition. */}
-                  {console.log(c.image.fluid)}
                   <img
                     className={`currentImagePlaceholder ${this.state.currentImageLoaded ? "fade-out" : ""}`}
                     src={c.image.fluid.base64}

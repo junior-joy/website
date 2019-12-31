@@ -36,6 +36,14 @@ exports.createPages = ({ graphql, actions}) => {
                     }
                 }
             }
+            cloudinaryImages: allCloudinaryMedia {
+              edges {
+                node {
+                  public_id
+                  secure_url
+                }
+              }
+            }
         }
     `).then(result => {
         if (result.errors) {
@@ -43,11 +51,11 @@ exports.createPages = ({ graphql, actions}) => {
         }
 
         /* Separate crop helpers from actual images. */
-        const edges = result.data.localImages.edges
+        const edges = result.data.cloudinaryImages.edges.concat( result.data.localImages.edges )
         const cropHelperEdges = {}
         const imageEdges = []
         edges.forEach(edge => {
-            const name = parseName(edge.node.absolutePath)
+            const name = edge.node.public_id || parseName(edge.node.absolutePath)
             if (name.endsWith("_crophelper")) cropHelperEdges[name] = edge
             else imageEdges.push(edge)
         })
@@ -56,7 +64,7 @@ exports.createPages = ({ graphql, actions}) => {
         var nextFreeId = 1
         images = []
         imageEdges.forEach(edge => {
-            const name = parseName(edge.node.absolutePath)
+            const name = edge.node.public_id || parseName(edge.node.absolutePath)
             /* Infer photographer attribution from name. */
             const title = name.endsWith("_v") ? "Conditional attribution caption" : "Photo from Unsplash"
 
@@ -65,12 +73,12 @@ exports.createPages = ({ graphql, actions}) => {
             const thumb = (
                 cropHelperEdges[key] ?
                 cropHelperEdges[key].node.childImageSharp.fixed :
-                edge.node.childImageSharp.fixed
+                ( edge.node.childImageSharp ? edge.node.childImageSharp.fixed : { src: getLowQualityUrl(edge.node.secure_url) } )
             )
 
             images[nextFreeId] = {
                 "id": nextFreeId,
-                "fluid": edge.node.childImageSharp.fluid,
+                "fluid": edge.node.childImageSharp ? edge.node.childImageSharp.fluid : { src: edge.node.secure_url, originalImg: edge.node.secure_url, base64: getLowQualityUrl(edge.node.secure_url) },
                 "thumb": thumb,
                 "title": title
             }
@@ -169,6 +177,13 @@ function createJSON(pageData) {
 function parseName(absolutePath) {
     const splitted = absolutePath.split(".")
     return splitted[splitted.length-2]
+}
+
+function getLowQualityUrl(url) {
+    var splitted = url.split("/")
+    const index = splitted.findIndex( element => element === 'upload' ) + 1
+    if (typeof(index) === 'number') { splitted.splice(index, 0, 'q_10') }
+    return splitted.join('/')
 }
 
 function fluidWithoutPlaceholder(fluid) {
