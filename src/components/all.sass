@@ -10,7 +10,7 @@ $kaldi-red-invert: #fff
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
-$black: #075f57
+$black: #0ebfaf
 
 
 .navbar .navbar-menu
@@ -108,10 +108,10 @@ $black: #075f57
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #da823a
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #da823a
+    box-shadow: inset 0 0 0 2px #da823a
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -223,7 +223,11 @@ html
   display: none
 
 .is-active
-  color: #ff5d37!important
+  color: #da823a!important
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active
+  background-color: #fafafa
+  color: #da823a!important
 
 
 // responsiveness

@@ -10,7 +10,8 @@ $kaldi-red-invert: #fff
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
-$black: #075f57
+$black: #0ebfaf
+
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -57,8 +58,6 @@ $black: #075f57
 
 .blog-preview
   position: relative
-  width: calc(120% - 5vw)
-  left: calc(-10% + 2.5vw)
   align-content: center
 
 .content .taglist
@@ -85,7 +84,7 @@ $black: #075f57
   right: 50%
   margin: 2em -50vw
   background-size: cover
-  background-position: bottom
+  background-position: center
   display: flex
   justify-content: center
   align-items: center
@@ -109,10 +108,10 @@ $black: #075f57
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #da823a
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #da823a
+    box-shadow: inset 0 0 0 2px #da823a
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -166,13 +165,14 @@ $navbar-breakpoint: 769px
   background-color: #d6400033
 .blog-list-item header
   display: flex
-  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
 
 @import "~bulma"
+
+
 
 .tile
   background-color: rgba(0, 0, 0, 0.1)
@@ -191,13 +191,6 @@ $navbar-breakpoint: 769px
   box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem
   background-color: rgb(247, 247, 247)
 
-
-.blog-list-item header
-  min-height: 8em
-
-.blog-list-item .excerpt
-  min-height: 18em
-
 .columns
   margin-left: 0
   margin-right: 0
@@ -205,11 +198,10 @@ $navbar-breakpoint: 769px
 p, h1, h2, h3, h4, a
   font-family: 'Changa', sans-serif
 
-
 html
   font-size: 100%
   line-height: 1.5
-  background-color: rgb(235, 235, 235)
+  background-color: #e5eae9
 
   /* Hide Scrollbar */
   ::-webkit-scrollbar
@@ -231,7 +223,12 @@ html
   display: none
 
 .is-active
-  color: #ff5d37!important
+  color: #da823a!important
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active
+  background-color: #fafafa
+  color: #da823a!important
+
 
 // responsiveness
 +tablet-only

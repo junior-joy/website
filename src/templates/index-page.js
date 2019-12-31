@@ -51,7 +51,7 @@ export const IndexPageTemplate = ({
       }}
     >
       <div className="container is-widescreen">
-        <div className="titles shadow">
+        <div className="titles">
           <h1
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
@@ -98,7 +98,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <div style={{ height: 'calc(300px + 5vw)', backgroundColor: '#075f57' }} />
+    <div style={{ height: 'calc(300px + 5vw)', backgroundColor: '#0ebfaf' }} />
   </>
 )}
 

@@ -8,6 +8,12 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: junior-joy
+    api_key: 674614883829644
+
 media_folder: static/img
 public_folder: /img
 

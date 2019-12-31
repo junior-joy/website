@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../img/logo.png'
-import logoInspire from '../img/logo-inspire.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -14,16 +13,11 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
           <div style={{ width: '14em', position: 'relative', marginLeft: 'auto', marginRight: 'auto' }} >
-            <img
-              src={logo}
-              alt="Junior Joy"
-              style={{ width: '100%' }}
-            />
             <a href="https://inspiretoptennis.com" target="_blank">
               <img
-                src={logoInspire}
+                src={logo}
                 alt="Junior Joy"
-                style={{ width: '100%', position: 'absolute', left: '0', top: '0' }}
+                style={{ width: '100%', filter: 'brightness(10)' }}
               />
             </a>
           </div>
