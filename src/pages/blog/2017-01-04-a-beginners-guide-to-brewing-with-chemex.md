@@ -7,12 +7,12 @@ description: >-
   of zichzelf op de borst te slaan. Op een negatieve manier zelfkritiek leveren
   zie ik dan weer wel vaak voorbij komen.
 featuredpost: false
-featuredimage: /img/teun-juichen.png
+featuredimage: >-
+  https://res.cloudinary.com/junior-joy/image/upload/v1577883660/blog/teun-juichen_nsk49u.png
 tags:
-  - brewing
-  - chemex
+  - Junior Joy
 ---
-![chemex](/img/teun-juichen.png)
+![chemex](https://res.cloudinary.com/junior-joy/image/upload/v1577883660/blog/teun-juichen_nsk49u.png)
 
 Misschien is het ook wel een culturele eigenschap van veel Nederlanders om vooral te kijken naar dingen die niet goed gaan en deze willen verbeteren. Waar ik een gemiddelde Amerikaan uitbundig zie juichen op een mooie bal, zie ik bij Nederlanders vaak niet eens een klein vuistje tevoorschijn komen. Deze zelfkritische eigenschap kan je natuurlijk veel brengen, maar in tennis kan het je ook flink dwarszitten.
 
