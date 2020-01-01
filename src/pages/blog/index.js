@@ -16,7 +16,7 @@ export default class BlogIndexPage extends React.Component {
             backgroundImage: `linear-gradient(
                   rgba(1, 19, 17, 0.7),
                   rgba(2, 38, 34, 0.7)
-                ), url('/img/blog-index.jpg')`,
+                ), url('https://res.cloudinary.com/junior-joy/image/upload/v1577885212/website--niet-zomaar-aankomen-teun/blog-index_p8ka4o.jpg')`,
           }}
         >
           <h1

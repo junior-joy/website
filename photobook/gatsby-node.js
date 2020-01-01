@@ -180,10 +180,11 @@ function parseName(absolutePath) {
 }
 
 function getLowQualityUrl(url) {
-    var splitted = url.split("/")
-    const index = splitted.findIndex( element => element === 'upload' ) + 1
-    if (typeof(index) === 'number') { splitted.splice(index, 0, 'q_10') }
-    return splitted.join('/')
+    //var splitted = url.split("/")
+    //const index = splitted.findIndex( element => element === 'upload' ) + 1
+    //if (typeof(index) === 'number') { splitted.splice(index, 0, 'q_10') }
+    //return splitted.join('/')
+    return url
 }
 
 function fluidWithoutPlaceholder(fluid) {
