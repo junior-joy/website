@@ -1,7 +1,8 @@
 ---
 templateKey: index-page
 title: 'Het nieuwe jeugdtennis van Joy Jaagpad '
-image: /img/schermafbeelding-2019-12-30-om-20.13.20.png
+image: >-
+  https://res.cloudinary.com/junior-joy/image/upload/v1577878649/banner_u7izdi.png
 subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma
 ---
 ## April 2020 start Junior Joy
