@@ -2,11 +2,9 @@
 templateKey: about-page
 title: Junior Joy
 ---
-![](https://res.cloudinary.com/junior-joy/image/upload/v1577895673/ray_en_teun_pce5co.jpg)
-
 <br>Junior Joy is een initiatief van Inspire Tennisopleiding en is er op gericht om de jeugd van Joy Jaagpad een fantastisch jeugdprogramma te bieden.
 
-> Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikkelen. 
+> **Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikkelen.** 
 
 <div style="
   position:relative;
@@ -27,7 +25,7 @@ title: Junior Joy
 
 ## Onze Trainers
 
-#### Teun Kuijken
+> #### Teun Kuijken
 
 ![](https://res.cloudinary.com/junior-joy/image/upload/v1577894223/teun_ffehbw.png "Teun Kuijken ")
 
@@ -45,16 +43,16 @@ Het doel van Teun is om de jeugdleden van Joy Jaagpad helemaal verslingerd te la
 
 **Teun is ambitieus, leergierig en staat open voor alle ideeën om van Junior Joy een groot succes te maken!**
 
-#### Raymon Janson
+> #### Raymon Janson
 
-![](https://res.cloudinary.com/junior-joy/image/upload/v1577894556/ray_foto_noh0tf.jpg "Teun Kuijken ")
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_348/v1577894556/ray_foto_noh0tf.jpg "Teun Kuijken ")
 
 * 41 jaar  
 * Hoofdtrainer Junior Joy
 * A / B / C-licentie.
 * Tenniskids 1, 2 en 3.
 
-> Raymon is een echte jeugdtrainer; met enthousiasme, humor en vakmanschap begeleid hij de jeugd binnen hun tennis ontwikkeling. 
+> **Raymon is een echte jeugdtrainer; met enthousiasme, humor en vakmanschap begeleid hij de jeugd binnen hun tennis ontwikkeling.** 
 
 Na een kortstondig avontuur als fulltime tennisser stortte Raymon zich op het vak van tennistrainer.
 
