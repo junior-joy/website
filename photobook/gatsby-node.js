@@ -51,7 +51,7 @@ exports.createPages = ({ graphql, actions}) => {
         }
 
         /* Separate crop helpers from actual images. */
-        const edges = result.data.cloudinaryImages.edges.concat( result.data.localImages.edges )
+        const edges = result.data.localImages.edges.concat( result.data.cloudinaryImages.edges )
         const cropHelperEdges = {}
         const imageEdges = []
         edges.forEach(edge => {

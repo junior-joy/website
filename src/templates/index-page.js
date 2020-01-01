@@ -33,11 +33,14 @@ export const IndexPageTemplate = ({
             alignItems: 'left',
             flexDirection: 'column',
             background: 'center',
+            backgroundSize: 'cover',
+            backgroundPositionX: 'center',
+            backgroundRepeatX: 'no-repeat',
             backgroundImage: `linear-gradient(
           rgba(1, 19, 17, 0.7),
           rgba(2, 38, 34, 0.7)
         ), url(${
-              !!( image && image.childImageSharp ) ? image.childImageSharp.fluid.src : ''
+              !!( image && image.childImageSharp ) ? image.childImageSharp.fluid.src : image
             })`,
           }}
         >
