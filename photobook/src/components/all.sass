@@ -12,6 +12,20 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #0ebfaf
 
+.navbar-start > a
+  padding: 8px
+  text-decoration: none
+  font-size: 1.5rem
+  display: block
+  transition: 0.3s
+  font-family: 'Mont'
+
+article.box
+  box-shadow: 0 0.5em 1em -0.125em rgba(2, 38, 34, 0.1), 0 0px 0 1px rgba(2, 38, 34, 0.02)!important
+  background-color: #E5EAE9
+
+.navbar
+  box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -108,10 +122,10 @@ $black: #0ebfaf
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #da823a
+    color: #d64000
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #da823a
-    box-shadow: inset 0 0 0 2px #da823a
+    -webkit-box-shadow: inset 0 0 0 2px #d64000
+    box-shadow: inset 0 0 0 2px #d64000
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -198,10 +212,13 @@ $navbar-breakpoint: 769px
 p, h1, h2, h3, h4, a
   font-family: 'Changa', sans-serif
 
+.menu-list a
+  font-family: 'Mont'
+
 html
   font-size: 100%
   line-height: 1.5
-  background-color: #e5eae9
+  background-color: #eef1f0
 
   /* Hide Scrollbar */
   ::-webkit-scrollbar
@@ -229,6 +246,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   background-color: #fafafa
   color: #da823a!important
 
+.leaflet-container
+  width: 100vw
+  min-height: 200px
+  height: 30vw
+
+.navbar-item img
+  top: -0.1rem
+  position: relative
+
+
 
 // responsiveness
 +tablet-only
@@ -242,6 +269,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+
+  .navbar-start > a
+    font-size: 1.75rem
+
+  .navbar-start
+    padding-top: 2rem
 
   .navbar-burger span
     height: 3px

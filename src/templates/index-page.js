@@ -61,6 +61,7 @@ export const IndexPageTemplate = ({
               color: 'white',
               lineHeight: '1',
               padding: '0.25em',
+              fontFamily: 'Mont',
             }}
           >
             {title}
@@ -153,7 +154,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        image 
+        image
         subheading
       }
     }

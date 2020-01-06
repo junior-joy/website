@@ -20,6 +20,15 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Mont"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-styled-jsx`,
       options: {
         jsxPlugins: ["styled-jsx-plugin-postcss"],
