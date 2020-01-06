@@ -11621,7 +11621,12 @@ react-is@16.12.0, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-leaflet@^2.6.1:
+react-leaflet-enhanced-marker@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/react-leaflet-enhanced-marker/-/react-leaflet-enhanced-marker-1.0.12.tgz#25229db4e8493bb862888800d0241c016d7f28e9"
+  integrity sha512-86bMeNiW+UI4PCX4yzRVYw8hMth9b+tdDAUeybR9eJsfzWDtKO3X0Z0lEl4IBoMLB72es5bfYiO62vTwL/OW7Q==
+
+react-leaflet@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-2.6.1.tgz#e5d6514d2358c51a28e614b8a0ddf8dca56e7179"
   integrity sha512-pqXQegdX4EL4R+zL33J92aLUcznp5TksNdW6CerwEwmi5m6CHt5k2YTkvyPVroZPA7pLAPB3ZAjmLLEmZh7yLw==
