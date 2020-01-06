@@ -69,11 +69,6 @@ const Footer = class extends React.Component {
                         Laatste nieuws
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
                   </ul>
                 </section>
               </div>
@@ -94,7 +89,6 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                */}
                 <a rel="noreferrer" title="instagram" target="_blank" href="https://www.instagram.com/inspiretoptennisamsterdam/">
                   <img
                     src={instagram}
@@ -106,6 +100,7 @@ const Footer = class extends React.Component {
                   > Instagram
                   </p>
                 </a>
+                */}
                 {/*
                 <a title="vimeo" href="https://vimeo.com">
                   <img
