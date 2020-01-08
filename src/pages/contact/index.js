@@ -37,14 +37,9 @@ export default class Index extends React.Component {
   }
 
   render() {
-    const navigateToPhotobook = () => {
-      if (typeof window !== 'undefined') {
-        window.location.assign('/photobook')
-      }
-    }
     return (
       <Layout
-        onSwipedLeft={navigateToPhotobook}
+        onSwipedLeft={() => navigate( '/photos' )}
         onSwipedRight={() => navigate( '/blog' )}
       >
         <section className="section">

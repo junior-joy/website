@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: 'Junior Joy',
@@ -40,6 +42,15 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    {
+      resolve:`gatsby-source-cloudinary`,
+      options:{
+        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+        apiKey: process.env.CLOUDINARY_API_KEY,
+        apiSecret: process.env.CLOUDINARY_API_SECRET,
+        maxResults: 500,
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {

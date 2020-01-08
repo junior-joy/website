@@ -80,9 +80,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact" activeClassName="is-active">
                 Contact
               </Link>
-              <a className="navbar-item" href="/photobook" activeClassName="is-active">
+              <Link className="navbar-item" to="/photos" activeClassName="is-active">
                 Impressie
-              </a>
+              </Link>
             </div>
             <div className="navbar-end has-text-centered" activeClassName="is-active">
               {' '}

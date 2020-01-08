@@ -5,6 +5,7 @@
   "author": "Austin Green, Norwin Dijkman",
   "dependencies": {
     "bulma": "^0.8.0",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.13.31",
     "gatsby-cli": "^2.8.20",
     "gatsby-image": "^2.0.23",
@@ -18,6 +19,7 @@
     "gatsby-remark-copy-linked-files": "^2.0.7",
     "gatsby-remark-images": "^3.1.6",
     "gatsby-remark-relative-images": "^0.2.1",
+    "gatsby-source-cloudinary": "^0.1.9",
     "gatsby-source-filesystem": "^2.0.26",
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.9",
@@ -31,6 +33,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-grid-gallery": "^0.5.5",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.8.0",
     "react-leaflet": "^2.6.0",
@@ -47,7 +50,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop",
-    "build": "npm run clean && gatsby build && yarn --cwd ./photobook/ && npm run --prefix photobook/ build && mkdir ./public/photobook && mv ./photobook/public/* ./public/photobook/",
+    "build": "npm run clean && gatsby build", 
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"

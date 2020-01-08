@@ -38,26 +38,6 @@ const Footer = class extends React.Component {
                         Info
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                    <li>
-                      <a className="navbar-item" href="/photobook">
-                        Impressie
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
                   </ul>
                 </section>
               </div>
@@ -65,10 +45,36 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
+                      <Link className="navbar-item" to="/contact">
+                        Contact
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/blog">
                         Laatste nieuws
                       </Link>
                     </li>
+                  </ul>
+                </section>
+              </div>
+              <div className="column is-4">
+                <section>
+                  <ul className="menu-list">
+                  <li>
+                    <Link className="navbar-item" to="/photos">
+                      Impressie
+                    </Link>
+                  </li>
+                  <li>
+                    <a
+                      className="navbar-item"
+                      href="/admin/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Admin
+                    </a>
+                  </li>
                   </ul>
                 </section>
               </div>

@@ -116,16 +116,11 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
-  const navigateToPhotobook = () => {
-    if (typeof window !== 'undefined') {
-      window.location.assign('/photobook')
-    }
-  }
 
   return (
     <Layout
       onSwipedLeft={() => navigate( '/about' )}
-      onSwipedRight={navigateToPhotobook}
+      onSwipedRight={() => navigate( '/photos' )}
     >
       <IndexPageTemplate
         image={frontmatter.image}
