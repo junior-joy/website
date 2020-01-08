@@ -26,7 +26,7 @@ export default class BlogIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Het blog van Teun
+            Ons blog
           </h1>
         </div>
         <section className="section">

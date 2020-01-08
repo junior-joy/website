@@ -4,13 +4,21 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: rgb(14, 191, 175)
+$kaldi-red: #13ae9e
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #0ebfaf
+
+$article-box: #fff
+$featured: #ee750133
+$active: #ee7501CC
+$btn: #ee7501CC
+$page: #F9FAF9
+$html: #E4EBE4
+
 
 #gallery
   display: flex
@@ -27,7 +35,7 @@ $black: #0ebfaf
 
 article.box
   box-shadow: 0 0.5em 1em -0.125em rgba(2, 38, 34, 0.1), 0 0px 0 1px rgba(2, 38, 34, 0.02)!important
-  background-color: #E5EAE9
+  background-color: $article-box
 
 .navbar
   box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem
@@ -127,12 +135,16 @@ article.box
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #d64000
+    color: $btn
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #d64000
-    box-shadow: inset 0 0 0 2px #d64000
+    -webkit-box-shadow: inset 0 0 0 2px $btn
+    box-shadow: inset 0 0 0 2px $btn
     -webkit-transition: all .15s ease
     transition: all .15s ease
+
+.asterisk
+  color: $btn !important
+
 
 .margin-top-0
   margin-top: 0 !important
@@ -181,7 +193,7 @@ $navbar-breakpoint: 769px
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033
+  background-color: $featured
 .blog-list-item header
   display: flex
 .blog-list-item .featured-thumbnail
@@ -208,7 +220,7 @@ $navbar-breakpoint: 769px
   position: relative
   border-radius: 4px
   box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem
-  background-color: rgb(247, 247, 247)
+  background-color: $page
 
 .columns
   margin-left: 0
@@ -223,7 +235,7 @@ p, h1, h2, h3, h4, a
 html
   font-size: 100%
   line-height: 1.5
-  background-color: #eef1f0
+  background-color: $html
 
   /* Hide Scrollbar */
   ::-webkit-scrollbar
@@ -245,11 +257,11 @@ html
   display: none
 
 .is-active
-  color: #da823a!important
+  color: $active!important
 
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active
   background-color: #fafafa
-  color: #da823a!important
+  color: $active!important
 
 .leaflet-container
   width: 100vw
@@ -260,6 +272,10 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   top: -0.1rem
   position: relative
 
+.button
+  background-color: #dbdbdb
+  border-color: #363636
+  color: #363636
 
 
 // responsiveness

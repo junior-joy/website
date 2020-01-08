@@ -187,7 +187,7 @@ export default class Index extends React.Component {
               </div>
             </div>
           </div>
-          <div style={{ width: '100vw', height: '30vw', minHeight: '200px', left: '-1.5rem', position: 'relative', top: '3rem' }}>
+          <div style={{ width: '100vw', height: '30vw', minHeight: '200px', left: '-1.5rem', position: 'relative', top: '3rem', zIndex: '0' }}>
             <Maps />
           </div>
         </section>

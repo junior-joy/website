@@ -59,9 +59,8 @@ export const IndexPageTemplate = ({
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               color: 'white',
-              lineHeight: '1',
               padding: '0.25em',
-              fontFamily: 'Mont',
+              lineHeight: '1',
             }}
           >
             {title}
@@ -103,6 +102,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
     <div style={{ height: 'calc(300px + 5vw)', backgroundColor: '#0ebfaf' }} />
+    <div className="asterisk" />
   </>
 )}
 
