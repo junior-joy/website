@@ -7,7 +7,7 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children, onSwipedLeft, onSwipedRight }) => {
+const TemplateWrapper = ({ children, onSwipedLeft, onSwipedRight, phoneTitle }) => {
   const { title, description } = useSiteMetadata()
   return (
     <Swipeable
@@ -56,6 +56,7 @@ const TemplateWrapper = ({ children, onSwipedLeft, onSwipedRight }) => {
         <Navbar
           onSwipedLeft={onSwipedLeft}
           onSwipedRight={onSwipedRight}
+          phoneTitle={phoneTitle}
         />
         <div style={{ minHeight: '60vh' }}>{children}</div>
         <Footer />

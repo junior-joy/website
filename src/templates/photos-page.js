@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Gallery from 'react-grid-gallery';
 
-export const AboutPageTemplate = ({ edges, contentComponent }) => {
+export const PhotosPageTemplate = ({ edges, contentComponent }) => {
   const PageContent = contentComponent || Content
   const images = edges.map( edge => {
     const thumbnail = edge.node.secure_url.split('upload/').join('upload/t_media_lib_thumb/')
@@ -24,19 +24,20 @@ export const AboutPageTemplate = ({ edges, contentComponent }) => {
   )
 }
 
-AboutPageTemplate.propTypes = {
+PhotosPageTemplate.propTypes = {
   edges: PropTypes.object.isRequired,
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const PhotosPage = ({ data }) => {
   const { allCloudinaryMedia: { edges: edges } } = data
   return (
     <Layout
       onSwipedLeft={() => navigate( '/' )}
       onSwipedRight={() => navigate( '/contact' )}
+      phoneTitle={'Impressie'}
     >
-      <AboutPageTemplate
+      <PhotosPageTemplate
         contentComponent={HTMLContent}
         edges={edges}
       />
@@ -44,14 +45,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+PhotosPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default PhotosPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage{
+export const PhotosPageQuery = graphql`
+  query PhotosPage{
     allCloudinaryMedia(filter: {secure_url: {regex: "/impressie/"}}) {
       edges {
         node {

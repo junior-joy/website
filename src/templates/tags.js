@@ -26,6 +26,7 @@ class TagRoute extends React.Component {
       <Layout
         onSwipedLeft={nextTagPath ? () => navigate(nextTagPath) : () => {}}
         onSwipedRight={prevTagPath ? () => navigate(prevTagPath) : () => {}}
+        phoneTitle={'Blog'}
       >
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />

@@ -16,6 +16,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
+
   return (
     <section className="section">
       {helmet || ''}
@@ -66,6 +67,7 @@ const BlogPost = ({ data, pageContext, }) => {
     <Layout
       onSwipedLeft={navNext}
       onSwipedRight={navPrev}
+      phoneTitle={'Blog'}
     >
       <BlogPostTemplate
         content={post.html}

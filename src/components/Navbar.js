@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const { onSwipedLeft, onSwipedRight } = this.props
+    const { onSwipedLeft, onSwipedRight, phoneTitle } = this.props
     return (
       <nav
         className="navbar is-transparent"
@@ -50,6 +50,9 @@ const Navbar = class extends React.Component {
                 <FaArrowLeft />
               </div>
             )}
+            <div className="navbar-item right arrow" title="Left">
+              <h2>{phoneTitle}</h2>
+            </div>
             {onSwipedLeft ? (
               <div onClick={onSwipedLeft} className="navbar-item right arrow" title="Right">
                 <FaArrowRight />
@@ -71,20 +74,20 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about" activeClassName="is-active">
+              <Link className="navbar-item" to="/about" activeClassName="is-active" partiallyActive={true}>
                 Info
               </Link>
-              <Link className="navbar-item" to="/blog" activeClassName="is-active">
+              <Link className="navbar-item" to="/blog" activeClassName="is-active" partiallyActive={true}>
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact" activeClassName="is-active">
+              <Link className="navbar-item" to="/contact" activeClassName="is-active" partiallyActive={true}>
                 Contact
               </Link>
-              <Link className="navbar-item" to="/photos" activeClassName="is-active">
+              <Link className="navbar-item" to="/photos" activeClassName="is-active" partiallyActive={true}>
                 Impressie
               </Link>
             </div>
-            <div className="navbar-end has-text-centered" activeClassName="is-active">
+            <div className="navbar-end has-text-centered" activeClassName="is-active" partiallyActive={true}>
               {' '}
             </div>
           </div>

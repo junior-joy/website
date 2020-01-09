@@ -41,6 +41,7 @@ export default class Index extends React.Component {
       <Layout
         onSwipedLeft={() => navigate( '/photos' )}
         onSwipedRight={() => navigate( '/blog' )}
+        phoneTitle={'Contact'}
       >
         <section className="section">
           <div className="container-fluid">

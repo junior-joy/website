@@ -9,6 +9,7 @@ export default class BlogIndexPage extends React.Component {
       <Layout
         onSwipedLeft={() => navigate( '/contact' )}
         onSwipedRight={() => navigate( '/about' )}
+        phoneTitle={'Blog'}
       >
         <div
           className="full-width-image-container margin-top-0"

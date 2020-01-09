@@ -4,7 +4,7 @@ import { graphql, navigate } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const PhotosPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -27,21 +27,22 @@ export const PhotosPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-PhotosPageTemplate.propTypes = {
+AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const PhotosPage = ({ data }) => {
+const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout
       onSwipedLeft={() => navigate( '/blog' )}
       onSwipedRight={() => navigate( '/' )}
+      phoneTitle={'Info'}
     >
-      <PhotosPageTemplate
+      <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -50,14 +51,14 @@ const PhotosPage = ({ data }) => {
   )
 }
 
-PhotosPage.propTypes = {
+AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default PhotosPage
+export default AboutPage
 
-export const PhotosPageQuery = graphql`
-  query PhotosPage($id: String!) {
+export const AboutPageQuery = graphql`
+  query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

@@ -121,6 +121,7 @@ const IndexPage = ({ data }) => {
     <Layout
       onSwipedLeft={() => navigate( '/about' )}
       onSwipedRight={() => navigate( '/photos' )}
+      phoneTitle={'Home'}
     >
       <IndexPageTemplate
         image={frontmatter.image}
