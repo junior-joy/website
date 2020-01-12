@@ -5,7 +5,7 @@ templateKey: contact-page
 > **Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikelen.**
 
 <a role="button" 
-  href=" https://wa.me/15551234567 https://wa.me/850606015" 
+  href="https://wa.me/31850606015" 
   title="WhatsApp" 
   style="
 color: rgb(255, 255, 255);
