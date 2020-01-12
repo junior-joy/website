@@ -10,7 +10,7 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
+      <footer className="footer has-background-primary has-text-white-ter">
         <div className="content has-text-centered">
           <div style={{ width: '14em', position: 'relative', marginLeft: 'auto', marginRight: 'auto' }} >
             <a href="https://inspiretoptennis.com" target="_blank">
@@ -22,8 +22,8 @@ const Footer = class extends React.Component {
             </a>
           </div>
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter" style={{ maxWidth: '100%' }}>
+        <div className="content has-text-centered has-background-primary has-text-white-ter">
+          <div className="container has-background-primary has-text-white-ter" style={{ maxWidth: '100%' }}>
             <div className="columns">
               <div className="column is-4">
                 <section className="menu">

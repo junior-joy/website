@@ -4,7 +4,7 @@ title: Junior Joy
 ---
 <br>Junior Joy is een initiatief van Inspire Tennisopleiding en is er op gericht om de jeugd van Joy Jaagpad een fantastisch jeugdprogramma te bieden.
 
-> **Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikkelen.** 
+> **Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikkelen.**
 
 <div style="
   position:relative;
@@ -35,7 +35,7 @@ title: Junior Joy
 * CIOS diploma; A / B / C-licentie.
 * Tenniskids 1, 2 en 3.
 
-> **Vanaf jonge leeftijd (+/- 13 jaar) was het voor Teun al duidelijk, “ik word tennistrainer".** 
+> **Vanaf jonge leeftijd (+/- 13 jaar) was het voor Teun al duidelijk, “ik word tennistrainer".**
 
 Ruim tien jaar heeft Teun op verschillende verenigingen en tennisscholen training gegeven maar vooral ook beleid uitgezet en advies gegeven. Na deze tien jaar besloot Teun zijn eigen tennisopleiding te starten, Inspire Top Tennis. In eerste instantie gericht op hoge kwaliteit training aan talentvolle jeugd. Nu is Teun met Inspire ook een bredere weg ingeslagen. Met de juiste partners en tennisverenigingen wil hij het tennis en vooral het jeugdtennis een boost geven die het nodig heeft.  
 
@@ -52,11 +52,11 @@ Het doel van Teun is om de jeugdleden van Joy Jaagpad helemaal verslingerd te la
 * A / B / C-licentie.
 * Tenniskids 1, 2 en 3.
 
-> **Raymon is een echte jeugdtrainer; met enthousiasme, humor en vakmanschap begeleid hij de jeugd binnen hun tennis ontwikkeling.** 
+> **Raymon is een echte jeugdtrainer; met enthousiasme, humor en vakmanschap begeleid hij de jeugd binnen hun tennis ontwikkeling.**
 
 Na een kortstondig avontuur als fulltime tennisser stortte Raymon zich op het vak van tennistrainer.
 
-Afgelopen 10 jaar heeft Raymon gewerkt op Tennisclub Kattenlaan, waar hij heeft geholpen het opzetten van het jeugdprogramma. Dit heeft op Kattenlaan zijn vruchten af geworpen, het aantal jeugdleden is in deze periode enorm gestegen. Raymon neemt al deze ervaring mee om van Junior Joy ook een groot succes te maken. 
+Afgelopen 10 jaar heeft Raymon gewerkt op Tennisclub Kattenlaan, waar hij heeft geholpen het opzetten van het jeugdprogramma. Dit heeft op Kattenlaan zijn vruchten af geworpen, het aantal jeugdleden is in deze periode enorm gestegen. Raymon neemt al deze ervaring mee om van Junior Joy ook een groot succes te maken.
 
 Raymon en Teun gaan al lang terug, ze hebben samengewerkt binnen een tennisschool en hebben samen de C-opleiding gedaan. Maar bovenal liggen ze qua visie op één lijn en houden ze elkaar scherp met sterke inhoudelijke discussies.
 

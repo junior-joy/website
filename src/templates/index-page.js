@@ -101,8 +101,8 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <div style={{ height: 'calc(300px + 5vw)', backgroundColor: '#0ebfaf' }} />
-    <div className="asterisk" />
+    <div style={{ height: 'calc(300px + 5vw)'}} className="has-background-primary" />
+    <div className="asterisk content" style={{ display: 'none', height: '0' }}><blockquote /></div>
   </>
 )}
 
