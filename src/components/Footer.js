@@ -13,13 +13,11 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-primary has-text-white-ter">
         <div className="content has-text-centered">
           <div style={{ width: '14em', position: 'relative', marginLeft: 'auto', marginRight: 'auto' }} >
-            <a href="https://inspiretoptennis.com" target="_blank">
-              <img
-                src={logo}
-                alt="Junior Joy"
-                style={{ width: '100%', filter: 'brightness(10)' }}
-              />
-            </a>
+            <img
+              src={logo}
+              alt="Junior Joy"
+              style={{ width: '100%', filter: 'brightness(10)' }}
+            />
           </div>
         </div>
         <div className="content has-text-centered has-background-primary has-text-white-ter">
