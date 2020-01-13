@@ -35,13 +35,13 @@ title: Junior Joy
 * CIOS diploma; A / B / C-licentie.
 * Tenniskids 1, 2 en 3.
 
-> **Vanaf jonge leeftijd (+/- 13 jaar) was het voor Teun al duidelijk, “ik word tennistrainer".**
+> **Vanaf jonge leeftijd wist ik het al: "Ik word later tennistrainer".**
 
-Ruim tien jaar heeft Teun op verschillende verenigingen en tennisscholen training gegeven maar vooral ook beleid uitgezet en advies gegeven. Na deze tien jaar besloot Teun zijn eigen tennisopleiding te starten, Inspire Top Tennis. In eerste instantie gericht op hoge kwaliteit training aan talentvolle jeugd. Nu is Teun met Inspire ook een bredere weg ingeslagen. Met de juiste partners en tennisverenigingen wil hij het tennis en vooral het jeugdtennis een boost geven die het nodig heeft.  
+Mijn naam is Teun Kuijken en sinds 2016 oprichter en eigenaar van Inspire Top Tennis in Amsterdam. Voordat ik mijn eigen tennisschool opende heb ik ruim 10 jaar als tennistrainer gewerkt bij diverse tennisverenigingen en -scholen. Naast het geven van tennisles was ik ook actief betrokken op het gebied van het beleid en advies. In 2016 heb ik besloten om zelf een tennisopleiding te starten waar ik mij voornamelijk richt op het geven van hoge kwaliteit training aan talentvolle jeugd. Nu wil ik mij meer gaan verbreden door mij te richten op alle jeugdleden die het leuk vinden om lekker te tennissen. Ik wil jeugdtennis de boost geven die het nodig heeft. Hiervoor werk ik samen met de juiste partners en tennisverenigingen.
 
-Het doel van Teun is om de jeugdleden van Joy Jaagpad helemaal verslingerd te laten raken aan de tennissport.  Doormiddel van een totaal programma dat aansluit op de behoefte en de leeftijd van het kind zullen kinderen vaker en met meer plezier op de Joy Jaagpad aanwezig zijn.
+Met mijn nieuwe tennisschool Junior Joy by Inspire wil ik alle jeugdleden van Joy Jaagpad verslingerd te laten raken aan de tennissport. We hebben daarom een totaal programma ontwikkelt dat aansluit op de behoefte en de leeftijd van het kind. Kinderen zullen hierdoor vaker en met meer plezier op de tennisclub van Joy Jaagpad aanwezig zijn.
 
-**Teun is ambitieus, leergierig en staat open voor alle ideeën om van Junior Joy een groot succes te maken!**
+**Ik ben ambitieus, leergierig en staat open voor alle ideeën om van Junior Joy een groot succes te maken!**
 
 > #### Raymon Janson
 
@@ -52,14 +52,15 @@ Het doel van Teun is om de jeugdleden van Joy Jaagpad helemaal verslingerd te la
 * A / B / C-licentie.
 * Tenniskids 1, 2 en 3.
 
-> **Raymon is een echte jeugdtrainer; met enthousiasme, humor en vakmanschap begeleid hij de jeugd binnen hun tennis ontwikkeling.**
+> **Met mijn enthousiasme, humor en vakmanschap begeleid ik de jeugd bij hun tennisontwikkeling.**
 
-Na een kortstondig avontuur als fulltime tennisser stortte Raymon zich op het vak van tennistrainer.
+Na een kortstondig avontuur als fulltime tennisser, heb ik me helemaal op vak van tennistrainer gestort.
 
-Afgelopen 10 jaar heeft Raymon gewerkt op Tennisclub Kattenlaan, waar hij heeft geholpen het opzetten van het jeugdprogramma. Dit heeft op Kattenlaan zijn vruchten af geworpen, het aantal jeugdleden is in deze periode enorm gestegen. Raymon neemt al deze ervaring mee om van Junior Joy ook een groot succes te maken.
+Afgelopen 9 jaar heb ik op Tennisclub Kattenlaan gewerkt, waar ik verantwoordelijk was voor het uitvoeren en opzetten van het jeugdprogramma. Dit heeft op Kattenlaan zijn vruchten afgeworpen, want het aantal jeugdleden is in deze periode enorm gestegen. Daarvoor was ik 6 jaar selectietrainer bij de Baarnse Lawn Tennisclub. Ook heb ik instroomtraining gegeven aan de jongste talenten voor de KNLTB. Al mijn ervaring neem ik mee om van Junior Joy by Inspire ook een groot succes te maken.
 
-Raymon en Teun gaan al lang terug, ze hebben samengewerkt binnen een tennisschool en hebben samen de C-opleiding gedaan. Maar bovenal liggen ze qua visie op één lijn en houden ze elkaar scherp met sterke inhoudelijke discussies.
+Teun en ik kennen elkaar al een hele tijd. We hebben samengewerkt binnen een tennisschool en hebben samen de coach-opleiding (C-opleiding) gedaan. Maar bovenal delen we dezelfde visie en houden we elkaar scherp met sterk inhoudelijke discussies.
 
-**Met alle Tenniskids diploma’s op zak en ruim 20 jaar ervaring met jeugdtennis is Raymon de aangewezen persoon om het Junior Joy programma aan te sturen.**
+**Met alle Tenniskids-diploma’s op zak en met bijna 20 jaar ervaring in jeugdtennis, ben ik superenthousiast om het Junior Joy programma aan te sturen.**
+
 
 ![](https://res.cloudinary.com/junior-joy/image/upload/v1577895688/IMG_2749_pubc5h.jpg)
