@@ -32,7 +32,7 @@ title: Junior Joy
 * 34 jaar  
 * Oprichter Inspire
 * Manager en trainer Junior Joy
-* CIOS diploma; A / B / C-licentie.
+* CIOS diploma; tennisleraar A- / B- / C-licentie.
 * Tenniskids 1, 2 en 3.
 
 > **Vanaf jonge leeftijd wist ik het al: "Ik word later tennistrainer".**
@@ -45,11 +45,11 @@ Met mijn nieuwe tennisschool Junior Joy by Inspire wil ik alle jeugdleden van Jo
 
 > #### Raymon Janson
 
-![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_348/v1577894556/ray_foto_noh0tf.jpg "Teun Kuijken ")
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_348/v1577894556/ray_foto_noh0tf.jpg "Raymon Janson")
 
 * 41 jaar  
 * Hoofdtrainer Junior Joy
-* A / B / C-licentie.
+* Tennisleraar A- / B- / C-licentie.
 * Tenniskids 1, 2 en 3.
 
 > **Met mijn enthousiasme, humor en vakmanschap begeleid ik de jeugd bij hun tennisontwikkeling.**
@@ -61,6 +61,5 @@ Afgelopen 9 jaar heb ik op Tennisclub Kattenlaan gewerkt, waar ik verantwoordeli
 Teun en ik kennen elkaar al een hele tijd. We hebben samengewerkt binnen een tennisschool en hebben samen de coach-opleiding (C-opleiding) gedaan. Maar bovenal delen we dezelfde visie en houden we elkaar scherp met sterk inhoudelijke discussies.
 
 **Met alle Tenniskids-diploma’s op zak en met bijna 20 jaar ervaring in jeugdtennis, ben ik superenthousiast om het Junior Joy programma aan te sturen.**
-
 
 ![](https://res.cloudinary.com/junior-joy/image/upload/v1577895688/IMG_2749_pubc5h.jpg)
