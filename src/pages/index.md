@@ -45,12 +45,12 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 
 Ons jeugdprogramma zorgt ervoor dat tennis verslavend leuk is, de club een tweede thuis wordt en je tennismaten echte vrienden worden.  
 
-Als jij meedoet met het Junior Joy tennisprogramma dan doe veel meer dan alleen een tennistraining. Al vanaf jongs af aan zorgen we er voor dat jij regelmatig op de club leuke en leerzame activiteiten kunt volgen.
+Als jij meedoet met het Junior Joy tennisprogramma dan doe je veel meer dan alleen een tennistraining. Al vanaf jongs af aan zorgen we er voor dat jij regelmatig op de club leuke en leerzame activiteiten kunt volgen.
 
 Daarbij heb je de mogelijkheid, voor hetzelfde geld, niet één maar twee of zelfs drie keer per week te komen trainen. Naast één uur vaste trainingsgroep per week, bieden we op meerdere momenten inlooptrainingen.
 
 In het Junior Joy programma hebben we drie belangrijke pijlers:
 
-* **Plezier**;  is waar alles begint, jij vind tennis super leuk!
+* **Plezier**;  is waar alles begint, jij vindt tennis super leuk!
 * (wed)**Strijd**; is wat je moet leren, en hier helpen wij jou bij!
-* **Ontwikkeling**; beter worden is het doel, hier gaan we voor zorgen!
+* **Ontwikkeling**; beter worden is het doel, hier gaan we voor samen voor zorgen!
