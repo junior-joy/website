@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Junior Joy
 ---
-<br>Junior Joy is een initiatief van Inspire Tennisopleiding en is er op gericht om de jeugd van Joy Jaagpad een fantastisch jeugdprogramma te bieden.
+Junior Joy is een initiatief van Inspire Tennisopleiding en is er op gericht om de jeugd van Joy Jaagpad een fantastisch jeugdprogramma te bieden.
 
 > **Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikkelen.**
 
