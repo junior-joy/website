@@ -87,10 +87,10 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       Laatste nieuws
                     </h3>
-                    <BlogRoll />
+                    <BlogRoll newsFeed={true} count={4} />
                     <div className="column is-12 has-text-centered" style={{ marginBottom:'1em' }}>
-                      <Link className="btn" to="/blog">
-                        Lees meer
+                      <Link className="more" to="/blog">
+                        Naar blog →
                       </Link>
                     </div>
                   </div>

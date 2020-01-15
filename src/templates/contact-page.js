@@ -42,11 +42,6 @@ export class ContactPageTemplate extends React.Component {
     const PageContent = this.props.contentComponent || Content
     const content = this.props.content
     return (
-      <Layout
-        onSwipedLeft={() => navigate( '/photos' )}
-        onSwipedRight={() => navigate( '/blog' )}
-        phoneTitle={'Contact'}
-      >
         <section className="section">
           <div className="container-fluid">
             <div className="columns">
@@ -54,19 +49,12 @@ export class ContactPageTemplate extends React.Component {
                 <div className="content">
                   <h1>Contact</h1>
                   <p>Heb je een vraag over Junior Joy? Vul onderstaand formulier in en we reageren zo snel mogelijk.</p>
-                  <form
-                    name="contact"
-                    method="post"
-                    action="/contact/thanks/"
-                    data-netlify="true"
-                    data-netlify-honeypot="bot-field"
-                    onSubmit={this.handleSubmit}
-                  >
+                  <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&amp;id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                     <input type="hidden" name="form-name" value="contact" />
                     <div hidden>
                       <label>
-                        Don’t fill this out:{' '}
+                        Dit niet invullen:{' '}
                         <input name="bot-field" onChange={this.handleChange} />
                       </label>
                     </div>
@@ -75,12 +63,12 @@ export class ContactPageTemplate extends React.Component {
                         Jouw naam
                       </label>
                       <div className="control">
-                        <input
+                    	  <input
+                          type="text"
+                          value=""
+                          name="FNAME"
                           className="input"
-                          type={'text'}
-                          name={'name'}
-                          onChange={this.handleChange}
-                          id={'name'}
+                          id="mce-FNAME"
                           required={true}
                         />
                       </div>
@@ -90,12 +78,12 @@ export class ContactPageTemplate extends React.Component {
                         Email
                       </label>
                       <div className="control">
-                        <input
+                      	<input
+                          type="email"
+                          value=""
+                          name="EMAIL"
                           className="input"
-                          type={'email'}
-                          name={'email'}
-                          onChange={this.handleChange}
-                          id={'email'}
+                          id="mce-EMAIL"
                           required={true}
                         />
                       </div>
@@ -106,10 +94,11 @@ export class ContactPageTemplate extends React.Component {
                       </label>
                       <div className="control">
                         <textarea
+                          type="text"
+                          value=""
+                          name="MMERGE6"
+                          id="mce-MMERGE6"
                           className="textarea"
-                          name={'message'}
-                          onChange={this.handleChange}
-                          id={'message'}
                           required={true}
                         />
                       </div>
@@ -172,7 +161,6 @@ export class ContactPageTemplate extends React.Component {
             <Maps />
           </div>
         </section>
-      </Layout>
     )
   }
 }
@@ -186,10 +174,16 @@ const ContactPage = ({ data }) => {
   const { html } = data.markdownRemark
 
   return (
+    <Layout
+      onSwipedLeft={() => navigate( '/photos' )}
+      onSwipedRight={() => navigate( '/blog' )}
+      phoneTitle={'Contact'}
+    >
     <ContactPageTemplate
       contentComponent={HTMLContent}
       content={html}
     />
+  </Layout>
   )
 }
 
@@ -199,8 +193,9 @@ ContactPage.propTypes = {
 
 export default ContactPage
 
-export const pageQuery = graphql`
-  query ContactPageTemplate {
+
+export const ContactPageQuery = graphql`
+  query ContactPage {
     markdownRemark(frontmatter: { templateKey: { eq: "contact-page" } }) {
       html
     }

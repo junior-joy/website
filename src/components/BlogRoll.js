@@ -5,8 +5,14 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data, newsFeed } = this.props
+    var { edges: posts } = data.allMarkdownRemark
+    if ( newsFeed ) {
+      posts = posts.filter( post => post.node.frontmatter.tags.includes( 'nieuws' ) )
+    } else {
+      posts = posts.filter( post => !post.node.frontmatter.tags.includes( 'nieuws' ) )
+    }
+
 
     return (
       <div className="columns is-multiline blog-preview">
@@ -110,10 +116,12 @@ BlogRoll.propTypes = {
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
     }),
+  count: PropTypes.number,
+  newsFeed: PropTypes.bool,
   }),
 }
 
-export default () => (
+export default props => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
@@ -134,12 +142,13 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage
+                tags
               }
             }
           }
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={ data => <BlogRoll data={data} {...props} />}
   />
 )
