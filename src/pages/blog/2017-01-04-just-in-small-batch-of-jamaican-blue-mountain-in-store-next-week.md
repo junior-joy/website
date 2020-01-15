@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'Junior Joy, het nieuwe jeugdtennis'
-date: 2017-01-04T15:04:10.000Z
+date: 2017-01-17T15:04:10.000Z
 description: >-
   Aanstaande april is het zover, dan mogen wij van Inspire het jeugdtennis van
   Joy Jaagpad gaan invullen. Met een frisse wind en vol motivatie gaan we er
