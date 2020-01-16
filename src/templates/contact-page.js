@@ -40,12 +40,13 @@ export class ContactPageTemplate extends React.Component {
 
   render() {
     const PageContent = this.props.contentComponent || Content
-    const content = this.props.content
+    const { content, contentLeft } = this.props
     return (
         <section className="section">
           <div className="container-fluid">
             <div className="columns">
               <div className="column is-6">
+                <PageContent className="content" content={contentLeft} />
                 <div className="content">
                   <h1>Contact</h1>
                   <p>Heb je een vraag over Junior Joy? Vul onderstaand formulier in en we reageren zo snel mogelijk.</p>
@@ -167,11 +168,14 @@ export class ContactPageTemplate extends React.Component {
 
 ContactPageTemplate.propTypes = {
   content: PropTypes.string,
+  contentLeft: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
 const ContactPage = ({ data }) => {
-  const { html } = data.markdownRemark
+  const { edges } = data.allMarkdownRemark
+  const html = edges.filter( edge => edge.node.fileAbsolutePath.split('/').slice(-1)[0] === 'contact.md' )[0].node.html
+  const htmlLeft = data.allMarkdownRemark.edges.filter( edge => edge.node.fileAbsolutePath.split('/').slice(-1)[0] === 'contact-left.md' )[0].node.html
 
   return (
     <Layout
@@ -182,6 +186,7 @@ const ContactPage = ({ data }) => {
     <ContactPageTemplate
       contentComponent={HTMLContent}
       content={html}
+      contentLeft={htmlLeft}
     />
   </Layout>
   )
@@ -196,8 +201,14 @@ export default ContactPage
 
 export const ContactPageQuery = graphql`
   query ContactPage {
-    markdownRemark(frontmatter: { templateKey: { eq: "contact-page" } }) {
-      html
+    allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "contact-page"}}}) {
+      edges {
+        node {
+          id
+          html
+          fileAbsolutePath
+        }
+      }
     }
   }
 `
