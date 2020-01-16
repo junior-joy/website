@@ -1,5 +1,6 @@
 ---
 templateKey: contact-page
+left: ""
 ---
 ![](https://res.cloudinary.com/junior-joy/image/upload/v1577894223/teun_ffehbw.png "Teun Kuijken ")
 

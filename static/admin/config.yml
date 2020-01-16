@@ -57,4 +57,5 @@ collections:
         name: "contact"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Left", name: "left", widget: markdown}
           - {label: "Body", name: "body", widget: "markdown"}

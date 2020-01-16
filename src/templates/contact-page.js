@@ -40,13 +40,13 @@ export class ContactPageTemplate extends React.Component {
 
   render() {
     const PageContent = this.props.contentComponent || Content
-    const { content, contentLeft } = this.props
+    const { left, content } = this.props
     return (
         <section className="section">
           <div className="container-fluid">
             <div className="columns">
               <div className="column is-6">
-                <PageContent className="content" content={contentLeft} />
+                <PageContent className="content" content={left} />
                 <div className="content">
                   <h1>Contact</h1>
                   <p>Heb je een vraag over Junior Joy? Vul onderstaand formulier in en we reageren zo snel mogelijk.</p>
@@ -168,14 +168,12 @@ export class ContactPageTemplate extends React.Component {
 
 ContactPageTemplate.propTypes = {
   content: PropTypes.string,
-  contentLeft: PropTypes.string,
+  left: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
 const ContactPage = ({ data }) => {
-  const { edges } = data.allMarkdownRemark
-  const html = edges.filter( edge => edge.node.fileAbsolutePath.split('/').slice(-1)[0] === 'contact.md' )[0].node.html
-  const htmlLeft = data.allMarkdownRemark.edges.filter( edge => edge.node.fileAbsolutePath.split('/').slice(-1)[0] === 'contact-left.md' )[0].node.html
+  const { html, frontmatter: left } = data.markdownRemark
 
   return (
     <Layout
@@ -186,7 +184,7 @@ const ContactPage = ({ data }) => {
     <ContactPageTemplate
       contentComponent={HTMLContent}
       content={html}
-      contentLeft={htmlLeft}
+      left={left}
     />
   </Layout>
   )
@@ -201,14 +199,8 @@ export default ContactPage
 
 export const ContactPageQuery = graphql`
   query ContactPage {
-    allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "contact-page"}}}) {
-      edges {
-        node {
-          id
-          html
-          fileAbsolutePath
-        }
-      }
+    markdownRemark(frontmatter: { templateKey: { eq: "contact-page" } }) {
+      html
     }
   }
 `
