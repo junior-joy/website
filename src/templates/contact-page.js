@@ -171,9 +171,8 @@ ContactPageTemplate.propTypes = {
 }
 
 const ContactPage = ({ data }) => {
-  const { html, frontmatter } = data.markdownRemark
-  const left = frontmatter.left
-  console.log(left)
+  const { html, fields } = data.markdownRemark
+  const left = fields.left_html
 
   return (
     <Layout
@@ -201,8 +200,8 @@ export const ContactPageQuery = graphql`
   query ContactPage {
     markdownRemark(frontmatter: { templateKey: { eq: "contact-page" } }) {
       html
-      frontmatter {
-        left
+      fields {
+        left_html
       }
     }
   }

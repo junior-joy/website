@@ -2,6 +2,8 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const remark = require('remark');
+const remarkHTML = require('remark-html');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -108,4 +110,24 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+
+  const frontmatter = node.frontmatter
+  const markdown = frontmatter && frontmatter.left
+  if (markdown) {
+    const value = remark()
+      .use(remarkHTML)
+      .processSync(markdown)
+      .toString();
+    console.log(value)
+    // new node at:
+    // fields {
+    //   my_field_html
+    // }
+    createNodeField({
+      name: `left_html`,
+      node,
+      value
+    });
+  }
+
 }
