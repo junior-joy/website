@@ -74,7 +74,7 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about" activeClassName="is-active" partiallyActive={true}>
+              <Link className="navbar-item" to="/info" activeClassName="is-active" partiallyActive={true}>
                 Info
               </Link>
               <Link className="navbar-item" to="/blog" activeClassName="is-active" partiallyActive={true}>

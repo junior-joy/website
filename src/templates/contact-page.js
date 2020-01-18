@@ -48,8 +48,6 @@ export class ContactPageTemplate extends React.Component {
               <div className="column is-6">
                 <PageContent className="content" content={left} />
                 <div className="content">
-                  <h1>Contact</h1>
-                  <p>Heb je een vraag over Junior Joy? Vul onderstaand formulier in en we reageren zo snel mogelijk.</p>
                   <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&amp;id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                     <input type="hidden" name="form-name" value="contact" />
@@ -173,7 +171,9 @@ ContactPageTemplate.propTypes = {
 }
 
 const ContactPage = ({ data }) => {
-  const { html, frontmatter: left } = data.markdownRemark
+  const { html, frontmatter } = data.markdownRemark
+  const left = frontmatter.left
+  console.log(left)
 
   return (
     <Layout
@@ -201,6 +201,9 @@ export const ContactPageQuery = graphql`
   query ContactPage {
     markdownRemark(frontmatter: { templateKey: { eq: "contact-page" } }) {
       html
+      frontmatter {
+        left
+      }
     }
   }
 `
