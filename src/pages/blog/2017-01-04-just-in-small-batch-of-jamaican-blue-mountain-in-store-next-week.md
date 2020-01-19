@@ -3,8 +3,8 @@ templateKey: blog-post
 title: 'Junior Joy, het nieuwe jeugdtennis'
 date: 2017-01-17T15:04:10.000Z
 description: >-
-  In april is het zover! Wij van Inspire bieden vanaf dan het jeugdtennis aan op
-  Joy Jaagpad. Met een frisse wind en vol motivatie gaan we er tegenaan!  
+  In april start Inspire met het nieuwe jeugdtennis op Joy Jaagpad. Met een
+  frisse wind en vol motivatie gaan we er tegenaan, let's go!  
 featuredpost: true
 featuredimage: >-
   https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1577895688/IMG_2749_pubc5h.jpg
