@@ -8,11 +8,11 @@ description: >-
   zie ik dan weer wel vaak voorbij komen.
 featuredpost: false
 featuredimage: >-
-  https://res.cloudinary.com/junior-joy/image/upload/v1577883660/blog/teun-juichen_nsk49u.png
+  https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1577883660/blog/teun-juichen_nsk49u.png
 tags:
   - Junior Joy
 ---
-![](https://res.cloudinary.com/junior-joy/image/upload/v1577883660/blog/teun-juichen_nsk49u.png)
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_251/v1577883660/blog/teun-juichen_nsk49u.png)
 
 Misschien is het ook wel een culturele eigenschap van veel Nederlanders om vooral te kijken naar dingen die niet goed gaan en deze willen verbeteren. Waar ik een gemiddelde Amerikaan uitbundig zie juichen op een mooie bal, zie ik bij Nederlanders vaak niet eens een klein vuistje tevoorschijn komen. Deze zelfkritische eigenschap kan je natuurlijk veel brengen, maar in tennis kan het je ook flink dwarszitten.
 
