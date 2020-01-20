@@ -9,6 +9,8 @@ featuredimage: >-
 tags:
   - 2de sport?
 ---
+![](https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1579505434/blog/foto_2de_sport_r00vcq.jpg)
+
 Veel ouders / kinderen worstelen op een gegeven moment met de keuze om een tweede sport te laten vallen voor tennis.\
 Wij denken dat een andere sport naast tennis een positief effect kan hebben op zowel de tennisontwikkeling als de persoonlijke ontwikkeling.\
 Echter moet het weekschema van de speler wel goed in balans zijn om overbelasting te voorkomen.
