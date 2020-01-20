@@ -15,6 +15,8 @@ tags:
 
 *Ondanks dat de samenwerking nu ten einde is, is het bijzonder om te zien hoe trouw Kiki Bertens en Raemon Sluiter aan elkaar zijn gebleven. Ze hebben in een vrij korte periode heftige ups en vooral ook downs meegemaakt. Wat mij opvalt in interviews met Bertens en Sluiter is de verbinding die ze hebben maar ook vooral de openheid naar elkaar. Ik weet zeker dat deze verbinding en openheid de sleutel is geweest tot de successen die Bertens heeft gehad.*
 
+![](https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1579505028/blog/vajda_Djoko_o8ofu5.jpg)
+
 ***DJOKOVIC EN VAJDA***
 
 *Dit geldt misschien nog wel in sterkere mate voor Djokovic en zijn coach Vajda die in 2006 zijn gaan samenwerken, samen hebben ze fantastische resultaten geboekt. Na 11 jaar besloot Djokovic de samenwerkingen te stoppen voor nieuwe inzichten van andere coaches en begeleiders. Dit had niet het gewenste resultaat, sterker nog hij zakte van de 1ste naar de 13de plek. Eerlijkheid gebiedt te zeggen dat een elleboogblessure ook niet echt mee hielp. Maar na een jaar van tegenvallende resultaten besloot hij weer terug te gaan naar Vajda. De coach waarmee hij al zoveel had meegemaakt en die hem al zo goed kende. Binnen korte tijd kwam zijn oude spel weer regelmatig terug en tijdens Wimbledon 2018 was hij weer briljant stabiel en mentaal evenwichtig.*
