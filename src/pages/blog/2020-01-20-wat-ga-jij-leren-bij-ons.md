@@ -3,16 +3,16 @@ templateKey: blog-post
 title: 'Onze werkwijze '
 date: 2020-01-20T07:42:40.015Z
 description: >-
-  Tennis is een leuk maar vooral ook moeilijk spel(sport). Aan de hand van
-  duidelijke doelen werken we met de jeugd stap voor stap om het spel onder de
-  knie te krijgen. 
+  Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor
+  dat de jeugd zich blijft ontwikkelen.
 featuredpost: false
 featuredimage: >-
   https://res.cloudinary.com/junior-joy/image/upload/v1579509699/blog/palash-jain-uYqnOga0DHk-unsplash_1_yuepet.jpg
 tags:
   - junior joy
 ---
-Wij geloven dat een kind alleen leert tennissen als hij minimaal 2 x per week met tennis bezig is. En daarom bestaat het Junior Joy programma uit 2 trainingsmomenten per week. 
+Tennis is een leuk maar vooral ook moeilijk spel(sport). Aan de hand van duidelijke doelen werken we met de jeugd stap voor stap om het spel onder de knie te krijgen. \
+Het Junior Joy programma bestaat uit minimaal 2 trainingsmomenten per week. Op deze manier kunnen we de kinderen genoeg vaardigheden leren om zich het tennispel eigen te maken.
 
 **1) Tennistraining**  \
 Hierin ligt de focus puur op het verbeteren van de tennisvaardigheden, zoals:
@@ -38,6 +38,12 @@ Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis, je h
 * Spelen tegen een muur *
 
 \* Spelen tegen de muur is iets wat we ieder kind meegeven als huiswerk... 
+
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_401/v1579553218/blog/Wall-Technique-770x434_qzherb.jpg)
+
+
+
+**<br>**
 
 > **Tennissers zijn vaardige bewegers.**
 
@@ -85,4 +91,4 @@ Deze vaardigheden zullen het kind ook buiten het tennis enorm helpen in zijn ont
 
 
 
-![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_616/v1579551896/blog/IMG_20180630_112358_2_eseqmn.jpg)
+![](https://res.cloudinary.com/junior-joy/image/upload/v1579553549/blog/30606282577_9488390218_b_ixu9on.jpg)
