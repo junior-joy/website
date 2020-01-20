@@ -41,8 +41,6 @@ Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis, je h
 
 ![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_401/v1579553218/blog/Wall-Technique-770x434_qzherb.jpg)
 
-
-
 **<br>**
 
 > **Tennissers zijn vaardige bewegers.**
@@ -89,6 +87,4 @@ Tennis is een spel waarin punten gedomineerd worden door het maken van fouten. D
 
 Deze vaardigheden zullen het kind ook buiten het tennis enorm helpen in zijn ontwikkeling als mens.
 
-
-
-![](https://res.cloudinary.com/junior-joy/image/upload/v1579553549/blog/30606282577_9488390218_b_ixu9on.jpg)
+![](https://res.cloudinary.com/junior-joy/image/upload/v1579554168/blog/palash-jain-uYqnOga0DHk-unsplash_1_pmfctx.jpg)
