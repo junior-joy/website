@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-title: Wat ga jij leren bij ons?
+title: 'Onze werkwijze '
 date: 2020-01-20T07:42:40.015Z
 description: >-
-  Tennis is een leuk maar vooral ook een moeilijk spel (sport). Aan de hand van
+  Tennis is een leuk maar vooral ook moeilijk spel(sport). Aan de hand van
   duidelijke doelen werken we met de jeugd stap voor stap om het spel onder de
   knie te krijgen. 
 featuredpost: false
@@ -12,9 +12,25 @@ featuredimage: >-
 tags:
   - junior joy
 ---
-> **Wat maakt tennis nou eigenlijk zo moeilijk?** 
+Wij geloven dat een kind alleen leert tennissen als hij minimaal 2 x per week met tennis bezig is. En daarom bestaat het Junior Joy programma uit 2 trainingsmomenten per week. 
 
-Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis, je hebt te maken met een net, lijnen en de positie van je tegenstander. Maar deze controle word je moeilijk gemaakt omdat er door het gebruik van een racket geen direct contact is met de bal. Het ontwikkelen van het gevoel met racket en bal is een proces waarin vooral veel oefening belangrijk is. We oefenen dit met:
+**1) Tennistraining**  \
+Hierin ligt de focus puur op het verbeteren van de tennisvaardigheden, zoals:
+
+* Technische vaardigheden
+* Tactische vaardigheden 
+* Voetenwerk
+
+**2) Skillstraining**  \
+Hierin ligt de focus op de bredere ontwikkeling, zoals:
+
+* Breedmotorische ontwikkeling
+* Leren spelen van wedstrijden
+* Mentale vaardigheden ontwikkelen 
+
+> **Wat leert een kind bij ons?**
+
+Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis, je hebt te maken met een net, lijnen en de positie van je tegenstander. Maar deze controle word moeilijk gemaakt omdat er door het gebruik van een racket geen direct contact is met de bal. Het ontwikkelen van het gevoel met racket en bal is een proces waarin vooral veel oefening belangrijk is. We oefenen dit door middel van:
 
 * Rollen met racket en bal
 * Slaan met racket en bal
@@ -66,3 +82,7 @@ Tennis is een spel waarin punten gedomineerd worden door het maken van fouten. D
 * Strategisch vermogen 
 
 Deze vaardigheden zullen het kind ook buiten het tennis enorm helpen in zijn ontwikkeling als mens.
+
+
+
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_616/v1579551896/blog/IMG_20180630_112358_2_eseqmn.jpg)
