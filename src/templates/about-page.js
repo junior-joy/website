@@ -40,7 +40,7 @@ const AboutPage = ({ data }) => {
     <Layout
       onSwipedLeft={() => navigate( '/blog' )}
       onSwipedRight={() => navigate( '/' )}
-      phoneTitle={'Info'}
+      phoneTitle={'Over ons'}
     >
       <AboutPageTemplate
         contentComponent={HTMLContent}
