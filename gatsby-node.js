@@ -118,7 +118,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       .use(remarkHTML)
       .processSync(markdown)
       .toString();
-    console.log(value)
     // new node at:
     // fields {
     //   my_field_html

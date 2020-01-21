@@ -8,9 +8,16 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout
         onSwipedLeft={() => navigate( '/contact' )}
-        onSwipedRight={() => navigate( '/info' )}
+        onSwipedRight={() => navigate( '/werkwijze' )}
         phoneTitle={'Blog'}
       >
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+          backgroundImage: `url(${'https://res.cloudinary.com/junior-joy/image/upload/v1577885212/website--niet-zomaar-aankomen-teun/blog-index_p8ka4o.jpg'.split('upload/').join('upload/t_media_lib_thumb/')})`,
+            position: 'absolute',
+          }}
+        />
         <div
           className="full-width-image-container margin-top-0"
           style={{

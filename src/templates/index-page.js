@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
+  const imgUrl = !!( image && image.childImageSharp ) ? image.childImageSharp.fluid.src : image
   return (
   <>
     <div className="header-wrapper">
@@ -33,14 +34,34 @@ export const IndexPageTemplate = ({
             alignItems: 'left',
             flexDirection: 'column',
             background: 'center',
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
+            backgroundPositionX: 'center',
+            backgroundRepeatX: 'no-repeat',
+            backgroundImage: `url(${
+              imgUrl.split('upload/').join('upload/t_media_lib_thumb/')
+            })`,
+            position: 'absolute',
+            width: '100%',
+            zIndex: '-1'
+          }}
+        />
+        <div
+          style={{
+            display: 'flex',
+            height: '100%',
+            lineHeight: '1',
+            justifyContent: 'space-around',
+            alignItems: 'left',
+            flexDirection: 'column',
+            background: 'center',
+            backgroundSize: 'contain',
             backgroundPositionX: 'center',
             backgroundRepeatX: 'no-repeat',
             backgroundImage: `linear-gradient(
           rgba(1, 19, 17, 0.7),
           rgba(2, 38, 34, 0.7)
         ), url(${
-              !!( image && image.childImageSharp ) ? image.childImageSharp.fluid.src : image
+              imgUrl
             })`,
           }}
         >
@@ -119,7 +140,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout
-      onSwipedLeft={() => navigate( '/info' )}
+      onSwipedLeft={() => navigate( '/trainers' )}
       onSwipedRight={() => navigate( '/photos' )}
       phoneTitle={'Home'}
     >

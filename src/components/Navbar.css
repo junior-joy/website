@@ -1,0 +1,32 @@
+
+@media screen and (min-width: 769px) {
+  .MuiCollapse-container {
+    position: absolute;
+    top: 80px;
+  }
+  .MuiCollapse-container {
+    box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem;
+  }
+}
+
+.MuiExpansionPanel-root.Mui-expanded {
+  margin: 0!important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none!important;
+}
+
+.MuiExpansionPanelSummary-content {
+  justify-content: center;
+}
+
+.MuiCollapse-container {
+  background: white;
+  border-top: 6px solid #13ae9e;
+  border-radius: 0px 0px 2px 2px;
+}
+
+.MuiMenuItem-root {
+  font-family: 'Mont'!important
+}

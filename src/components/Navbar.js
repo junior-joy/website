@@ -2,6 +2,18 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import logo from '../img/logo.webp'
+import './Navbar.css'
+
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
+
+
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -74,9 +86,29 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/info" activeClassName="is-active" partiallyActive={true}>
-                Info
-              </Link>
+              <ExpansionPanel className="navbar-item nav-drop-root">
+                <ExpansionPanelSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2a-content"
+                  id="panel2a-header"
+                >
+                  <Typography >Over ons</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails className="nav-drop" style={{ padding: '0' }}>
+                  <List>
+                    <ListItem>
+                      <Link className="navbar-item" to="/trainers" activeClassName="is-active" partiallyActive={true}>
+                        De trainers
+                      </Link>
+                    </ListItem>
+                    <ListItem>
+                      <Link className="navbar-item" to="/werkwijze" activeClassName="is-active" partiallyActive={true}>
+                        Werkwijze
+                      </Link>
+                    </ListItem>
+                  </List>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
               <Link className="navbar-item" to="/blog" activeClassName="is-active" partiallyActive={true}>
                 Blog
               </Link>
