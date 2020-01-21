@@ -119,7 +119,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout
-      onSwipedLeft={() => navigate( '/about' )}
+      onSwipedLeft={() => navigate( '/info' )}
       onSwipedRight={() => navigate( '/photos' )}
       phoneTitle={'Home'}
     >

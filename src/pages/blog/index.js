@@ -8,7 +8,7 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout
         onSwipedLeft={() => navigate( '/contact' )}
-        onSwipedRight={() => navigate( '/about' )}
+        onSwipedRight={() => navigate( '/info' )}
         phoneTitle={'Blog'}
       >
         <div
