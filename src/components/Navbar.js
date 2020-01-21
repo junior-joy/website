@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import logo from '../img/logo.webp'
-import './Navbar.css'
 
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
