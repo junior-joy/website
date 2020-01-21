@@ -30,3 +30,7 @@
 .MuiMenuItem-root {
   font-family: 'Mont'!important
 }
+
+.MuiExpansionPanelSummary-content {
+  margin: 0 !important;
+}

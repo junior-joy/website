@@ -10,8 +10,6 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-
-
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
@@ -95,17 +93,17 @@ const Navbar = class extends React.Component {
                   <Typography >Over ons</Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails className="nav-drop" style={{ padding: '0' }}>
-                  <List>
-                    <ListItem>
+                  <List style={{ width: '100%' }}>
+                    <li>
                       <Link className="navbar-item" to="/trainers" activeClassName="is-active" partiallyActive={true}>
                         De trainers
                       </Link>
-                    </ListItem>
-                    <ListItem>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/werkwijze" activeClassName="is-active" partiallyActive={true}>
                         Werkwijze
                       </Link>
-                    </ListItem>
+                    </li>
                   </List>
                 </ExpansionPanelDetails>
               </ExpansionPanel>

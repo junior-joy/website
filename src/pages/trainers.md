@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Junior Joy
+title: De trainers
 ---
 Junior Joy is een initiatief van Inspire Tennisopleiding en biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma aan.
 

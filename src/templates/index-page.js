@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
             alignItems: 'left',
             flexDirection: 'column',
             background: 'center',
-            backgroundSize: 'contain',
+            backgroundSize: 'cover',
             backgroundPositionX: 'center',
             backgroundRepeatX: 'no-repeat',
             backgroundImage: `url(${
@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
             alignItems: 'left',
             flexDirection: 'column',
             background: 'center',
-            backgroundSize: 'contain',
+            backgroundSize: 'cover',
             backgroundPositionX: 'center',
             backgroundRepeatX: 'no-repeat',
             backgroundImage: `linear-gradient(

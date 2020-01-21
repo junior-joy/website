@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Junior Joy
+title: Onze werkwijze
 ---
 Tennis is een leuk maar vooral ook moeilijk spel(sport). Aan de hand van duidelijke doelen werken we met de jeugd stap voor stap om het spel onder de knie te krijgen. \
 Het Junior Joy programma bestaat uit minimaal 2 trainingsmomenten per week. Op deze manier kunnen we de kinderen genoeg vaardigheden leren om zich het tennispel eigen te maken.
