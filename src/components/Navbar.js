@@ -83,7 +83,7 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <ExpansionPanel className="navbar-item nav-drop-root">
+              <ExpansionPanel className="navbar-item nav-drop-root" style={{ maxHeight: '80px' }}>
                 <ExpansionPanelSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2a-content"
