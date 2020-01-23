@@ -30,13 +30,13 @@ Tennis is een leuke maar vooral ook een moeilijke sport. Daarom is ons beleid da
 
 ## Starten met een kort seizoen
 
-We gaan in april starten met een kort seizoen: april tot de zomervakantie. In deze periode zullen we de tijd nemen om ons aanbod verder vorm te geven. Daarna willen we een nieuw seizoen starten voor na de zomervakantie. Ons voornemen is om aanbod te creëren voor een heel jaar rond. Om tot een optimaal aanbod te komen, willen we vooraf graag met jeugdleden en ouders hierover in gesprek gaan. 
+We gaan in april starten met een kort seizoen: april tot de zomervakantie. In deze periode zullen we de tijd nemen om ons aanbod verder vorm te geven. Daarna willen we een nieuw seizoen starten voor na de zomervakantie. Om tot een optimaal aanbod te komen, willen we vooraf graag met jeugdleden en ouders hierover in gesprek gaan.
 
 > We willen de Junior Joy kids en ouders leren kennen, onze ideeën verder vorm geven en de samenwerking met de jeugdcommissie sterk maken. 
 
 ## Aanbod april - juli
 
-De intentie is om ons aanbod begin februari te communiceren via e-mail en website. Laat daarom je gegevens achter op de homepage zodat we je up to date kunnen houden met al het nieuws over jeugdtennis van Junior Joy aakomend seizoen.
+De intentie is om ons aanbod begin februari te communiceren via e-mail en website. Laat daarom je gegevens achter op de homepage zodat we je up to date kunnen houden met al het nieuws over jeugdtennis van Junior Joy aankomend seizoen.
 
 > Voor vragen en suggesties kun je ons bereiken op:\
 > **Telefoon:**        085 0606015 \
@@ -45,6 +45,6 @@ De intentie is om ons aanbod begin februari te communiceren via e-mail en websit
 
 ## Kennismaking 16 februari
 
-Op 16 februari 2020 om 17:00 uur nodigen wij jullie graag uit om kennis met ons te maken. We verwelkomen iedereen die interesse heeft in de kantine van Joy Jaagpad. Alle trainiers van Junior Joy trainers zijn dan ook aanwezig om kennis te maken!
+Op 16 februari 2020 om 17:00 uur nodigen wij jullie graag uit om kennis met ons te maken. We verwelkomen iedereen die interesse heeft in de kantine van Joy Jaagpad. Alle trainers van Junior Joy trainers zijn dan ook aanwezig om kennis te maken!
 
 **Kennismaking Junior Joy: 16 februari 2020 | 17:00 uur | kantine Joy Jaagpad**
