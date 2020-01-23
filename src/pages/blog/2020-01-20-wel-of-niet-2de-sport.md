@@ -11,20 +11,19 @@ tags:
 ---
 ![](https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1579505434/blog/foto_2de_sport_r00vcq.jpg)
 
-Veel ouders / kinderen worstelen op een gegeven moment met de keuze om een tweede sport te laten vallen voor tennis.\
-Wij denken dat een andere sport naast tennis een positief effect kan hebben op zowel de tennisontwikkeling als de persoonlijke ontwikkeling.\
-Echter moet het weekschema van de speler wel goed in balans zijn om overbelasting te voorkomen.
+Veel ouders en kinderen worstelen op een gegeven moment met de keuze om een tweede sport te laten vallen voor tennis. Wij denken echter dat een andere sport naast tennis een positief effect kan hebben op zowel de tennisontwikkeling als de persoonlijke ontwikkeling. Wel moet er genoeg ruimte zijn in het weekschema van de speler om overbelasting te voorkomen.
 
-Zie hieronder wat de KNLTB hierover zegt in hun M.O.T. het Meerjaren Opleidingsplan Tennis:
+De KNLTB beschrijft in hun [Meerjaren Opleidingsplan Tennis 2018 (MOT)](https://www.knltb.nl/siteassets/1.-knltb.nl/downloads/tennissers/jeugdtennis/jeugdopleiding/knltb-mot-magazine.pdf) dat sporten ingedeeld kunnen worden in twee typen: vroeg of late specialisatie. Zij geven aan dat sporten waarvoor een aantal complexe vaardigheden aangeleerd moeten worden voor de groeispurt een vroege specialisatie vereisen. Na de groeispurt zijn de fundamentele bewegingsvaardigheden en de sportvaardigheden niet meer zo goed aan te leren als ervoor. Het aanleren van deze vaardigheden op jonge leeftijd is dus heel belangrijk om goed te kunnen worden in een sport. Voorbeelden van sporten met een vroege specialisatie zijn: gymnastiek, schoonspringen en kunstrijden. Voor sporten met een late specialisatie is deze vroegtijdige ontwikkeling van vaardigheden niet zo belangrijk. Die kan je ook op latere leeftijd goed ontwikkelen. Denk hierbij aan sporten zoals roeien en wielrennen. Om een sterke basis voor het tennisspel te ontwikkelen is een progressieve ontwikkeling van alle coördinatievaardigheden essentieel. Je kan deze vaardigheden het beste ontwikkelen in de leeftijd 6 tot 12 jaar. Jong beginnen is dus belangrijk, maar je moet je niet te vroeg specialiseren.
 
-Sporten kunnen worden ingedeeld in een vroege of late specialisatie. Sporten met vroege specialisatie zijn bijvoorbeeld gymnastiek, schoonspringen en kunstrijden. Voor deze sporten moeten een aantal complexe vaardigheden worden aangeleerd vóór de groeispurt, omdat het na de groeispurt veel moeilijker is om deze vaardigheden te ontwikkelen. Dit betekent dat zowel fundamentele bewegingsvaardigheden als de sportvaardigheden op een jonge leeftijd ontwikkeld moeten worden om de progressie van de sporter te maximaliseren. Sporten als wielrennen en roeien vallen onder de late specialisatie sporten, waarbij specifieke vaardigheden ook nog kunnen worden aangeleerd op latere leeftijd.\
-In het tennis is een vroege start essentieel, omdat er een progressieve ontwikkeling van alle coördinatieve vaardigheden nodig is. Een belangrijke periode voor de ontwikkeling van deze vaardigheden ligt tussen de 6 en de 12 jaar. Dit betekent dus vroeg starten met tennis, maar niet te vroeg specialiseren.
+•	Er kunnen tekortkomen in de ontwikkeling van fundamentele bewegings- en      tennisvaardigheden ontstaan.
 
-Vroeg specialiseren in tennis kan namelijk tot het volgende leiden:\
-• Tekortkomingen in de ontwikkeling\
-van fundamentele bewegings- en\
-tennisvaardigheden\
-• Overbelasting blessures\
-• Disbalans in spierkracht\
-• Vroege burn-out\
-• Vervroegd stoppen met tennis
+•	Blessures kunnen overbelast raken.
+
+
+•	Er kan een disbalans in spierkracht ontstaan.
+
+
+•	Vergrote kans op een vroege burn-out.
+
+
+•	Vergrote kans op vervroegd stoppen met tennis.
