@@ -11,8 +11,7 @@ featuredimage: >-
 tags:
   - junior joy
 ---
-Tennis is leuk maar wel een moeilijk spel. We werken met duidelijke doelen om de jeugd stap voor stap het spel onder de knie te laten krijgen. \
-Het Junior Joy-programma biedt verschillende trainingsvarianten en -momenten aan. Zo leren kinderen de vaardigheden om zich het tennisspel eigen te maken.
+Tennis is leuk maar wel een moeilijk spel. We werken met duidelijke doelen om de jeugd stap voor stap het spel onder de knie te laten krijgen. Het Junior Joy-programma biedt verschillende trainingsvarianten en -momenten aan. Zo leren kinderen de vaardigheden om zich het tennisspel eigen te maken.
 
 **1) Tennistraining**  \
 Hierin ligt de focus puur op het verbeteren van de tennisvaardigheden, zoals:
