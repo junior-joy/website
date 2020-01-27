@@ -45,7 +45,7 @@ De intentie is om ons aanbod begin februari te communiceren via e-mail en websit
 > **WhatsApp:**     085 0606015\
 > **E-mail**:            info@juniorjoy.nl
 
-## Kennismaking 26 februari en 1 maart 
+## Kennismaking 26 februari en 1 maart
 
 Graag nodigen wij jullie uit om kennis met ons te maken. We verwelkomen iedereen die interesse heeft in de kantine van Joy Jaagpad. De trainers van Junior Joy zijn dan aanwezig om kennis te maken!
 
