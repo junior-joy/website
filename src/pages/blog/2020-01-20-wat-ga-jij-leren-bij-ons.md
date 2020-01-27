@@ -3,15 +3,21 @@ templateKey: blog-post
 title: 'Onze werkwijze '
 date: 2020-01-20T07:42:40.015Z
 description: >-
-  Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor
-  dat de jeugd zich blijft ontwikkelen.
+  Ons jeugdprogramma zorgt ervoor dat tennis verslavend leuk is! De club wordt
+  je tweede thuis en je tennismaten worden je vrienden.
 featuredpost: false
 featuredimage: >-
-  https://res.cloudinary.com/junior-joy/image/upload/v1579509699/blog/palash-jain-uYqnOga0DHk-unsplash_1_yuepet.jpg
+  https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png
 tags:
   - junior joy
 ---
-Tennis is leuk maar wel een moeilijk spel. We werken met duidelijke doelen om de jeugd stap voor stap het spel onder de knie te laten krijgen. Het Junior Joy-programma biedt verschillende trainingsvarianten en -momenten aan. Zo leren kinderen de vaardigheden om zich het tennisspel eigen te maken.
+Tennis is leuk maar wel een moeilijk spel. We werken met duidelijke doelen om de jeugd stap voor stap het spel onder de knie te laten krijgen. 
+
+* **Plezier:**Waar alles begint, jij vindt tennis superleuk!
+* (wed)**Strijd:**Dat moet je leren en daar helpen wij jou bij!
+* **Ontwikkeling:**Jouw doel is om beter te worden en daar gaan we samen voor zorgen!
+
+Om de jeugd goed op te leiden biedt het Junior Joy-programma verschillende trainingsvarianten en -momenten aan. Zo leren kinderen de vaardigheden om zich het tennisspel eigen te maken.
 
 **1) Tennistraining**  \
 Hierin ligt de focus puur op het verbeteren van de tennisvaardigheden, zoals:
