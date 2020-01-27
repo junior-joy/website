@@ -92,4 +92,4 @@ Tennis is een spel waarin punten gedomineerd worden door het maken van fouten. D
 
 Deze vaardigheden zullen het kind ook buiten het tennis enorm helpen in de ontwikkeling.
 
-![](https://res.cloudinary.com/junior-joy/image/upload/v1579554168/blog/palash-jain-uYqnOga0DHk-unsplash_1_pmfctx.jpg)
+![](https://res.cloudinary.com/junior-joy/image/upload/v1580155149/blog/palash-jain-uYqnOga0DHk-unsplash_1_pmfctx_jichbp.jpg)
