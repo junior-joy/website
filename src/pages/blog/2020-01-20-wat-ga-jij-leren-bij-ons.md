@@ -3,15 +3,15 @@ templateKey: blog-post
 title: 'Onze werkwijze '
 date: 2020-01-20T07:42:40.015Z
 description: >-
-  Ons jeugdprogramma zorgt ervoor dat tennis verslavend leuk is! De club wordt
-  je tweede thuis en je tennismaten worden je vrienden.
+  Tennis is leuk maar wel een moeilijk spel. We werken met duidelijke doelen om
+  de jeugd stap voor stap het spel onder de knie te laten krijgen.
 featuredpost: false
 featuredimage: >-
   https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png
 tags:
   - junior joy
 ---
-Tennis is leuk maar wel een moeilijk spel. We werken met duidelijke doelen om de jeugd stap voor stap het spel onder de knie te laten krijgen. 
+**De kernwaarden binnen onze trainingen zijn:**
 
 * **Plezier:**Waar alles begint, jij vindt tennis superleuk!
 * (wed)**Strijd:**Dat moet je leren en daar helpen wij jou bij!
