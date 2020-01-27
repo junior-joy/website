@@ -18,9 +18,9 @@ Binnenkort opent de inschrijving voor het trainingsseizoen 2020. We zijn momente
 ## **[Nieuwe trainers](https://juniorjoy.nl/about)**
 
 Een team van ervaren jeugdtrainers gaat vanaf april met de jeugd aan de slag. \
-Nieuwsgierig? Maak hier alvast kennis met de trainers van Junior Joy!
+Nieuwsgierig? [Lees hier](https://juniorjoy.nl/trainers) meer over de trainers van Junior Joy!
 
-![](https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1577895688/IMG_2749_pubc5h.jpg)
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_267/v1580156277/blog/de_trainers_dbxa9l.png)
 
 ## 2 x tennis per week
 
