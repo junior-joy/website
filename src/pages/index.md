@@ -11,7 +11,7 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 <div id="mc_embed_signup">
 <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div id="mc_embed_signup_scroll">
-<h2>Blijf op de hoogte. <br>Meld je aan voor de nieuwsbrief.</h2>
+<h2><br> Binnenkort wordt ons aanbod bekend gemaakt en wordt de inschrijving voor de zomertraining geopend.<br> <br>Blijf op de hoogte via onze nieuwsbrief.<br>Meld je hiervoor aan via onderstaand formulier. </h2>
 <div class="indicates-required"><span class="asterisk">*</span> Verplicht veld</div>
 <div class="mc-field-group">
 <label for="mce-EMAIL">Email Adres  <span class="asterisk">*</span>
@@ -31,7 +31,7 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 <div class="response" id="mc#e-success-response" style="display:none"></div>
 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2b4f240fe10a82bc83cdad4f6_1bd5b4f914" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Abonneren" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+<div class="clear"><input type="submit" value="Aanmelden" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </div>
 </form>
 </div>
@@ -45,10 +45,13 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 
 Als jij meedoet met het Junior Joy tennisprogramma dan doe je veel meer dan alleen een tennistraining. Wij zorgen ervoor dat jij regelmatig op de club leuke en leerzame activiteiten kunt volgen.
 
-Daarbij heb je de mogelijkheid, voor hetzelfde geld, niet één maar twee of zelfs drie keer per week te komen trainen. Naast één uur tennistraining per week, bieden we op meerdere momenten inlooptrainingen aan.
+Daarbij heb je de mogelijkheid om meerdere malen per week te komen trainen. Naast één uur tennistraining per week, bieden we op meerdere momenten inlooptrainingen aan.
 
 In het Junior Joy programma hebben we drie belangrijke pijlers:
 
 * **Plezier:** Waar alles begint, jij vindt tennis superleuk!
 * (wed)**Strijd:** Dat moet je leren en daar helpen wij jou bij!
 * **Ontwikkeling:** Jouw doel is om beter te worden en daar gaan we samen voor zorgen!
+
+  [\-> lees meer over onze werkwijze](https://juniorjoy.nl/werkwijze)\
+  [\-> lees meer over onze trainers](https://juniorjoy.nl/trainers/)
