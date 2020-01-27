@@ -49,7 +49,6 @@ De intentie is om ons aanbod begin februari te communiceren via e-mail en websit
 
 Graag nodigen wij jullie uit om kennis met ons te maken. We verwelkomen iedereen die interesse heeft in de kantine van Joy Jaagpad. De trainers van Junior Joy zijn dan aanwezig om kennis te maken!
 
-**Kennismaking Junior Joy:** \
-**24 februari 2020 | 16:00 uur | kantine Joy Jaagpad**\
-en / of\
+<u>Kennismaking Junior Joy trainers op:</u>\
+**24 februari 2020 | 16:00 uur | kantine Joy Jaagpad** \
 **1 maart 2020 | 17:00 uur | kantine Joy Jaagpad**
