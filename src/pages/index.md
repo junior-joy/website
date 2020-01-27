@@ -11,7 +11,7 @@ subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramm
 <div id="mc_embed_signup">
 <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div id="mc_embed_signup_scroll">
-<br> <i><b><FONT COLOR="#ee7501" >Binnenkort wordt ons aanbod bekend gemaakt en <br>wordt de inschrijving voor de zomertraining geopend.</b></i></FONT><br> <br><h4>Blijf op de hoogte via onze nieuwsbrief, <br>meld je hiervoor aan via onderstaand formulier. </h2>
+<br> <i><b><FONT COLOR="#ee7501" >Binnenkort wordt ons aanbod bekend gemaakt en wordt de inschrijving voor de zomertraining geopend.</b></i></FONT><br> <br><h4>Blijf op de hoogte via onze nieuwsbrief, <br>meld je hiervoor aan via onderstaand formulier. </h2>
 <div class="indicates-required"><span class="asterisk">*</span> Verplicht veld</div>
 <div class="mc-field-group">
 <label for="mce-EMAIL">Email Adres  <span class="asterisk">*</span>
