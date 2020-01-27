@@ -13,7 +13,7 @@ tags:
 ---
 <font color = "#ee7501"><i>
 
-Binnenkort opent de inschrijving voor het zomerseizoen 2020. We zijn momenteel volop bezig om ons aanbod te bepalen en klaar te zetten.  </i></font>
+Binnenkort opent de inschrijving voor het zomerseizoen 2020. </i></font>
 
 > Een nieuwe tennisschool betekent een frisse wind maar ook veranderingen. 
 
