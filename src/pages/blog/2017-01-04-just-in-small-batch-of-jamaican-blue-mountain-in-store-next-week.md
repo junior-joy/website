@@ -15,7 +15,7 @@ Binnenkort opent de inschrijving voor het trainingsseizoen 2020. We zijn momente
 
 > Een nieuwe tennisschool betekent een frisse wind maar ook veranderingen. 
 
-## **[Nieuwe trainers](https://juniorjoy.nl/about)**
+## **Nieuwe trainers**
 
 Een team van ervaren jeugdtrainers gaat vanaf april met de jeugd aan de slag. \
 Nieuwsgierig? [Lees hier](https://juniorjoy.nl/trainers) meer over de trainers van Junior Joy!
@@ -24,13 +24,13 @@ Nieuwsgierig? [Lees hier](https://juniorjoy.nl/trainers) meer over de trainers v
 
 ## 2 x tennis per week
 
-Tennis is een leuke maar vooral ook een moeilijke sport. Daarom is ons beleid dat we de jeugd minimaal 2x per week begeleiden om het spel zo goed onder de knie te krijgen. Daarnaast maken kinderen sneller tennisvrienden als ze vaker andere kinderen op de club ontmoeten. Dit zorgt voor meer plezier en meer actieve jeugdleden.
+Tennis is leuk maar wel een moeilijk spel. Daarom is onze visie dat we de jeugd minimaal 2x per week begeleiden. Op deze manier zal het kind sneller succesbeleving ervaring. Daarnaast maken kinderen sneller tennisvrienden als ze vaker andere kinderen op de club ontmoeten. Dit zorgt voor meer plezier en meer actieve jeugdleden.
 
-> Tennis is een leuke maar vooral ook een moeilijke sport
+> Tennis is leuk maar wel een moeilijk spel
 
 ## Starten met een kort seizoen
 
-We gaan in april starten met een kort seizoen: april tot de zomervakantie. In deze periode zullen we de tijd nemen om ons aanbod verder vorm te geven. Daarna willen we een nieuw seizoen starten voor na de zomervakantie. Om tot een optimaal aanbod te komen, willen we vooraf graag met jeugdleden en ouders hierover in gesprek gaan.
+We gaan in april starten met een kort seizoen: april tot de zomervakantie. In deze periode zullen we de tijd nemen om ons aanbod verder vorm te geven. Na de zomervakantie zal dan een nieuw seizoen gaan beginnen. Om tot een optimaal aanbod te komen, willen we vooraf graag met jeugdleden en ouders hierover in gesprek gaan.
 
 > We willen de Junior Joy kids en ouders leren kennen, onze ideeën verder vorm geven en de samenwerking met de jeugdcommissie sterk maken. 
 
