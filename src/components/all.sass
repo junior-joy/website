@@ -15,6 +15,7 @@ $black: #0ebfaf
 $article-box: #fff
 $featured: #ee750133
 $active: #ee7501CC
+$secondary: #ee7501
 $btn: #ee7501CC
 $page: #fbfcfb
 $html: #E4EBE4
@@ -271,6 +272,9 @@ $navbar-breakpoint: 769px
   top: 0
   border-top: 6px solid $primary
 
+.border-bottom
+  border-bottom: 6px solid grey
+
 .navbar-brand
   padding-left: 1em
 
@@ -337,6 +341,17 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   border-color: #363636
   color: #363636
 
+.mobile-only
+  display: none!important
+
+@media screen and (min-width: 769px)
+  .navbar-start > a
+    margin-right: 0
+
+@media screen and (min-width: 950px)
+  .navbar-start > a
+    margin-right: 2rem
+    margin-left: 1rem
 
 // responsiveness
 +tablet-only
@@ -344,6 +359,9 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     flex-basis: 50%
 
 +mobile
+  .mobile-only
+    display: inline-block!important
+    margin-top: 2rem
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
@@ -351,8 +369,17 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     max-width: 70%
     margin: 0 0 1em
 
+  li > .navbar-item
+    padding-right: 2rem
+
   .navbar-start > a
-    font-size: 1.75rem
+    font-size: 1.5rem
+
+  .navbar-brand > .navbar-item > img
+    display: none
+
+  .nav-drop-root > div
+    padding-right: 0
 
   .navbar-burger span
     height: 3px

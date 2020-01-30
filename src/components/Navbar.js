@@ -82,6 +82,37 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/" activeClassName="is-active">
+                <img src={logo} alt="Junior Joy" className="mobile-only" />
+              </Link>
+              <ExpansionPanel className="navbar-item nav-drop-root">
+                <ExpansionPanelSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2a-content"
+                  id="panel2a-header"
+                >
+                  <Typography >Trainingen</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails className="nav-drop" style={{ padding: '0' }}>
+                  <List style={{ width: '100%' }}>
+                    <li>
+                      <Link className="navbar-item" to="/training/categorieen" activeClassName="is-active" partiallyActive={true}>
+                        Categorieën
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/trainers" activeClassName="is-active" partiallyActive={true}>
+                        Inschrijven
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/training/aanbod" activeClassName="is-active" partiallyActive={true}>
+                        Aanbod
+                      </Link>
+                    </li>
+                  </List>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
               <ExpansionPanel className="navbar-item nav-drop-root">
                 <ExpansionPanelSummary
                   expandIcon={<ExpandMoreIcon />}
@@ -93,11 +124,6 @@ const Navbar = class extends React.Component {
                 <ExpansionPanelDetails className="nav-drop" style={{ padding: '0' }}>
                   <List style={{ width: '100%' }}>
                     <li>
-                      <Link className="navbar-item" to="/inspire" activeClassName="is-active" partiallyActive={true}>
-                        Inspire
-                      </Link>
-                    </li>
-                    <li>
                       <Link className="navbar-item" to="/trainers" activeClassName="is-active" partiallyActive={true}>
                         Onze trainers
                       </Link>
@@ -107,18 +133,25 @@ const Navbar = class extends React.Component {
                         Werkwijze
                       </Link>
                     </li>
+                    <li>
+                      <Link className="navbar-item" to="/inspire" activeClassName="is-active" partiallyActive={true}>
+                        Inspire
+                      </Link>
+                    </li>
                   </List>
                 </ExpansionPanelDetails>
               </ExpansionPanel>
-              <Link className="navbar-item" to="/blog" activeClassName="is-active" partiallyActive={true}>
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact" activeClassName="is-active" partiallyActive={true}>
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/photos" activeClassName="is-active" partiallyActive={true}>
-                Impressie
-              </Link>
+              <div className="navbar-start has-text-centered">
+                <Link className="navbar-item" to="/blog" activeClassName="is-active" partiallyActive={true}>
+                  Blog
+                </Link>
+                <Link className="navbar-item" to="/contact" activeClassName="is-active" partiallyActive={true}>
+                  Contact
+                </Link>
+                <Link className="navbar-item" to="/photos" activeClassName="is-active" partiallyActive={true}>
+                  Impressie
+                </Link>
+              </div>
             </div>
             <div className="navbar-end has-text-centered" activeClassName="is-active" partiallyActive={true}>
               {' '}
