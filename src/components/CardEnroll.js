@@ -43,7 +43,7 @@ import SaveIcon from '@material-ui/icons/Save';
 import SportsTennisIcon from '@material-ui/icons/SportsTennis';
 
 
-const OfficeStories = ({ image, firstName, fullName, quote }) => {
+const OfficeStories = ({ name, color, price, ageMin, ageMax, items, quote }) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -53,31 +53,33 @@ const OfficeStories = ({ image, firstName, fullName, quote }) => {
   return(
     <Card elevation={3} className="color-card">
        <CardActionArea
-        onClick={() => navigate(`/trainers/${ firstName }`)}
+        onClick={() => navigate(`/trainers/${ color }`)}
        >
        <CardHeader
-          title={firstName}
+          title={name}
         />
         <Divider />
-         <List component="nav" aria-label="main mailbox folders" style={{ background: 'red' }}>
+         <List component="nav" aria-label="main mailbox folders" style={{ background: color }}>
            <ListItem>
-             <ListItemText primary='dfsadf' />
+             <ListItemText primary={<Typography variant="h4">{`€${price}`}</Typography>} />
            </ListItem>
            <ListItem>
-             <ListItemText primary='dfsadf' />
+             <ListItemText primary={`${ageMin} - ${ ageMax } jaar`} />
            </ListItem>
-           <ListItem>
-             <ListItemText primary='dfsadf' />
-           </ListItem>
+           {items.map( item => (
+             <ListItem>
+               <ListItemText primary={item} />
+             </ListItem>
+           ))}
          </List>
-       </CardActionArea>
-       <CardActions>
-         <Button size="small" color="primary"
-         style={{ marginLeft: 'auto', marginRight: 'auto' }}
-          onClick={() => navigate(`/trainers/${ firstName }`)}>
-           Kies {firstName}
-         </Button>
-       </CardActions>
+         <CardActions>
+           <Button size="small" color="primary"
+           style={{ marginLeft: 'auto', marginRight: 'auto' }}
+            onClick={() => navigate(`/trainers/${ color }`)}>
+             Inschrijven
+           </Button>
+         </CardActions>
+     </CardActionArea>
      </Card>
   )
 }

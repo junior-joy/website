@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { navigate, graphql } from 'gatsby'
+import { navigate, graphql, Link } from 'gatsby'
 import Img from "gatsby-image"
 import Layout from '../../components/Layout'
 import Form from '../../components/form/App'
@@ -76,6 +76,14 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="">
               <Form />
+                <div className="columns">
+                  <div className="column is-10 is-offset-1">
+                    <div className="section">
+                      <Link to="/training/categorieen">→ Lees meer over de kleuren</Link><br />
+                      <Link to="/training/aanbod">→ Lees meer over ons aanbod</Link><br />
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </section>
