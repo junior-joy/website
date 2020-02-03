@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { navigate } from 'gatsby'
 import Card from '../CardEnroll'
 
 
@@ -18,7 +19,6 @@ import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 class Start extends Component {
   render() {
-    const { contact,  toggleHeader, onInputChange } = this.props;
     return (
       <div>
         <div className="columns">
@@ -32,48 +32,44 @@ class Start extends Component {
                   <Card
                     name="Pakket Rood"
                     color="#F64E4C"
+                    prePrice="vanaf"
                     price={195}
-                    ageMin={0}
-                    ageMax={6}
-                    items={["2x/week training"]}
-                    fullName="Teun Kuijken"
-                    quote='Vanaf jonge leeftijd wist ik het al: "Ik word later tennistrainer".'
+                    items={["April - September 2020", "0 - 6 jaar"]}
+                    action="Inschrijven"
+                    goTo={() => navigate('/training/inschrijven/rood')}
                   />
                 </div>
                 <div className="column">
                   <Card
                     name="Pakket Oranje"
                     color="#F6924C"
+                    prePrice="vanaf"
                     price={265}
-                    ageMin={4}
-                    ageMax={8}
-                    items={["2x/week training"]}
-                    fullName="Teun Kuijken"
-                    quote='Vanaf jonge leeftijd wist ik het al: "Ik word later tennistrainer".'
+                    items={["April - September 2020", "4 - 8 jaar"]}
+                    action="Inschrijven"
+                    goTo={() => navigate('/training/inschrijven/oranje')}
                   />
                 </div>
                 <div className="column">
                   <Card
                     name="Pakket Groen"
                     color="#57CCA4"
+                    prePrice="vanaf"
                     price={265}
-                    ageMin={8}
-                    ageMax={10}
-                    items={["2x/week training"]}
-                    fullName="Raymon Janson"
-                    quote='Met mijn enthousiasme, humor en vakmanschap begeleid ik de jeugd bij hun tennisontwikkeling.'
+                    items={["April - September 2020", "8 - 10 jaar"]}
+                    action="Inschrijven"
+                    goTo={() => navigate('/training/inschrijven/groen')}
                   />
                 </div>
                 <div className="column">
                   <Card
                     name="Pakket Geel"
                     color="#F6F84C"
+                    prePrice="vanaf"
                     price={265}
-                    ageMin={10}
-                    ageMax={12}
-                    items={["2x/week training"]}
-                    fullName="Raoul Killaars"
-                    quote='Plezier, enthousiasme en een positieve mentaliteit vind ik belangrijke elementen.'
+                    items={["April - September 2020", "10 - 12 jaar"]}
+                    action="Inschrijven"
+                    goTo={() => navigate('/training/inschrijven/geel')}
                   />
                 </div>
               </div>
@@ -87,10 +83,7 @@ class Start extends Component {
 }
 
 Start.propTypes = {
-  contact: PropTypes.object,
-  onInputChange: PropTypes.func,
-  onRemoveSection: PropTypes.func,
-  toggleHeader: PropTypes.func
+  goTo: PropTypes.func.isRequired,
 };
 
 export default Start;

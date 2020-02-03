@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { navigate, graphql, Link } from 'gatsby'
 import Img from "gatsby-image"
-import Layout from '../../components/Layout'
-import Form from '../../components/form/App'
+import Layout from '../../../components/Layout'
+import Form from '../../../components/form/App'
 
 function encode(data) {
   return Object.keys(data)
@@ -48,8 +48,8 @@ export default class Index extends React.Component {
           className="full-width-image-container margin-top-0"
           style={{
             backgroundImage: `linear-gradient(
-              rgba(1, 19, 17, 0.7),
-              rgba(2, 38, 34, 0.7)
+              rgba(23, 77, 59, 0.7),
+              rgba(20, 66, 50, 0.7)
             )`,
           }}
         >{headerBackground && (
@@ -69,21 +69,21 @@ export default class Index extends React.Component {
               padding: '1rem',
             }}
           >
-            Inschrijven
+            Inschrijven Groen
           </h1>
         </div>
         <section className="section section--gradient">
           <div className="container">
             <div className="">
-              <Form />
-                <div className="columns">
-                  <div className="column is-10 is-offset-1">
-                    <div className="section">
-                      <Link to="/training/categorieen">→ Lees meer over de kleuren</Link><br />
-                      <Link to="/training/aanbod">→ Lees meer over ons aanbod</Link><br />
-                    </div>
+              <Form color={{ code: "#57CCA4", verbose: 'groen' }} />
+              <div className="columns">
+                <div className="column is-10 is-offset-1">
+                  <div className="section">
+                    <Link to="/training/categorieen">→ Lees meer over de kleuren</Link><br />
+                    <Link to="/training/aanbod">→ Lees meer over ons aanbod</Link><br />
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </section>
@@ -103,7 +103,7 @@ Index.propTypes = {
 
 
 export const pageQuery = graphql`
-  query ContactPageQuery {
+  query GroenPageQuery {
     headerBackground: imageSharp(fluid: { originalName: { regex: "/IMG_7641_suey6h/" } }) {
       fluid(maxWidth: 2400, maxHeight: 1200) {
         ...GatsbyImageSharpFluid

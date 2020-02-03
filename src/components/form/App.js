@@ -1,5 +1,6 @@
 /* globals window, document */
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import {  BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from 'axios';
 import set from "lodash/set";
@@ -7,13 +8,15 @@ import cloneDeep from "lodash/cloneDeep";
 import store from "store2";
 import { tryParseJSON } from "../../utils/helpers";
 
-import Start from "./Start";
-import Thanks from "./Thanks";
+import TwoTrainings from "./TwoTrainings";
+import Contact from "./Contact";
+import ExtraAndSchedule from "./ExtraAndSchedule";
 
 import './form.css'
 
 const defaultState = {
-  stage: 1,
+  stage: "",
+  schedule: [],
   contact: {
     name: '',
     email: '',
@@ -27,7 +30,7 @@ class App extends Component {
     super(props);
 
     const fromSaveLink = tryParseJSON(props.location && props.location.search);
-    const state = fromSaveLink ? fromSaveLink : store.get("data") || defaultState;
+    const state = defaultState//fromSaveLink ? fromSaveLink : store.get("data") || defaultState;
 
     this.state = {
       ...state,
@@ -35,9 +38,7 @@ class App extends Component {
       success: null,
     }
 
-    this.next = this.next.bind( this )
-    this.prev = this.prev.bind( this )
-    this.reset = this.reset.bind( this )
+    this.goTo = this.goTo.bind( this )
     this.renderSwitch = this.renderSwitch.bind( this )
     this.handleSubmit = this.handleSubmit.bind( this )
   }
@@ -53,47 +54,10 @@ class App extends Component {
     store.set("data", newState);
   };
 
-  onAddSection = (event, section) => {
-    event.preventDefault();
-    const newState = { ...this.state };
-    newState[section].push(defaultState[section][0]);
-    this.setState(newState);
-    store.set("data", newState);
-  };
-
-  onRemoveSection = (event, section, index) => {
-    event.preventDefault();
-    const newState = { ...this.state };
-    newState[section].splice(index, 1);
-    this.setState(newState);
-    store.set("data", newState);
-  };
-
-  toggleMenu() {
-    const app = document.getElementById("___gatsby");
-    app.classList.toggle("toggle--active");
-  }
-
-  toggleHeader() {
-    const app = document.getElementById("___gatsby");
-    app.classList.toggle("btn--header--active");
-  }
-
-  closeMenu() {
-    const app = document.getElementById("___gatsby");
-    app.classList.remove("toggle--active");
-  }
-
-  next() {
-    this.setState({ stage: this.state.stage + 1 })
-  }
-
-  prev() {
-    this.setState({ stage: this.state.stage - 1 })
-  }
-
-  reset() {
-    this.setState({ stage: 1 })
+  goTo() {
+    const { color } = this.props
+    console.log(this.state)
+    this.setState({ stage: color && color.verbose })
   }
 
   handleSubmit( event ) {
@@ -120,23 +84,42 @@ class App extends Component {
   }
 
   renderSwitch() {
-    const { send } = this.state
-    switch( send ) {
-      case true:
+    const { color } = this.props
+    const { stage, schedule,  contact } = this.state
+    switch( stage ) {
+      case "":
         return(
-          <Thanks
+          <TwoTrainings
+            color={color}
+            goTo={this.goTo}
             {...this.props}
-            contact={this.state.contact}
+          />
+        )
+      case "rood":
+      case "oranje":
+      case "groen":
+      case "geel":
+        return(
+          <ExtraAndSchedule
+            contact={contact}
+            schedule={schedule}
+            onInputChange={this.onInputChange}
+            {...this.props}
+          />
+        )
+      case "contact":
+        return(
+          <Contact
+            contact={contact}
+            onInputChange={this.onInputChange}
+            {...this.props}
           />
         )
       default:
         return(
-          <Start
+          <TwoTrainings
             {...this.props}
-            contact={this.state.contact}
-            onInputChange={this.onInputChange}
-            toggleHeader={this.toggleHeader}
-            handleSubmit={this.handleSubmit}
+            goTo={this.goTo}
           />
         );
     }
@@ -146,5 +129,13 @@ class App extends Component {
     return this.renderSwitch()
   }
 }
+
+
+
+App.propTypes = {
+  color: PropTypes.string.isRequired,
+};
+
+
 
 export default App;

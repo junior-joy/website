@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
-import { Link, graphql, navigate } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Gallery from 'react-grid-gallery';
 import clsx from 'clsx';
 
@@ -43,7 +43,7 @@ import SaveIcon from '@material-ui/icons/Save';
 import SportsTennisIcon from '@material-ui/icons/SportsTennis';
 
 
-const OfficeStories = ({ name, color, price, ageMin, ageMax, items, quote }) => {
+const OfficeStories = ({ name, color, prePrice, price, items, action, goTo }) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -53,7 +53,7 @@ const OfficeStories = ({ name, color, price, ageMin, ageMax, items, quote }) => 
   return(
     <Card elevation={3} className="color-card">
        <CardActionArea
-        onClick={() => navigate(`/trainers/${ color }`)}
+        onClick={goTo}
        >
        <CardHeader
           title={name}
@@ -61,10 +61,7 @@ const OfficeStories = ({ name, color, price, ageMin, ageMax, items, quote }) => 
         <Divider />
          <List component="nav" aria-label="main mailbox folders" style={{ background: color }}>
            <ListItem>
-             <ListItemText primary={<Typography variant="h4">{`€${price}`}</Typography>} />
-           </ListItem>
-           <ListItem>
-             <ListItemText primary={`${ageMin} - ${ ageMax } jaar`} />
+             <ListItemText primary={<Fragment>{prePrice}<Typography variant="h4">{`€${price}`}</Typography></Fragment>} />
            </ListItem>
            {items.map( item => (
              <ListItem>
@@ -75,8 +72,8 @@ const OfficeStories = ({ name, color, price, ageMin, ageMax, items, quote }) => 
          <CardActions>
            <Button size="small" color="primary"
            style={{ marginLeft: 'auto', marginRight: 'auto' }}
-            onClick={() => navigate(`/trainers/${ color }`)}>
-             Inschrijven
+            onClick={goTo}>
+             {action}
            </Button>
          </CardActions>
      </CardActionArea>

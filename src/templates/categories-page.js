@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, navigate } from 'gatsby'
+import { graphql, navigate, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Content, { HTMLContent } from '../components/Content'
@@ -90,6 +90,14 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <br/>
 
                 <PageContent className="content" content={content} />
+              </div>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="section">
+                <Link to="/training/aanbod">→ Lees meer over ons aanbod</Link><br />
+                <Link to="/training/inschrijven">→ Schrijf je nu in</Link><br />
               </div>
             </div>
           </div>
