@@ -29,33 +29,33 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1577884550/impressie/hero_tytjev.png"
-                      title="1x/week vaardigheden"
-                      subtitle="Beheers alle basisvaardigheden"
+                      title="basistraining"
+                      subtitle="tennisspecifieke vaardigheden"
                       items={[
-                        "Balvaardigheid",
-                        "Reactievermogen",
-                        "Hard slaan"
+                        "Techniek",
+                        "Tactiek",
+                        "Voetenwerk"
                       ]}
-                      actionText="Voor de rest van je leven profeit van een goede coordinatie."
+                      actionText="training met gelijkwaardige spelers en persoonlijke aandacht"
                     />
                   </div>
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1577884550/impressie/hero_tytjev.png"
-                      title="1x/week tactiek"
-                      subtitle="Wordt de baas op het veld"
+                      title="Skillstraining"
+                      subtitle="Voor de brede ontwikkeling"
                       items={[
-                        "Dubbel spel",
-                        "Service",
-                        "Strategie"
+                        "Fysieke / motorische ontwikkeling",
+                        "Leren spelen van wedstrijden",
+                        "Mentale vaardigheden"
                       ]}
-                      actionText="Leer samenspelen en het spel begrijpen."
+                      actionText="een sterke basis om tennis nog sneller onder de knie te krijgen"
                     />
                   </div>
                 </div>
                 <br />
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  Kinderen hebben altijd de mogelijkheid voor meer
+                  Het basis pakket uitbreiden? dat kan met korting!
                 </h2>
                 <ExpansionPanel>
                   <ExpansionPanelSummary
@@ -63,12 +63,15 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>Expansion Panel 1</Typography>
+                    <Typography>2de groepstraining</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                      sit amet blandit leo lobortis eget.
+                      Een 2de groepstraining toevoegen: 
+                      
+                      ROOD = €115,-
+    
+                      ORANJE / GROEN / GEEL = €180,- 
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
