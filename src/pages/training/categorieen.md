@@ -1,6 +1,6 @@
 ---
 templateKey: categories-page
-title: Het kleurensysteem van de KNLTB
+title: Het tenniskids kleurensysteem 
 ---
 Junior Joy is een initiatief van Inspire Tennisopleiding en biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma aan.
 
