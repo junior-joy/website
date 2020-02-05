@@ -31,18 +31,20 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     Door naar de volgende kleur
                   </h3>
                 <p>De doorgroei naar een volgende kleur is afhankelijk van het niveau van het kind en niet enkel de leeftijd. Op basis van het niveau beslist de trainer of het kind door kan naar de volgende kleur. Op deze manier zorgen we er voor dat de kinderen qua niveau in homogene groepen trainen. Daarbij zullen we ten behoeve van de tennisontwikkeling in training regelmatig variaren in gebruik van baltype en baangrootte.</p><br />
-                <div className="columns">
+                 <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
+                    Een uitgebreid overzicht
+                  </h3><div className="columns">
                   <div className="column">
                     <Card
                       image="https://www.hveldtennis.nl/htc/wp-content/uploads/rode-baan.png"
-                      title="1x/week vaardigheden"
-                      subtitle="Beheers alle basisvaardigheden"
+                      title="ROOD"
+                      subtitle="Beheers de basis"
                       items={[
-                        "Balvaardigheid",
-                        "Reactievermogen",
-                        "Hard slaan"
+                        "Zachte grote bal op miniveld",
+                        "Leer de basis van alle slagen",
+                        "Speel je eerste wedstrijdjes"
                       ]}
-                      actionText="Voor de rest van je leven profeit van een goede coordinatie."
+                      actionText="De basis voor de rest van je tennisleven."
                     />
                   </div>
                   <div className="column">
