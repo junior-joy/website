@@ -30,7 +30,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
                     Door naar de volgende kleur
                   </h3>
-                <p>Wij geven kineren duidelijkheid, wanneer ze naar de volgende kleur mogen. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br />
+                <p>De doorgroei naar een volgende kleur is afhankelijk van het niveau van het kind en niet enkel de leeftijd. Op basis van het niveau beslist de trainer of het kind door kan naar de volgende kleur. Op deze manier zorgen we er voor dat de kinderen qua niveau in homogene groepen trainen. Daarbij zullen we ten behoeve van de tennisontwikkeling in training regelmatig variaren in gebruik van baltype en baangrootte.</p><br />
                 <div className="columns">
                   <div className="column">
                     <Card
