@@ -25,7 +25,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {title}
                 </h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>De kleuren staan voor de balsoort en baangrootte. In onderstaand schema staat weergegeven welke leeftijd bij welke kleur hoort. Het niveau van het kind is bepalend voor de kleur waarin het speelt, vandaar dat er in het schema veel overlap in leeftijd te zien is.</p>
                 <img src="http://vanscheppingentennis.nl/data/fotos/tenniskids-leeftijdsindeling.jpg" style={{  width: "100%" }}/><br />
                   <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
                     Door naar de volgende kleur
