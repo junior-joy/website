@@ -19,7 +19,7 @@ import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 class Start extends Component {
   render() {
-    const { color, goTo } = this.props
+    const { color, setFormState } = this.props
     return (
       <div>
         <div className="columns">
@@ -33,22 +33,33 @@ class Start extends Component {
                   <Card
                     name="1x / week"
                     color={color.code}
-                    prePrice="extra"
-                    price={0}
+                    prePrice="slechts"
+                    price={99}
                     items={["1x Tennis training / week", "Techniek", "Tactiek",  "Voetenwerk", ]}
                     action="Kies"
-                    goTo={goTo}
+                    goTo={() => setFormState({ stage: 1, packageChoice: 'single' })}
                   />
                 </div>
                 <div className="column">
                   <Card
-                    name="2x / week"
+                    name="Basis Pakket"
                     color={color.code}
-                    prePrice="extra"
-                    price={95}
+                    prePrice="slechts"
+                    price={340}
+                    items={["1x Tennis training / week", "1x skills training / week", "Mentale vaardigheden ontwikkelen", "Leren spelen van wedstrijden", "14 weken"]}
+                    action="Kies"
+                    goTo={() => setFormState({ stage: 1, packageChoice: 'basic' })}
+                  />
+                </div>
+                <div className="column">
+                  <Card
+                    name="Uitgebreid pakket"
+                    color={color.code}
+                    prePrice="vanaf"
+                    price={500}
                     items={["1x Tennis training / week", "1x skills training / week", "Mentale vaardigheden ontwikkelen", "Leren spelen van wedstrijden"]}
                     action="Kies"
-                    goTo={goTo}
+                    goTo={() => setFormState({ stage: 1, packageChoice: 'extra' })}
                   />
                 </div>
               </div>
@@ -62,7 +73,7 @@ class Start extends Component {
 }
 
 Start.propTypes = {
-  goTo: PropTypes.func.isRequired,
+  setFormState: PropTypes.func.isRequired,
   color: PropTypes.string.isRequired,
 };
 

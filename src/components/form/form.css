@@ -127,10 +127,7 @@ button {
 
 .page__header {
   position: relative;
-  background: #bdb0a5;
   margin: 50px auto 0;
-  box-shadow: rgba(19, 17, 16, 0.1) 0px 0.5rem 1rem -0.5rem;
-  color: white;
   text-align: center; }
   @media (min-width: 700px) {
     .page__header {
@@ -170,7 +167,6 @@ button {
   position: absolute;
   margin: 0 auto;
   display: inline-block;
-  background: #bdb0a5;
   width: 39px;
   height: 39px;
   bottom: -18px;
@@ -182,7 +178,6 @@ button {
     display: block;
     width: 16px;
     height: 2px;
-    background: #bdb0a5;
     position: absolute;
     left: 12px; }
     .btn--header span:after {
@@ -206,7 +201,6 @@ button {
   text-align: center;
   color: #de673d;
   color: white;
-  background: #bdb0a5;
   border-radius: 2em;
   padding: .5em 1em;
   position: absolute;
@@ -225,8 +219,7 @@ button {
   padding: 0 1em;
   height: 600px;
   height: 100vh;
-  max-width: 650px;
-  background-color: #bdb0a5; }
+  max-width: 650px; }
   @media (min-width: 700px) {
     .home {
       padding: 0 2em;
@@ -252,7 +245,6 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #bdb0a5;
     opacity: .9; }
 
 .home__text {

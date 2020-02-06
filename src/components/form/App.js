@@ -15,8 +15,16 @@ import ExtraAndSchedule from "./ExtraAndSchedule";
 import './form.css'
 
 const defaultState = {
-  stage: "",
-  schedule: [],
+  stage: 0,
+  packageChoice: null,
+  extra: {
+    group: false,
+    prive: false,
+    prive5: false,
+    prive1: false,
+    duo: false,
+  },
+  schedule: JSON.parse('["2018-01-01T16:00:00.000Z","2018-01-01T17:00:00.000Z","2018-01-01T18:00:00.000Z","2018-01-01T19:00:00.000Z","2018-01-02T16:00:00.000Z","2018-01-02T17:00:00.000Z","2018-01-02T18:00:00.000Z","2018-01-02T19:00:00.000Z","2018-01-03T16:00:00.000Z","2018-01-03T17:00:00.000Z","2018-01-03T18:00:00.000Z","2018-01-03T19:00:00.000Z","2018-01-04T16:00:00.000Z","2018-01-04T17:00:00.000Z","2018-01-04T18:00:00.000Z","2018-01-04T19:00:00.000Z","2018-01-05T16:00:00.000Z","2018-01-05T17:00:00.000Z","2018-01-05T18:00:00.000Z","2018-01-05T19:00:00.000Z","2018-01-06T12:00:00.000Z","2018-01-06T13:00:00.000Z","2018-01-06T14:00:00.000Z","2018-01-06T15:00:00.000Z","2018-01-06T16:00:00.000Z","2018-01-06T17:00:00.000Z","2018-01-06T18:00:00.000Z","2018-01-06T19:00:00.000Z","2018-01-07T12:00:00.000Z","2018-01-07T13:00:00.000Z","2018-01-07T14:00:00.000Z","2018-01-07T15:00:00.000Z","2018-01-07T16:00:00.000Z","2018-01-07T17:00:00.000Z","2018-01-07T18:00:00.000Z","2018-01-07T19:00:00.000Z"]'),
   contact: {
     name: '',
     email: '',
@@ -38,7 +46,7 @@ class App extends Component {
       success: null,
     }
 
-    this.goTo = this.goTo.bind( this )
+    this.setFormState = this.setFormState.bind( this )
     this.renderSwitch = this.renderSwitch.bind( this )
     this.handleSubmit = this.handleSubmit.bind( this )
   }
@@ -47,18 +55,18 @@ class App extends Component {
     store.set("data", this.state);
   }
 
+  setFormState( state ) {
+    this.setState( state )
+  }
+
   onInputChange = (value, key) => {
+    const sc = this.state.schedule
+    console.log(sc)
     const newState = cloneDeep(this.state);
     set(newState, key, value);
     this.setState(newState);
     store.set("data", newState);
   };
-
-  goTo() {
-    const { color } = this.props
-    console.log(this.state)
-    this.setState({ stage: color && color.verbose })
-  }
 
   handleSubmit( event ) {
     event.preventDefault();
@@ -85,33 +93,34 @@ class App extends Component {
 
   renderSwitch() {
     const { color } = this.props
-    const { stage, schedule,  contact } = this.state
+    const { stage, extra, schedule, packageChoice, contact } = this.state
     switch( stage ) {
-      case "":
+      case 0:
         return(
           <TwoTrainings
             color={color}
-            goTo={this.goTo}
+            setFormState={this.setFormState}
             {...this.props}
           />
         )
-      case "rood":
-      case "oranje":
-      case "groen":
-      case "geel":
+      case 1:
         return(
           <ExtraAndSchedule
-            contact={contact}
+            color={color}
+            extra={extra}
             schedule={schedule}
+            packageChoice={packageChoice}
             onInputChange={this.onInputChange}
+            setFormState={this.setFormState}
             {...this.props}
           />
         )
-      case "contact":
+      case 2:
         return(
           <Contact
             contact={contact}
             onInputChange={this.onInputChange}
+            setFormState={this.setFormState}
             {...this.props}
           />
         )
@@ -119,7 +128,7 @@ class App extends Component {
         return(
           <TwoTrainings
             {...this.props}
-            goTo={this.goTo}
+            setFormState={this.setFormState}
           />
         );
     }
