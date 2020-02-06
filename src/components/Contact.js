@@ -34,9 +34,10 @@ class Start extends Component {
     const { name, email } = this.state
     const data = {
       email: email,
-      name: name,
+      first_name: name,
+      last_name: name,
     }
-    axios.post(`https://api.plathena.com/plathena/mail/contact-studentenfoto/`, data, )
+    axios.post(`https://api.plathena.com/plathena/mail/subscribe/inspire/junior-joy/`, data, )
       .then(res => {
         this.setState({
           submitted: true,
