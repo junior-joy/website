@@ -6,13 +6,13 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 .MuiRadio-colorSecondary.Mui-checked {
-    color: #a3c0df!important;
+    color: #13ae9e!important;
 }
 
 
 .MuiButton-containedPrimary {
   color: black !important;
-  background-color: #a3c0df !important;
+  background-color: #13ae9e !important;
 }
 
 .MuiCheckbox-colorSecondary.Mui-checked {
@@ -275,7 +275,7 @@ button {
   background: rgba(255, 255, 255, 0.75); }
 
 .btn--get-started {
-  background: #a3c0df;
+  background: #13ae9e;
   padding: .25em 1em;
   border-radius: 2em;
   color: white;
@@ -476,7 +476,7 @@ button {
     display: block;
     width: 16px;
     height: 2px;
-    background: #a3c0df;
+    background: #13ae9e;
     position: relative;
     left: 10px; }
     .btn--remove span:after {
@@ -485,7 +485,7 @@ button {
       top: -7px;
       left: 7px;
       display: block;
-      background: #a3c0df;
+      background: #13ae9e;
       width: 2px;
       height: 16px; }
 
@@ -633,7 +633,7 @@ button {
 .btn--nav__lines {
   content: '';
   display: block;
-  background: #a3c0df;
+  background: #13ae9e;
   height: 6px;
   width: 6px;
   border-radius: 50%;
@@ -643,7 +643,7 @@ button {
   .btn--nav__lines:after {
     content: '';
     display: block;
-    background: #a3c0df;
+    background: #13ae9e;
     height: 30px;
     width: 2px;
     position: relative;

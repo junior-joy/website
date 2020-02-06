@@ -6,6 +6,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Contact from '../components/Contact'
 
 export const IndexPageTemplate = ({
   image,
@@ -101,7 +102,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="section">
               <div className="column is-10 is-offset-1">
-
+                <Contact />
                 <PageContent className="content" content={content} />
                 <div className="content">
                   <div>
