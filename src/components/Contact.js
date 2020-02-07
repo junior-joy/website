@@ -21,7 +21,8 @@ class Start extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: '',
+      first_name: '',
+      last_name: '',
       email: '',
       submitted: false,
       success: null,
@@ -31,11 +32,11 @@ class Start extends Component {
 
   handleSubmit( event ) {
     event.preventDefault();
-    const { name, email } = this.state
+    const { first_name, last_name, email } = this.state
     const data = {
       email: email,
-      first_name: name,
-      last_name: name,
+      first_name: first_name,
+      last_name: last_name,
     }
     axios.post(`https://api.plathena.com/plathena/mail/subscribe/inspire/junior-joy/`, data, )
       .then(res => {
@@ -53,7 +54,7 @@ class Start extends Component {
   }
 
   render() {
-    const { name, email, submitted, success } = this.state;
+    const { first_name, last_name, email, submitted, success } = this.state;
     return (
       <div>
         <style>{'.unsubmitted .MuiFormHelperText-root.Mui-error{ display: none; } .unsubmitted .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline{ color: #3f51b5!important; border-color: #3f51b5!important; } .unsubmitted .MuiFormLabel-root.Mui-error{ color: #3f51b5!important }'}</style>
@@ -74,14 +75,31 @@ class Start extends Component {
                   <div className="column is-12">
                     <TextValidator
                       fullWidth
-                      label="Naam"
+                      label="Voornaam"
                       variant="outlined"
                       type="text"
                       autoComplete="name"
                       validators={['required']}
                       errorMessages={['Dit veld is verplicht']}
-                      value={name}
-                      onChange={event => this.setState({ name: event.target.value })}
+                      value={first_name}
+                      onChange={event => this.setState({ first_name: event.target.value })}
+                    />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="columns">
+                  <div className="column is-12">
+                    <TextValidator
+                      fullWidth
+                      label="Achternaam"
+                      variant="outlined"
+                      type="text"
+                      autoComplete="name"
+                      validators={['required']}
+                      errorMessages={['Dit veld is verplicht']}
+                      value={last_name}
+                      onChange={event => this.setState({ last_name: event.target.value })}
                     />
                   </div>
                 </div>
@@ -105,7 +123,7 @@ class Start extends Component {
               </li>
             </ul>
             { submitted && success && (
-              <p>Bedankt {name}. Binnenkort ontvang je de eerste nieuwsbrief.</p>
+              <p>Bedankt {first_name}. Binnenkort ontvang je de eerste nieuwsbrief.</p>
             )}
             <Button onClick={() => this.setState({ submitted: true })} type="submit" variant="contained" color="primary" className="btn is-pulled-right">
               Aanmelden
