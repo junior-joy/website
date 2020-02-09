@@ -27,13 +27,12 @@ class ContactInfo extends Component {
             <TextField
               fullWidth
               variant="outlined"
-              name="email"
-              autoComplete="email"
+              name="name_child"
               label="Naam Kind"
               type="email"
-              value={contact.email}
+              value={contact.name_child}
               onChange={event =>
-                onInputChange(event.target.value, ["contact", "email"])
+                onInputChange(event.target.value, ["contact", "name_child"])
               }
             />
           </div>
@@ -61,10 +60,9 @@ class ContactInfo extends Component {
               label="IBAN"
               variant="outlined"
               type="text"
-              autoComplete="name"
-              value={contact.name}
+              value={contact.iban}
               onChange={event =>
-                onInputChange(event.target.value, ["contact", "name"])
+                onInputChange(event.target.value, ["contact", "iban"])
               }
             />
           </div>
@@ -89,13 +87,13 @@ class ContactInfo extends Component {
             <FormGroup>
               <FormControlLabel
                 control={
-                  <Checkbox checked={true} onChange={event => onInputChange(event.target.checked, ["device", "washer"])} value={false} />
+                  <Checkbox checked={contact.check_transfer} onChange={event => onInputChange(event.target.checked, ["contact", "check_transfer"])} />
                 }
                 label="Ik machtig Junior Joy om een eenmalige vergoeding van € 79 van mijn bankrekening te innen."
               />
               <FormControlLabel
                 control={
-                  <Checkbox checked={true} onChange={event => onInputChange(event.target.checked, ["device", "washer"])} value={false} />
+                  <Checkbox checked={contact.check_newsletter} onChange={event => onInputChange(event.target.checked, ["contact", "check_newsletter"])} />
                 }
                 label="Ik wil de nieuwsbrief ontvangen."
               />

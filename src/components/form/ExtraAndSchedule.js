@@ -10,8 +10,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import { navigate } from "gatsby"
 
-import ScheduleSelector from 'react-schedule-selector'
-
+import ScheduleSelector from './ScheduleSelector'
+import nlLocale from 'date-fns/locale/nl'
 
 class ContactInfo extends Component {
 
@@ -24,7 +24,11 @@ class ContactInfo extends Component {
           {(packageChoice === 'extra') && (
             <div className="columns">
               <div className="column is-12">
-                <h3>Selecteer jouw uitbreidingen</h3>
+                <div className="page__header">
+                  <div className="page__header__container">
+                    <h1 className="page__title">Selecteer uw uitbreidingen</h1>
+                  </div>
+                </div>
                 <FormGroup>
                   <FormControlLabel
                     control={
@@ -69,7 +73,7 @@ class ContactInfo extends Component {
           <div className="column is-12">
             <FormLabel component="legend">Om ons lesprogramma zo goed mogelijk in te delen, zouden wij graag willen weten op welke dagen uw kind beschikbaar is. </FormLabel><br />
             <ScheduleSelector
-              dateFormat="dddd"
+              dateFormat={ { format: 'dddd', options: { locale: nlLocale } } }
               selection={schedule}
               startDate={new Date('2018-01-01')}
               numDays={7}

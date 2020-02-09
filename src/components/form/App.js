@@ -14,6 +14,8 @@ import ExtraAndSchedule from "./ExtraAndSchedule";
 
 import './form.css'
 
+
+
 const defaultState = {
   stage: 0,
   packageChoice: null,
@@ -24,12 +26,14 @@ const defaultState = {
     prive1: false,
     duo: false,
   },
-  schedule: JSON.parse('["2018-01-01T16:00:00.000Z","2018-01-01T17:00:00.000Z","2018-01-01T18:00:00.000Z","2018-01-01T19:00:00.000Z","2018-01-02T16:00:00.000Z","2018-01-02T17:00:00.000Z","2018-01-02T18:00:00.000Z","2018-01-02T19:00:00.000Z","2018-01-03T16:00:00.000Z","2018-01-03T17:00:00.000Z","2018-01-03T18:00:00.000Z","2018-01-03T19:00:00.000Z","2018-01-04T16:00:00.000Z","2018-01-04T17:00:00.000Z","2018-01-04T18:00:00.000Z","2018-01-04T19:00:00.000Z","2018-01-05T16:00:00.000Z","2018-01-05T17:00:00.000Z","2018-01-05T18:00:00.000Z","2018-01-05T19:00:00.000Z","2018-01-06T12:00:00.000Z","2018-01-06T13:00:00.000Z","2018-01-06T14:00:00.000Z","2018-01-06T15:00:00.000Z","2018-01-06T16:00:00.000Z","2018-01-06T17:00:00.000Z","2018-01-06T18:00:00.000Z","2018-01-06T19:00:00.000Z","2018-01-07T12:00:00.000Z","2018-01-07T13:00:00.000Z","2018-01-07T14:00:00.000Z","2018-01-07T15:00:00.000Z","2018-01-07T16:00:00.000Z","2018-01-07T17:00:00.000Z","2018-01-07T18:00:00.000Z","2018-01-07T19:00:00.000Z"]'),
+  schedule: [],
   contact: {
-    name: '',
+    name_child: '',
     email: '',
-    topic: 'workspace',
-    message: '',
+    iban: 'NL',
+    name_card: '',
+    check_transfer: false,
+    check_newsletter: false,
   },
 };
 
@@ -61,7 +65,6 @@ class App extends Component {
 
   onInputChange = (value, key) => {
     const sc = this.state.schedule
-    console.log(sc)
     const newState = cloneDeep(this.state);
     set(newState, key, value);
     this.setState(newState);
@@ -70,23 +73,18 @@ class App extends Component {
 
   handleSubmit( event ) {
     event.preventDefault();
-    const { name, email, topic, message } = this.state.contact
     const data = {
-      email: email,
-      name: name,
-      topic: topic,
-      message: message,
+      value: 'test'
     }
-    axios.post(`https://api.plathena.com/plathena/mail/contact-studentenfoto/`, data, )
+    axios.post(`/.netlify/lambda/sheets`, data, )
       .then(res => {
         this.setState({
-          send: true,
-          success: true,
+          stage: 0,
         })
       })
       .catch( err => {
         this.setState({
-          success: false,
+          stage: 0,
         })
       })
   }
@@ -121,6 +119,7 @@ class App extends Component {
             contact={contact}
             onInputChange={this.onInputChange}
             setFormState={this.setFormState}
+            handleSubmit={this.handleSubmit}
             {...this.props}
           />
         )
@@ -142,7 +141,7 @@ class App extends Component {
 
 
 App.propTypes = {
-  color: PropTypes.string.isRequired,
+  color: PropTypes.object.isRequired,
 };
 
 
