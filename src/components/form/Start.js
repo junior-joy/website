@@ -33,8 +33,8 @@ class Start extends Component {
                     name="Pakket Rood"
                     color="#F64E4C"
                     prePrice="vanaf"
-                    price={195}
-                    items={["April - September 2020", "0 - 6 jaar"]}
+                    price={135}
+                    items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/rood')}
                   />
@@ -44,8 +44,8 @@ class Start extends Component {
                     name="Pakket Oranje"
                     color="#F6924C"
                     prePrice="vanaf"
-                    price={265}
-                    items={["April - September 2020", "4 - 8 jaar"]}
+                    price={199}
+                    items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/oranje')}
                   />
@@ -55,8 +55,8 @@ class Start extends Component {
                     name="Pakket Groen"
                     color="#57CCA4"
                     prePrice="vanaf"
-                    price={265}
-                    items={["April - September 2020", "8 - 10 jaar"]}
+                    price={199}
+                    items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/groen')}
                   />
@@ -66,8 +66,8 @@ class Start extends Component {
                     name="Pakket Geel"
                     color="#F6F84C"
                     prePrice="vanaf"
-                    price={265}
-                    items={["April - September 2020", "10 - 12 jaar"]}
+                    price={199}
+                    items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/geel')}
                   />
