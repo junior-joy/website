@@ -21,5 +21,7 @@ In het Junior Joy programma hebben we drie belangrijke pijlers:
 * (wed)**Strijd:** Dat moet je leren en daar helpen wij jou bij!
 * **Ontwikkeling:** Jouw doel is om beter te worden en daar gaan we samen voor zorgen!
 
+<Link className="more" to="/blog">
+
   [\-> lees meer over onze werkwijze](https://juniorjoy.nl/werkwijze)\
   [\-> lees meer over onze trainers](https://juniorjoy.nl/trainers/)
