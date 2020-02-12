@@ -28,20 +28,20 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <div className="columns">
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/junior-joy/image/upload/v1577884550/impressie/hero_tytjev.png"
-                      title="basistraining"
-                      subtitle="tennisspecifieke vaardigheden"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png"
+                      title="Basistraining"
+                      subtitle="Tennisspecifieke vaardigheden"
                       items={[
                         "Techniek",
                         "Tactiek",
                         "Voetenwerk"
                       ]}
-                      actionText="training met gelijkwaardige spelers en persoonlijke aandacht"
+                      actionText="Training met gelijkwaardige spelers en persoonlijke aandacht."
                     />
                   </div>
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/junior-joy/image/upload/v1577884550/impressie/hero_tytjev.png"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1581536341/impressie/Schermafbeelding_2020-02-12_om_20.39.00_ljwjmj.png"
                       title="Skillstraining"
                       subtitle="Voor de brede ontwikkeling"
                       items={[
@@ -49,13 +49,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Leren spelen van wedstrijden",
                         "Mentale vaardigheden"
                       ]}
-                      actionText="een sterke basis om tennis nog sneller onder de knie te krijgen"
+                      actionText="Een sterke basis om tennis nog sneller onder de knie te krijgen."
                     />
                   </div>
                 </div>
                 <br />
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  Het basis pakket uitbreiden? dat kan met korting!
+                  Het basis pakket uitbreiden? Dat kan met korting!
                 </h2>
                 <ExpansionPanel>
                   <ExpansionPanelSummary
@@ -67,11 +67,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                      Een 2de groepstraining toevoegen: 
-                      
-                      ROOD = €115,-
+                      Een 2de groepstraining toevoegen:
     
-                      ORANJE / GROEN / GEEL = €180,- 
+    - ROOD 6-8 p.= €115,- voor 12 weken.
+    
+    - ORANJE / GROEN / GEEL 4 p.= €180,- voor 12 weken.
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -85,8 +85,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                      sit amet blandit leo lobortis eget.
+                      Duotraining, training met spelers:
+     - €320,- voor 12 weken.
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -96,7 +96,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel3a-content"
                     id="panel3a-header"
                   >
-                    <Typography>Disabled Expansion Panel</Typography>
+                    <Typography>Privétraining:
+    
+    - €640,- voor 12 weken
+    
+    - €60,- per keer.  </Typography>
                   </ExpansionPanelSummary>
                 </ExpansionPanel>
 
