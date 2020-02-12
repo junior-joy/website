@@ -101,7 +101,10 @@ const OfficeStories = ({ image, title, subtitle, items, actionText, info }) => {
         <CardContent>
           <Typography paragraph variant="h5">Stap voor stap beter leren tennissen</Typography>
           <Typography paragraph>
-            Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis. Je hebt te maken met een net, lijnen en de positie van je tegenstander. Maar deze controle is moeilijk omdat er geen direct contact is met de bal door het gebruik van een racket. Het ontwikkelen van het gevoel met racket en bal is een proces waarin vooral veel oefening belangrijk is. We oefenen dit door middel van:  - Rollen met racket en bal  - Slaan met racket en bal  <br>test- Hooghouden met racket en bal  
+            Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis. Je hebt te maken met een net, lijnen en de positie van je tegenstander. Maar deze controle is moeilijk omdat er geen direct contact is met de bal door het gebruik van een racket. Het ontwikkelen van het gevoel met racket en bal is een proces waarin vooral veel oefening belangrijk is. We oefenen dit door middel van:
+<Typography paragraph>- Rollen met racket en bal
+  <Typography paragraph>- Slaan met racket en bal
+    <Typography paragraph>- Hooghouden met racket en bal  
       </Typography>
           <Typography paragraph variant="h5">Op het juiste moment op de juiste plek</Typography>
           <Typography paragraph>
