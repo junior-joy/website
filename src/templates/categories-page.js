@@ -50,12 +50,12 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <div className="column">
                     <Card
                       image="https://lh3.googleusercontent.com/-wcLst_fEvkM/VaoXW0pX1JI/AAAAAAAAPTc/9X11-c58ekc/s200-Ic42/2013-Tenniskids-regels-3-oranje-kids.jpg"
-                      title="1x/week tactiek"
-                      subtitle="Wordt de baas op het veld"
+                      title="ORANJE"
+                      subtitle="Word de baas op het veld"
                       items={[
-                        "Dubbel spel",
-                        "Service",
-                        "Strategie"
+                        "Kleinere bal dan rood maar wel zacht",
+                        "3/4 baan in de lengte, volledige baan in de breedte",
+                        "Leer de basis van tennistactiek"
                       ]}
                       actionText="Leer samenspelen en het spel begrijpen."
                     />
@@ -65,27 +65,27 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <div className="column">
                     <Card
                       image="https://lh3.googleusercontent.com/-OOnlIyBnI5A/VaoXXJBY5GI/AAAAAAAAPS4/d1Mg1BiEKlM/s200-Ic42/2013-Tenniskids-regels-4-groene-kids.jpg"
-                      title="1x/week vaardigheden"
-                      subtitle="Beheers alle basisvaardigheden"
+                      title="GROEN"
+                      subtitle="Bereid je voor op het grote werk!"
                       items={[
-                        "Balvaardigheid",
-                        "Reactievermogen",
-                        "Hard slaan"
+                        "'Normale' balgrootte maar wel zachter dan geel",
+                        "Op groot veld",
+                        "Verfijning techniek en Verdieping tactiek"
                       ]}
-                      actionText="Voor de rest van je leven profeit van een goede coordinatie."
+                      actionText="Echte wedstrijden op volledige baan"
                     />
                   </div>
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/dzbt2ovfb/image/upload/v1580386189/customers/junior-joy/yellow_cufcjn.png"
-                      title="1x/week tactiek"
-                      subtitle="Wordt de baas op het veld"
+                      title="GEEL"
+                      subtitle="Het volledige plaatje"
                       items={[
-                        "Dubbel spel",
-                        "Service",
-                        "Strategie"
+                        "Met de 'normale' gele bal",
+                        "Op groot veld",
+                        "Ontwikkel jouw spelplan"
                       ]}
-                      actionText="Leer samenspelen en het spel begrijpen."
+                      actionText="Het volledige spel op de grote baan met gele bal"
                     />
                   </div>
                 </div>
