@@ -66,7 +66,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     <Card
                       image="https://lh3.googleusercontent.com/-OOnlIyBnI5A/VaoXXJBY5GI/AAAAAAAAPS4/d1Mg1BiEKlM/s200-Ic42/2013-Tenniskids-regels-4-groene-kids.jpg"
                       title="GROEN"
-                      subtitle="Bereid je voor op het grote werk!"
+                      subtitle="Bereid je voor op het grote werk"
                       items={[
                         "'Normale' balgrootte maar wel zachter dan geel",
                         "Op groot veld",
