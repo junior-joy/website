@@ -53,7 +53,7 @@ const OfficeStories = ({ image, title, subtitle, items, actionText, info }) => {
     <Card elevation={3}>
       <CardMedia
         image={image}
-        title="Junior Joy training"
+        title="Paella dish"
         style={{ height: '12rem' }}
       >
         <div style={{ background: 'linear-gradient(rgba(1, 19, 17, 0.7), rgba(2, 38, 34, 0.7))', height: '100%' }}>
@@ -99,21 +99,22 @@ const OfficeStories = ({ image, title, subtitle, items, actionText, info }) => {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph variant="h5">Stap voor stap beter leren tennissen</Typography>
+          <Typography paragraph variant="h5">When and how should the payment be made?</Typography>
           <Typography paragraph>
-            Controle over het plaatsen van de bal is het allerbelangrijkste bij tennis. Je hebt te maken met een net, lijnen en de positie van je tegenstander. Maar deze controle is moeilijk omdat er geen direct contact is met de bal door het gebruik van een racket. Het ontwikkelen van het gevoel met racket en bal is een proces waarin vooral veel oefening belangrijk is. We oefenen dit door middel van:
-<Typography paragraph>- Rollen met racket en bal
-  <Typography paragraph>- Slaan met racket en bal
-    <Typography paragraph>- Hooghouden met racket en bal  
-      </Typography>
-          <Typography paragraph variant="h5">Op het juiste moment op de juiste plek</Typography>
-          <Typography paragraph>
-            Om de bal te bal te kunnen controleren is het inschatten van de bal en het innemen van de juiste positie van groot belang. Geen bal komt hetzelfde aan en vereist dus telkens weer een andere benadering. Om dit goed te kunnen moet je vrijwel over alle coördinatieve vaardigheden beschikken. Daarom behouden we de nadruk in onze training op:  - Aanpassingsvermogen  - Evenwichtsvermogen  - Koppelingsvermogen  - Hand-oog en voet-oog coördinatie  - Ruimtelijke oriëntatie  - Reactievermogen  - Ritmisch vermogen
+            The booking fee of €50 should be paid prior to the shoot. The remaining amount can be paid in cash at the shoot or transferred via bank transfer (transfer fees may apply).
           </Typography>
-          <Typography paragraph variant="h5">We werken snel toe naar het spel spelen</Typography>
+          <Typography paragraph variant="h5">When and how can the photos be acquired?</Typography>
           <Typography paragraph>
-            Tennis is voor ons echt een spel. Alles wat we de kinderen leren staat in het teken van meer succesbeleving in het spelletje. Al vanaf jonge leeftijd leren we de kinderen de basis van het tennisspel en laten we ze punten spelen. 
-          </Typography>          
+            The photos will be downloadable within 20 working days (via WeTransfer and free of charge). Waiting time could be slightly longer during the high season. Do you require the photos urgently? The express fee is €50, the photos will be available within 5 working days.
+          </Typography>
+          <Typography paragraph variant="h5">When and how can the photos be acquired?</Typography>
+          <Typography paragraph>
+            Travel costs to locations outside of Amsterdam are not included in the above-mentioned price. Please mention your preferred location in the contact form to receive a tailored quote.
+          </Typography>
+          <Typography paragraph variant="h5">Unfavorable weather conditions?</Typography>
+          <Typography>
+            In case of heavy rain or stormy weather, the photoshoot can be rescheduled to a different time or date. Light rain is not a problem at all! Bringing along an umbrella will add that unique Dutch flavor to your photos!
+          </Typography>
         </CardContent>
       </Collapse>
     </Card>
