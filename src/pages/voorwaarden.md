@@ -1,3 +1,8 @@
+---
+templateKey: about-page
+title: Inspire
+---
+
 Artikel 1.  
 
 Kan er op de buitenbanen niet gespeeld worden, bijvoorbeeld door weersomstandigheden,
@@ -46,4 +51,3 @@ Het volgen van trainingen is op eigen risico. De trainers van Inspire Top Tennis
 
 Artikel 11.
 In alle gevallen waarin dit reglement niet voorziet, beslist Junior Joy By Inspire.
-
