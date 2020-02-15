@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Inspire algemene voorwaarden zomer 2020
+title: Junior Joy by Inspire algemene voorwaarden zomer 2020
 ---
 
 Artikel 1.  
