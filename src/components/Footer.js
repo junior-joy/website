@@ -23,13 +23,8 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/trainers">
-                        Over ons
+                      <Link to="/privacy" className="navbar-item">
+                        Privacy
                       </Link>
                     </li>
                   </ul>
@@ -43,32 +38,22 @@ const Footer = class extends React.Component {
                         Voorwaarden
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Laatste nieuws
-                      </Link>
-                    </li>
                   </ul>
                 </section>
               </div>
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
-                  <li>
-                    <Link className="navbar-item" to="/impressie">
-                      Impressie
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      className="navbar-item"
-                      href="/admin/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Admin
-                    </a>
-                  </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="/admin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Admin
+                      </a>
+                    </li>
                   </ul>
                 </section>
               </div>
