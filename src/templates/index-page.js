@@ -4,7 +4,6 @@ import { Link, navigate, graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Contact from '../components/Contact'
 

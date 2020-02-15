@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import FormLabel from '@material-ui/core/FormLabel';
-import TextField from '@material-ui/core/TextField';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
 import Button from '@material-ui/core/Button';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import { navigate } from "gatsby"
 
 import ScheduleSelector from './ScheduleSelector'
 import nlLocale from 'date-fns/locale/nl'
@@ -16,7 +12,7 @@ import nlLocale from 'date-fns/locale/nl'
 class ContactInfo extends Component {
 
   render() {
-    const { schedule, extra, color, packageChoice, onInputChange, handleSubmit, setFormState } = this.props;
+    const { schedule, extra, color, packageChoice, onInputChange, setFormState } = this.props;
     const labelGrouptrainging = (color.verbose==='rood') ? 'groepstraining rood - 12 weken - €115' : 'groepstraining - 12 weken - €180'
     return (
       <div className="page">
@@ -100,7 +96,6 @@ class ContactInfo extends Component {
 ContactInfo.propTypes = {
   onInputChange: PropTypes.func,
   toggleHeader: PropTypes.func,
-  handleSubmit: PropTypes.func,
   setFormState: PropTypes.func,
   packageChoice: PropTypes.bool,
   extra: PropTypes.object.isRequired,

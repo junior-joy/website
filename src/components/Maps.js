@@ -1,12 +1,5 @@
 import React from 'react';
-
-import { Link } from 'gatsby'
 import 'leaflet/dist/leaflet.css';
-
-
-
-
-
 
 export default class GoogleMaps extends React.Component {
   renderContact() {
@@ -18,7 +11,6 @@ export default class GoogleMaps extends React.Component {
     const Marker = RL.Marker;
     const Popup = RL.Popup;
     const TileLayer = RL.TileLayer;
-    const Point = RL.Point;
     return (
       <Map center={mainLocation} zoom={11} style={{ width: '100%', height: '100%' }}>
         <TileLayer
@@ -33,7 +25,7 @@ export default class GoogleMaps extends React.Component {
           shadowSize: [68, 95],
           shadowAnchor: [20, 92],
         })}>
-          <Popup>Joy Jaagpad tennis<br /> <a target="_blank" href="https://www.google.com/maps/place/Joy+Jaagpad+tennis/@52.338854,4.8435524,803m/data=!3m1!1e3!4m8!1m2!2m1!1stennisbaan!3m4!1s0x0:0x9aa8a5549910d4bf!8m2!3d52.3386787!4d4.8459598">Bekijk op Google Maps</a><br /><br />Jaagpad 48,<br />1059 BP, Amsterdam,<br />Noord-Holland, Nederland</Popup>
+          <Popup>Joy Jaagpad tennis<br /> <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Joy+Jaagpad+tennis/@52.338854,4.8435524,803m/data=!3m1!1e3!4m8!1m2!2m1!1stennisbaan!3m4!1s0x0:0x9aa8a5549910d4bf!8m2!3d52.3386787!4d4.8459598">Bekijk op Google Maps</a><br /><br />Jaagpad 48,<br />1059 BP, Amsterdam,<br />Noord-Holland, Nederland</Popup>
         </Marker>
       </Map>
     )

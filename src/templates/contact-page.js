@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import { navigate } from 'gatsby-link'
 import Layout from '../components/Layout'
 import Maps from '../components/Maps'
-import { Link, graphql } from 'gatsby'
+import {  graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 function encode(data) {
   return Object.keys(data)
