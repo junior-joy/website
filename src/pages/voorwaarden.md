@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Junior Joy by Inspire algemene voorwaarden zomer 2020
+title: Inspire
 ---
 
 Artikel 1.  
@@ -8,7 +8,6 @@ Artikel 1.
 Kan er op de buitenbanen niet gespeeld worden, bijvoorbeeld door weersomstandigheden,
 dan wordt er zoveel mogelijk uitgeweken naar een binnenbanen. Is dat niet mogelijk dan vullen we een alternatief programma in, zoals fysieke training of een theoretische sessie.
 In het uiterste geval halen we de training later in het seizoen in.
-
 
 Artikel 1.2
 
