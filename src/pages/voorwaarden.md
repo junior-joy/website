@@ -36,6 +36,7 @@ Artikel 6
 
 Artikel 7.
 De cursist kan een training niet overdragen aan een derde, met uitzondering van het bepaalde in artikel 9.
+
 Artikel 8.
 
 Bij langdurig blessureleed kan het resterende trainingsgeld voor 70% meegenomen als budget voor besteding aan training. Dit kan ingezet worden vanaf het moment dat de speler weer instaat is om te trainen. Deze regeling geldt alleen op vertoon van een doktersbewijs.
