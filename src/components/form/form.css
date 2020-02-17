@@ -9,6 +9,14 @@ footer, header, hgroup, menu, nav, section {
     color: #13ae9e!important;
 }
 
+.MuiFormLabel-root.Mui-focused {
+  color: #09574f!important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #09574f!important;
+  border-width: 2px;
+}
 
 .MuiButton-containedPrimary {
   color: black !important;

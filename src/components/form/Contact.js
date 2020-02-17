@@ -52,9 +52,9 @@ class ContactInfo extends Component {
               InputProps={{
                 endAdornment: <InputAdornment position="end">Jaar</InputAdornment>
               }}
-              value={contact.name_child}
+              value={contact.years_tennis}
               onChange={event =>
-                onInputChange(event.target.value, ["contact", "name_child"])
+                onInputChange(event.target.value, ["contact", "years_tennis"])
               }
             />
           </div>
@@ -63,9 +63,16 @@ class ContactInfo extends Component {
           <div className="column is-12">
             <FormControl component="fieldset">
               <FormLabel component="legend">Heb jij al eens aan de competitie meegedaan?</FormLabel>
-              <RadioGroup aria-label="gender" name="gender1">
-                <FormControlLabel value={false} control={<Radio />} label="Ja" />
-                <FormControlLabel control={<Radio />} label="Nee" />
+              <RadioGroup
+                aria-label="gender"
+                name="gender1"
+                value={contact.competition_experience}
+                onChange={event =>
+                  onInputChange(event.target.value, ["contact", "competition_experience"])
+                }
+              >
+                <FormControlLabel value="true" control={<Radio />} label="Ja" />
+                <FormControlLabel value="false" control={<Radio />} label="Nee" />
               </RadioGroup>
             </FormControl>
           </div>
@@ -74,12 +81,18 @@ class ContactInfo extends Component {
           <div className="column is-12">
             <FormControl component="fieldset">
               <FormLabel component="legend">Hoeveel seizoenen heb jij meegetraind in de competitie?</FormLabel>
-              <RadioGroup aria-label="gender" name="gender1">
-                <FormControlLabel value={false} control={<Radio />} label="Rood" />
-                <FormControlLabel value={false} control={<Radio />} label="1 seizoen" />
-                <FormControlLabel value={false} control={<Radio />} label="2 seizoenen" />
-                <FormControlLabel value={false} control={<Radio />} label="meer dan 3 seizoenen" />
-                <FormControlLabel value={false} control={<Radio />} label="Niet van toepassing" />
+              <RadioGroup
+                aria-label="gender"
+                name="gender1"
+                value={contact.competition_seasons_amount}
+                onChange={event =>
+                  onInputChange(event.target.value, ["contact", "competition_seasons_amount"])
+                }
+              >
+                <FormControlLabel value="1" control={<Radio />} label="1 seizoen" />
+                <FormControlLabel value="2" control={<Radio />} label="2 seizoenen" />
+                <FormControlLabel value="3" control={<Radio />} label="3 of meer seizoenen" />
+                <FormControlLabel value="nvt" control={<Radio />} label="Niet van toepassing" />
               </RadioGroup>
             </FormControl>
           </div>
@@ -88,11 +101,19 @@ class ContactInfo extends Component {
           <div className="column is-12">
             <FormControl component="fieldset">
               <FormLabel component="legend">In welke kleur heb jij vorig jaar meegetraind?</FormLabel>
-              <RadioGroup aria-label="gender" name="gender1">
-                <FormControlLabel value={false} value={false} control={<Radio />} label="Rood" />
-                <FormControlLabel value={false} control={<Radio />} label="Oranje" />
-                <FormControlLabel value={false} control={<Radio />} label="Groen" />
-                <FormControlLabel value={false} control={<Radio />} label="Niet van toepassing" />
+              <RadioGroup
+                aria-label="gender"
+                name="gender1"
+                value={contact.color_last_year}
+                onChange={event =>
+                  onInputChange(event.target.value, ["contact", "color_last_year"])
+                }
+              >
+                <FormControlLabel value="rood" control={<Radio />} label="Rood" />
+                <FormControlLabel value="oranje" control={<Radio />} label="Oranje" />
+                <FormControlLabel value="groen" control={<Radio />} label="Groen" />
+                <FormControlLabel value="geel" control={<Radio />} label="Geel" />
+                <FormControlLabel value="nvt" control={<Radio />} label="Niet van toepassing" />
               </RadioGroup>
             </FormControl>
           </div>
@@ -101,11 +122,18 @@ class ContactInfo extends Component {
           <div className="column is-12">
             <FormControl component="fieldset">
               <FormLabel component="legend">Bij welke trainer heb jij vorig seizoen getraind?</FormLabel>
-              <RadioGroup aria-label="gender" name="gender1">
-                <FormControlLabel value={false} control={<Radio />} label="Teun Kuijken" />
-                <FormControlLabel value={false} control={<Radio />} label="Raymon Janson" />
-                <FormControlLabel value={false} control={<Radio />} label="Raoul Killaars" />
-                <FormControlLabel control={<Radio />} label={
+              <RadioGroup
+                aria-label="gender"
+                name="gender1"
+                value={contact.trainer_last_year}
+                onChange={event =>
+                  onInputChange(event.target.value, ["contact", "trainer_last_year"])
+                }
+              >
+                <FormControlLabel value="teun" control={<Radio />} label="Teun Kuijken" />
+                <FormControlLabel value="raymond" control={<Radio />} label="Raymon Janson" />
+                <FormControlLabel value="raoul" control={<Radio />} label="Raoul Killaars" />
+                <FormControlLabel value="anders" control={<Radio />} label={
                   <TextField
                     fullWidth
                     variant="outlined"
@@ -118,6 +146,7 @@ class ContactInfo extends Component {
                     }
                   />
                 } />
+                <FormControlLabel value="nvt" control={<Radio />} label="Niet van toepassing" />
               </RadioGroup>
             </FormControl>
           </div>

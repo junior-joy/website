@@ -105,16 +105,19 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>2de groepstraining</Typography>
+                    <Typography>Tweede groepstraining</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
-                    <Typography>
-                      Een 2de groepstraining toevoegen:
-
-    - ROOD 6-8 p.= €115,- voor 12 weken.
-
-    - ORANJE / GROEN / GEEL 4 p.= €180,- voor 12 weken.
+                    <Typography paragraph variant="h5">Tweede groepstraining</Typography>
+                    <Typography paragraph>
+                      Ga met korting nog een keer extra in de week naar de tennistraining of naar de skillstraining. Jouw keuze.
                     </Typography>
+                    <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                      <li>Rood: €115 - 12 weken</li>
+                      <li>Oranje: €180 - 12 weken</li>
+                      <li>Groen: €180 - 12 weken</li>
+                      <li>Geel: €180 - 12 weken</li>
+                    </ul><br />
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel>
