@@ -1,6 +1,6 @@
 // @flow
 
-import isBefore from 'date-fns/is_before'
+import isBefore from 'date-fns-legacy/is_before'
 
 import * as dateUtils from '../date-utils'
 
@@ -17,7 +17,7 @@ const linear = (selectionStart, selectionEnd, dateList) => {
             t =>
               selectionStart &&
               selectionEnd &&
-              dateUtils.dateHourIsBetween(
+              dateUtils.dateHourIsBetween(  
                 reverseSelection ? selectionEnd : selectionStart,
                 t,
                 reverseSelection ? selectionStart : selectionEnd

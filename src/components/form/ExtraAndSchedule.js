@@ -7,7 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 
 import ScheduleSelector from './ScheduleSelector'
-import nlLocale from 'date-fns/locale/nl'
+import nlLocale from 'date-fns-legacy/locale/nl'
 
 class ContactInfo extends Component {
 
