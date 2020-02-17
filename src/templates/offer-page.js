@@ -37,7 +37,35 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Voetenwerk"
                       ]}
                       actionText="Training met gelijkwaardige spelers en persoonlijke aandacht."
-                    />
+                    >
+                      <Typography paragraph variant="h5">Wat leer je tijdens de basistraining?</Typography>
+                      <Typography paragraph variant="paragraph">
+                        De basistraining is de training waarin gewerkt wordt aan tennisspecifieke vaardigheden.
+                        Met heldere doelen werken we met de jeugd stap voor stap aan het ontwikkeling van technische vaardigheden om het tennisspel goed onder de knie te krijgen.
+                        De techniek staat in dienst van de tactiek die het tennisspel in zich heeft, welke tactieken zijn dat?
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>Vastheid: de bal kunnen controleren </li>
+                        <li>Plaatsing: de bal kunnen sturen</li>
+                        <li>Vaart: de bal kunnen versnellen</li>
+                        <li>Rotatie: de bal laten draaien </li>
+                        <li>Tempo: de bal snel of juist laat na de stuit pakken</li>
+                      </ul><br />
+                      <Typography paragraph variant="h5">Groepsgrootte</Typography>
+                        Er wordt getraind in compacte groepen waarbij de trainers indeling op niveau.
+                        Alleen als het niveau van de kinderen ongeveer gelijk is kunnen de kinderen van elkaar leren.<br/><br/>
+                        De groepsgrootte:<br /><br />
+                        ROOD: 6-8 personen<br />
+                        ORANJE / GROEN / GEEL: maximaal 4 personen
+                      <Typography paragraph variant="paragraph">
+
+                      </Typography>
+                      <Typography paragraph variant="h5">Uitbreiding basispakket</Typography>
+                      <Typography paragraph variant="paragraph">
+                        Het basispakket bestaat uit de basistraining + skillstraining.
+                        Wil jij nog meer trainen? Dat kan. Breid jouw pakket uit met de trainingen die hieronder vermeld staan.
+                      </Typography>
+                    </Card>
                   </div>
                   <div className="column">
                     <Card
@@ -50,7 +78,21 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Mentale vaardigheden"
                       ]}
                       actionText="Een sterke basis om tennis nog sneller onder de knie te krijgen."
-                    />
+                      >
+                        <Typography paragraph variant="h5">Wat leer je tijdens de skillstraining?</Typography>
+                        <Typography paragraph variant="paragraph">
+                          Beter leren bewegen is sneller en beter leren tennissen. Tijdens de skillstraining staat het breedmotorisch leren centraal. Wij leren ze beter bewegen dit doen we op een leuke en speelse manier, denk daarbij bijvoorbeeld aan spelsport, circuit training en tikspelen. Ook zal er aandacht besteed worden aan het leren spelen van wedstrijden. Leer de tennisspelregels, leer om te gaan met je tegenstander en leer mentale vaardigheden.
+                        </Typography>
+                        <Typography paragraph variant="h5">Groepsgrootte</Typography>
+                          Er wordt gewerkt in grote groepen, tot wel 20 kinderen, hierdoor houden we de kosten laag en leren kinderen nieuwe kinderen kennen. De training wordt gegeven door de tennistrainer die bijgestaan wordt door een assistent trainer.
+                        <Typography paragraph variant="paragraph">
+
+                        </Typography>
+                        <Typography paragraph variant="h5">Vrije inloop </Typography>
+                        <Typography paragraph variant="paragraph">
+                          De skillstraining wordt op meerdere momenten in de week aangeboden. De planning wordt afgestemd op de beschikbaarheid van de kinderen. Je mag zelf weten op welk moment je komt, dat kan per week verschillen. Kun je een weekje niet komen, dan kom je een volgende week gewoon twee keer!
+                        </Typography>
+                      </Card>
                   </div>
                 </div>
                 <br />
@@ -68,9 +110,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <ExpansionPanelDetails>
                     <Typography>
                       Een 2de groepstraining toevoegen:
-    
+
     - ROOD 6-8 p.= €115,- voor 12 weken.
-    
+
     - ORANJE / GROEN / GEEL 4 p.= €180,- voor 12 weken.
                     </Typography>
                   </ExpansionPanelDetails>
@@ -97,9 +139,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     id="panel3a-header"
                   >
                     <Typography>Privétraining:
-    
+
     - €640,- voor 12 weken
-    
+
     - €60,- per keer.  </Typography>
                   </ExpansionPanelSummary>
                 </ExpansionPanel>
