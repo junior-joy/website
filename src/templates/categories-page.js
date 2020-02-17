@@ -25,18 +25,24 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {title}
                 </h2>
-                <p>De kleuren staan voor de balsoort en baangrootte. In onderstaand schema staat weergegeven welke leeftijd bij welke kleur hoort. Het niveau van het kind is bepalend voor de kleur waarin het speelt, vandaar dat er in het schema veel overlap in leeftijd te zien is.</p>
-                <img src="http://vanscheppingentennis.nl/data/fotos/tenniskids-leeftijdsindeling.jpg" style={{  width: "100%" }}/><br />
-                  <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
-                    Door naar de volgende kleur
-                  </h3>
-                <p>De doorgroei naar een volgende kleur is afhankelijk van het niveau van het kind en niet enkel de leeftijd. Op basis van het niveau beslist de trainer of het kind door kan naar de volgende kleur. Op deze manier zorgen we er voor dat de kinderen qua niveau in homogene groepen trainen. Daarbij zullen we ten behoeve van de tennisontwikkeling in training regelmatig variaren in gebruik van baltype en baangrootte.</p><br />
-                 <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
-                    Een uitgebreid overzicht
-                  </h3><div className="columns">
+                <p>
+                  De kleuren staan voor de balsoort en baangrootte. In onderstaand schema staat weergegeven welke leeftijd bij welke kleur hoort. Het niveau van het kind is bepalend voor de kleur waarin het speelt, vandaar dat er in het schema veel overlap in leeftijd te zien is.
+                </p>
+                <img src="https://res.cloudinary.com/junior-joy/image/upload/v1581803370/Cards/tenniskids-leeftijdsindeling_bjcnbw.jpg" style={{  width: "100%" }}/><br />
+                <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  Door naar de volgende kleur
+                </h3>
+                <p>
+                  De doorgroei naar een volgende kleur is afhankelijk van het niveau van het kind en niet enkel de leeftijd. Op basis van het niveau beslist de trainer of het kind door kan naar de volgende kleur. Op deze manier zorgen we er voor dat de kinderen qua niveau in homogene groepen trainen. Daarbij zullen we ten behoeve van de tennisontwikkeling in training regelmatig variaren in gebruik van baltype en baangrootte.
+                </p>
+                <br />
+                <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  Een uitgebreid overzicht
+                </h3>
+                <div className="columns">
                   <div className="column">
                     <Card
-                      image="https://www.hveldtennis.nl/htc/wp-content/uploads/rode-baan.png"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1581802712/Cards/tenniskids-rode-baan_n1hyfj.jpg"
                       title="ROOD"
                       subtitle="Beheers de basis"
                       items={[
@@ -46,27 +52,15 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       ]}
                       actionText="De basis voor de rest van je tennisleven."
                     >
-                      <Typography paragraph variant="h5">When and how should the payment be made?</Typography>
+                      <Typography paragraph variant="h5">ROOD</Typography>
                       <Typography paragraph>
-                        The booking fee of €50 should be paid prior to the shoot. The remaining amount can be paid in cash at the shoot or transferred via bank transfer (transfer fees may apply).
-                      </Typography>
-                      <Typography paragraph variant="h5">When and how can the photos be acquired?</Typography>
-                      <Typography paragraph>
-                        The photos will be downloadable within 20 working days (via WeTransfer and free of charge). Waiting time could be slightly longer during the high season. Do you require the photos urgently? The express fee is €50, the photos will be available within 5 working days.
-                      </Typography>
-                      <Typography paragraph variant="h5">When and how can the photos be acquired?</Typography>
-                      <Typography paragraph>
-                        Travel costs to locations outside of Amsterdam are not included in the above-mentioned price. Please mention your preferred location in the contact form to receive a tailored quote.
-                      </Typography>
-                      <Typography paragraph variant="h5">Unfavorable weather conditions?</Typography>
-                      <Typography>
-                        In case of heavy rain or stormy weather, the photoshoot can be rescheduled to a different time or date. Light rain is not a problem at all! Bringing along an umbrella will add that unique Dutch flavor to your photos!
+                        In Tenniskids Rood maken kinderen kennis met het tennisspel. Ze leren de basisvaardigheden op het gebied van bewegen en coördinatie. Kinderen van 8 jaar kunnen in rood of oranje spelen, de trainer adviseert of een kind qua niveau eerder of langer in een kleur speelt. Kinderen die tennissen in rood maken kennis met leuke activiteiten en spelen korte wedstrijden in de Tenniskids competitie: de Rode competitie. Daarnaast kunnen zij meedoen aan korte toernooitjes, vaak van een dag of dagdeel. Er wordt in rood gespeeld met een zachte rode bal op een minibaan (6x12 meter). Het racket is tussen de 43 en 58 cm.
                       </Typography>
                     </Card>
                   </div>
                   <div className="column">
                     <Card
-                      image="https://lh3.googleusercontent.com/-wcLst_fEvkM/VaoXW0pX1JI/AAAAAAAAPTc/9X11-c58ekc/s200-Ic42/2013-Tenniskids-regels-3-oranje-kids.jpg"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1581802712/Cards/tenniskids-oranje-baan_yibm5q.jpg"
                       title="ORANJE"
                       subtitle="Word de baas op het veld"
                       items={[
@@ -75,26 +69,36 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Leer de basis van tennistactiek"
                       ]}
                       actionText="Leer samenspelen en het spel begrijpen."
-                    />
+                    >
+                        <Typography paragraph variant="h5">ORANJE</Typography>
+                      <Typography paragraph>
+                        In de volgende fase van Tenniskids wordt gewerkt aan de verdere ontwikkeling. De kinderen leren nieuwe slagen en technieken die hen helpen om uiteindelijk te kunnen spelen op een grote baan. Er wordt gespeeld op een driekwartbaan (een volledige baan die in de lengte is ingekort tot 18 meter). Er wordt gespeeld met een bal die geschikt is voor het spelen op een driekwartbaan (zachter en lichter dan een gele tennisbal). Het racket is tussen de 56 en 63,5 cm. De wedstrijden worden steeds langer en in deze fase kunnen kinderen deelnemen aan de Tenniskids competitie Oranje competitie. Ook kunnen kinderen in oranje meedoen aan toernooitjes, dit zijn meestal eendaagse toernooitjes.
+                      </Typography>
+                    </Card>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column">
                     <Card
-                      image="https://lh3.googleusercontent.com/-OOnlIyBnI5A/VaoXXJBY5GI/AAAAAAAAPS4/d1Mg1BiEKlM/s200-Ic42/2013-Tenniskids-regels-4-groene-kids.jpg"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1581802712/Cards/tenniskids-groene-baan_ehgvy0.jpg"
                       title="GROEN"
-                      subtitle="Bereid je voor op het grote werk"
+                      subtitle="Beheers de basis"
                       items={[
-                        "'Normale' balgrootte maar wel zachter dan geel",
-                        "Op groot veld",
-                        "Verfijning techniek en Verdieping tactiek"
+                        "Zachte grote bal op miniveld",
+                        "Leer de basis van alle slagen",
+                        "Speel je eerste wedstrijdjes"
                       ]}
-                      actionText="Echte wedstrijden op volledige baan"
-                    />
+                      actionText="De basis voor de rest van je tennisleven."
+                    >
+                      <Typography paragraph variant="h5">GROEN</Typography>
+                      <Typography paragraph>
+                        Dit is de laatste fase in de voorbereiding op ‘hele baan’ tennis. Kinderen in deze leeftijd zijn groter en in staat om de hele baan te bestrijken. Er wordt dan ook op een 'hele baan'getennist. Bij de dubbels wordt er gespeeld in het dubbelveld, dus inclusief de tramrails. Technieken, tactieken en atletisch vaardigheden worden in deze fase verder ontwikkeld. De wedstrijden worden weer wat langer en het wedstrijden spelen speelt een steeds belangrijkere rol. De Tenniskids competitie die bij deze fase hoort is de Groene competitie. De groene toernooitjes die worden georganiseerd zijn vaak over meerdere dagen verspreid zijn. Tevens zijn groene toernooitjes soms gekoppeld aan een open jeugdtoernooi. Er wordt in groen gespeeld met een langzame groene bal die geschikt is voor tennis op een hele baan en met een racket dat tussen de 63,5 en 66 cm lang is.
+                      </Typography>
+                    </Card>
                   </div>
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/dzbt2ovfb/image/upload/v1580386189/customers/junior-joy/yellow_cufcjn.png"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1581802712/Cards/tennisbaan_geel_gy1hz6.png"
                       title="GEEL"
                       subtitle="Het volledige plaatje"
                       items={[
@@ -103,7 +107,12 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Ontwikkel jouw spelplan"
                       ]}
                       actionText="Het volledige spel op de grote baan met gele bal"
-                    />
+                    >
+                      <Typography paragraph variant="h5">GEEL</Typography>
+                      <Typography paragraph>
+                        Na groen zijn kinderen helemaal klaar om op een hele baan te tennissen met de bekende gele bal. Ze beheersen de juiste techniek om op een heel veld rally’s te spelen. De kinderen in de leeftijd van 11 t/m 17 jaar kunnen dan ook mee gaan doen aan de KNLTB Junioren competitie in het voor- en najaar.
+                      </Typography>
+                    </Card>
                   </div>
                 </div>
                 <br/>
