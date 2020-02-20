@@ -151,7 +151,7 @@ class ContactInfo extends Component {
           <div className="columns">
             <div className="column is-12">
               <FormControl component="fieldset">
-                <FormLabel component="legend">Bij welke trainer heb jij vorig seizoen getraind?</FormLabel>
+                <FormLabel component="legend">Bij welke trainer heb jij vorig seizoen getraind?</FormLabel><br/>
                 <RadioGroup
                   aria-label="gender"
                   name="gender1"
@@ -160,15 +160,12 @@ class ContactInfo extends Component {
                     onInputChange(event.target.value, ["contact", "trainer_last_year"])
                   }
                 >
-                  <FormControlLabel value="teun" control={<Radio />} label="Teun Kuijken" />
-                  <FormControlLabel value="raymond" control={<Radio />} label="Raymon Janson" />
-                  <FormControlLabel value="raoul" control={<Radio />} label="Raoul Killaars" />
                   <FormControlLabel value="anders" control={<Radio />} label={
                     <TextField
                       fullWidth
                       variant="outlined"
                       name="name_child"
-                      label="Bij iemand anders"
+                      label="Ik heb getraind bij"
                       type="text"
                       value={contact.other_trainer_last_year}
                       onChange={event =>

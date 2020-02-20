@@ -15,14 +15,14 @@ class Start extends Component {
               </h4>
               <p>
                  Wij willen graag een compleet en betrokken trainingsprogramma aanbieden. Om mee te kunnen doen met verschillende trainingen raden we aan om twee keer in de week te komen trainen. Zo leren kinderen de beter tennissen, en raken ze meer betrokken met hun vriendjes op de club.
-              </p><br />  
+              </p><br />
               <div className="columns">
                 <div className="column">
                   <Card
                     name="1x / week"
                     color={color.code}
                     prePrice="slechts"
-                    price={99}
+                    price={color === 'rood' ? 135 : 199}
                     items={["1x Tennis training / week", "Techniek", "Tactiek",  "Voetenwerk", ]}
                     action="Kies"
                     goTo={() => setFormState({ stage: 1, packageChoice: 'single' })}
@@ -33,7 +33,7 @@ class Start extends Component {
                     name="Basis Pakket"
                     color={color.code}
                     prePrice="slechts"
-                    price={340}
+                    price={color === 'rood' ? 195 : 265}
                     items={["1x Tennis training / week", "1x skills training / week", "Mentale vaardigheden ontwikkelen", "Leren spelen van wedstrijden", "14 weken"]}
                     action="Kies"
                     goTo={() => setFormState({ stage: 1, packageChoice: 'basic' })}
@@ -44,7 +44,7 @@ class Start extends Component {
                     name="Uitgebreid pakket"
                     color={color.code}
                     prePrice="vanaf"
-                    price={500}
+                    price={color === 'rood' ? 255 : 330}
                     items={["1x Tennis training / week", "1x skills training / week", "Mentale vaardigheden ontwikkelen", "Leren spelen van wedstrijden"]}
                     action="Kies"
                     goTo={() => setFormState({ stage: 1, packageChoice: 'extra' })}

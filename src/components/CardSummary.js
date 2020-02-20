@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { kebabCase } from 'lodash'
 import { Link, graphql, navigate } from 'gatsby'
+import { extras } from './form/App'
 
 
 import Card from '@material-ui/core/Card';
@@ -41,9 +42,35 @@ import SaveIcon from '@material-ui/icons/Save';
 import PrintIcon from '@material-ui/icons/Print';
 
 
+const renderTitle = packageChoice => {
+  switch( packageChoice ) {
+    case 'single':
+      return '1x / week'
+    case 'basic':
+      return 'Basis Pakket'
+    case 'extra':
+      return 'Uitgebreid Pakket'
+  }
+}
+
+
+const determineStartPrice = ( color, packageChoice ) => {
+  console.log(color)
+  switch( packageChoice ) {
+    case 'single':
+      return color === 'rood' ? 135 : 199
+    case 'basic':
+      return color === 'rood' ? 195 : 265
+    case 'extra':
+      return color === 'rood' ? 195 : 265
+  }
+}
+
+
 const Tags = ({ priceSummary }) => {
   const { color, packageChoice, extra } = priceSummary
-  console.log( color )
+  const extraItems = extras(color).filter( item => extra[item.value] )
+  const totalPrice = determineStartPrice(color.verbose, packageChoice) + extraItems.reduce( (aa, bb) => aa + bb.price, 0 )
   const [expanded, setExpanded] = React.useState(false);
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -51,70 +78,33 @@ const Tags = ({ priceSummary }) => {
   return(
     <Card style={{ position: 'sticky', top: '8rem', minWidth: '14rem' }}>
       <CardMedia
-        image="https://res.cloudinary.com/dzbt2ovfb/image/upload/v1582119213/amsterdam/collection_uqoadd.jpg"
+        image="https://res.cloudinary.com/junior-joy/image/upload/v1581536341/impressie/Schermafbeelding_2020-02-12_om_20.39.00_ljwjmj.png"
         title="Paella dish"
         style={{ height: '12rem' }}
       >
         <div style={{ background: `linear-gradient(${ color.code }64, ${ color.code }64)`, height: '100%' }}>
           <CardHeader
-            title={<h2 style={{ marginBottom: '0', color: 'white' }}>{ packageChoice }</h2>}
+            title={
+              <h2 style={{ marginBottom: '0', color: 'white' }}>{renderTitle(packageChoice)}</h2>
+            }
           />
         </div>
       </CardMedia>
-      <CardActionArea className="no-hover">
-        <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              <Link to="/blog" className="has-text-primary">
-              Discover our work
-              </Link>
-            </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            We like to share what we are working on. Click on the category that interests you the most.
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            <p>Hi there</p>
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions
-        disableSpacing
-        onClick={handleExpandClick}
-      >
-        <span style={{
-        marginLeft: 'auto',}}>More info</span>
-        <IconButton
-          style={{
-            transform: 'rotate(0deg)',
-            transitionProperty: 'all',
-            transitionDuration: '.5s',
-            transform: (expanded ? 'rotate(180deg)' : ''),
-          }}
-          aria-label="show more"
-          aria-expanded={expanded}
-        >
-          <ExpandMoreIcon />
-        </IconButton>
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="h2" className="has-text-primary">
+          €{determineStartPrice(color.verbose, packageChoice)} {renderTitle(packageChoice)} - {color.verbose}
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">
+          {extraItems.map( item => (
+            <p>€{item.price} - {item.label}</p>
+          ))}
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">
+        </Typography>
+      </CardContent>
+      <CardActions>
+        Totaal: €{totalPrice}
       </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph variant="h5">When and how should the payment be made?</Typography>
-          <Typography paragraph>
-            The booking fee of €50 should be paid prior to the shoot. The remaining amount can be paid in cash at the shoot or transferred via bank transfer (transfer fees may apply).
-          </Typography>
-          <Typography paragraph variant="h5">When and how can the photos be acquired?</Typography>
-          <Typography paragraph>
-            The photos will be downloadable within 20 working days (via WeTransfer and free of charge). Waiting time could be slightly longer during the high season. Do you require the photos urgently? The express fee is €50, the photos will be available within 5 working days.
-          </Typography>
-          <Typography paragraph variant="h5">When and how can the photos be acquired?</Typography>
-          <Typography paragraph>
-            Travel costs to locations outside of Amsterdam are not included in the above-mentioned price. Please mention your preferred location in the contact form to receive a tailored quote.
-          </Typography>
-          <Typography paragraph variant="h5">Unfavorable weather conditions?</Typography>
-          <Typography>
-            In case of heavy rain or stormy weather, the photoshoot can be rescheduled to a different time or date. Light rain is not a problem at all! Bringing along an umbrella will add that unique Dutch flavor to your photos!
-          </Typography>
-        </CardContent>
-      </Collapse>
     </Card>
   )
 }
