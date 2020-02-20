@@ -60,7 +60,7 @@ class ContactInfo extends Component {
     }
     var priceExtras = 0
     if ( priceSummary.packageChoice === 'extra' ) {
-      priceExtras = extras(priceSummary.color).filter( item => extra[item.value] === true ).map(item => item.price ).reduce((acc, current) => acc + current )
+      priceExtras = extras(priceSummary.color).filter( item => extra[item.value] === true ).map(item => item.price ).reduce((acc, current) => acc + current, 0 )
     }
     const price = priceColor + pricePackage + priceExtras
 

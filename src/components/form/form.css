@@ -296,7 +296,7 @@ button {
 *   Form  *
 * ------- */
 .fieldset {
-  margin: 2em auto;
+  margin: 0 auto;
   padding: 2em 1em;
   max-width: 750px; }
   @media (min-width: 700px) {

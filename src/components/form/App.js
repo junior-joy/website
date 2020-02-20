@@ -8,6 +8,7 @@ import cloneDeep from "lodash/cloneDeep";
 import store from "store2";
 import { tryParseJSON } from "../../utils/helpers";
 
+import CardSummary from "../CardSummary"
 import TwoTrainings from "./TwoTrainings";
 import Contact from "./Contact";
 import ExtraAndSchedule from "./ExtraAndSchedule";
@@ -188,7 +189,32 @@ class App extends Component {
   }
 
   render() {
-    return this.renderSwitch()
+    const { color } = this.props
+    const renderSwitch = this.renderSwitch()
+    const { stage, packageChoice, extra } = this.state
+
+    const priceSummary = {
+      color: color,
+      packageChoice: packageChoice,
+      extra: extra,
+    }
+    return(
+      <div className="">
+        <div className="columns reverse-columns">
+          <div
+            className={`column ${ stage !== 0 && 'is-10 constrained-column' }`}
+            style={{ marginBottom: '6rem' }}
+          >
+            {renderSwitch}
+          </div>
+          {stage !== 0 && (
+            <div className="column desktop-only">
+              <CardSummary priceSummary={priceSummary} />
+            </div>
+          )}
+        </div>
+      </div>
+    )
   }
 }
 

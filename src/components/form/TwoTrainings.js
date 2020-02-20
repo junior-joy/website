@@ -11,8 +11,11 @@ class Start extends Component {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h4 className="title is-size-4 has-text-weight-bold is-bold-light">
-                Je hebt gekozen om te komen trainen in categorie {color.verbose}. Wij willen graag een compleet en betrokken trainingsprogramma aanbieden. Om mee te kunnen doen met verschillende trainingen raden we aan om twee keer in de week te komen trainen. Zo leren kinderen de beter tennissen, en raken ze meer betrokken met hun vriendjes op de club.
+                Je hebt gekozen om te komen trainen in categorie {color.verbose}.
               </h4>
+              <p>
+                 Wij willen graag een compleet en betrokken trainingsprogramma aanbieden. Om mee te kunnen doen met verschillende trainingen raden we aan om twee keer in de week te komen trainen. Zo leren kinderen de beter tennissen, en raken ze meer betrokken met hun vriendjes op de club.
+              </p><br />  
               <div className="columns">
                 <div className="column">
                   <Card

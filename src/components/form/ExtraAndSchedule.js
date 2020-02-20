@@ -66,8 +66,8 @@ class ContactInfo extends Component {
             selection={schedule}
             startDate={new Date('2018-01-01')}
             numDays={7}
-            minTime={8}
-            maxTime={22}
+            minTime={9}
+            maxTime={20}
             onChange={event =>
               onInputChange(event, ["schedule"])
             }
