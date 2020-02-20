@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { navigate } from 'gatsby'
 import Card from '../CardEnroll'
+import { colorPrices } from './App'
 
 class Start extends Component {
   render() {
@@ -19,7 +20,7 @@ class Start extends Component {
                     name="Pakket Rood"
                     color="#F64E4C"
                     prePrice="vanaf"
-                    price={135}
+                    price={colorPrices.rood}
                     items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/rood')}
@@ -30,7 +31,7 @@ class Start extends Component {
                     name="Pakket Oranje"
                     color="#F6924C"
                     prePrice="vanaf"
-                    price={199}
+                    price={colorPrices.oranje}
                     items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/oranje')}
@@ -41,7 +42,7 @@ class Start extends Component {
                     name="Pakket Groen"
                     color="#57CCA4"
                     prePrice="vanaf"
-                    price={199}
+                    price={colorPrices.groen}
                     items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/groen')}
@@ -52,7 +53,7 @@ class Start extends Component {
                     name="Pakket Geel"
                     color="#F6F84C"
                     prePrice="vanaf"
-                    price={199}
+                    price={colorPrices.geel}
                     items={["April - juli", "12 weken"]}
                     action="Inschrijven"
                     goTo={() => navigate('/training/inschrijven/geel')}

@@ -15,6 +15,44 @@ import ExtraAndSchedule from "./ExtraAndSchedule";
 import './form.css'
 
 
+export const colorPrices = {
+  rood: 135,
+  oranje: 199,
+  groen: 199,
+  geel: 199,
+}
+
+
+
+export const extras = color =>  [
+  {
+    value: 'group',
+    label: (color.verbose==='rood') ? 'groepstraining rood - 12 weken' : 'groepstraining - 12 weken',
+    price: (color.verbose==='rood') ? 115 : 180,
+  },
+  {
+    value: 'prive',
+    label: 'priveles - 12 weken',
+    price: 640,
+  },
+  {
+    value: 'prive5',
+    label: 'priveles strippenkaart - 5 keer',
+    price: 275,
+  },
+  {
+    value: 'prive1',
+    label: 'priveles - 1 keer',
+    price: 60,
+  },
+  {
+    value: 'duo',
+    label: 'Duo training - 12 weken',
+    price: 320,
+  },
+]
+
+
 
 const defaultState = {
   stage: 0,
@@ -33,6 +71,7 @@ const defaultState = {
     competition_seasons_amount: null,
     color_last_year: null,
     trainer_last_year: null,
+    other_trainer_last_year: null,
     first_name_child: '',
     last_name_child: '',
     date_of_birth_child: null,
@@ -100,6 +139,11 @@ class App extends Component {
   renderSwitch() {
     const { color } = this.props
     const { stage, extra, schedule, packageChoice, contact } = this.state
+    const priceSummary = {
+      color: color,
+      packageChoice: packageChoice,
+      extra: extra,
+    }
     switch( stage ) {
       case 0:
         return(
@@ -125,6 +169,8 @@ class App extends Component {
         return(
           <Contact
             contact={contact}
+            extra={extra}
+            priceSummary={priceSummary}
             onInputChange={this.onInputChange}
             setFormState={this.setFormState}
             handleSubmit={this.handleSubmit}

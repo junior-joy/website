@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { extras } from './App'
 import FormLabel from '@material-ui/core/FormLabel';
 import Button from '@material-ui/core/Button';
 import FormGroup from '@material-ui/core/FormGroup';
@@ -9,11 +10,28 @@ import Checkbox from '@material-ui/core/Checkbox';
 import ScheduleSelector from './ScheduleSelector'
 import nlLocale from 'date-fns-legacy/locale/nl'
 
+
+
 class ContactInfo extends Component {
+  constructor( props ) {
+    super( props )
+    this.state = { error: false }
+    this.next = this.next.bind( this )
+  }
+
+  next() {
+    const { schedule, setFormState } = this.props
+    if ( schedule.length <= 3 ) {
+      this.setState({ error: true })
+    } else {
+      setFormState({ stage: 2 })
+    }
+  }
 
   render() {
     const { schedule, extra, color, packageChoice, onInputChange, setFormState } = this.props;
-    const labelGrouptrainging = (color.verbose==='rood') ? 'groepstraining rood - 12 weken - €115' : 'groepstraining - 12 weken - €180'
+    const { error } = this.state
+    const labelExtraGrouptraining = (color.verbose==='rood') ? 'groepstraining rood - 12 weken - €115' : 'groepstraining - 12 weken - €180'
     return (
       <div className="page">
         <fieldset id="contact" className="fieldset fieldset--contact">
@@ -26,65 +44,41 @@ class ContactInfo extends Component {
                   </div>
                 </div>
                 <FormGroup>
-                  <FormControlLabel
-                    control={
-                      <Checkbox checked={extra.group} onChange={event => onInputChange(event.target.checked, ["extra", "group"])} />
-                    }
-                    label={labelGrouptrainging}
-                  />
-                  <FormControlLabel
-                    control={
-                      <Checkbox checked={extra.prive} onChange={event => onInputChange(event.target.checked, ["extra", "prive"])}  />
-                    }
-                    label="priveles - 12 weken - €640"
-                  />
-                  <FormControlLabel
-                    control={
-                      <Checkbox checked={extra.prive5} onChange={event => onInputChange(event.target.checked, ["extra", "prive5"])}  />
-                    }
-                    label="priveles strippenkaart - 5 keer - €275"
-                  />
-                  <FormControlLabel
-                    control={
-                      <Checkbox checked={extra.prive1} onChange={event => onInputChange(event.target.checked, ["extra", "prive1"])}  />
-                    }
-                    label="priveles - 1 keer - €60"
-                  />
-                  <FormControlLabel
-                    control={
-                      <Checkbox checked={extra.duo} onChange={event => onInputChange(event.target.checked, ["extra", "duo"])}  />
-                    }
-                    label="Duo training - 12 weken - €320"
-                  />
+                  {extras(color).map( item => (
+                    <FormControlLabel
+                      control={
+                        <Checkbox checked={extra[item.value]} onChange={event => onInputChange(event.target.checked, ["extra", item.value])} />
+                      }
+                      label={ item.label + ' - €' + item.price }
+                    />
+                  ))}
                 </FormGroup>
               </div>
             </div>
           )}
           <div className="page__header">
             <div className="page__header__container">
-              <h1 className="page__title">Wanneer is uw kind beschikbaar?</h1>
+              <h2 className="page__title">Selecteer de uren waarop uw kind beschikbaar is</h2>
             </div>
           </div>
-        <div className="columns">
-          <div className="column is-12">
-            <FormLabel component="legend">Om ons lesprogramma zo goed mogelijk in te delen, zouden wij graag willen weten op welke dagen uw kind beschikbaar is. </FormLabel><br />
-            <ScheduleSelector
-              dateFormat={ { format: 'dddd', options: { locale: nlLocale } } }
-              selection={schedule}
-              startDate={new Date('2018-01-01')}
-              numDays={7}
-              minTime={8}
-              maxTime={22}
-              onChange={event =>
-                onInputChange(event, ["schedule"])
-              }
-            />
-          </div>
-        </div>
+          <ScheduleSelector
+            dateFormat={ { format: 'dd', options: { locale: nlLocale } } }
+            selection={schedule}
+            startDate={new Date('2018-01-01')}
+            numDays={7}
+            minTime={8}
+            maxTime={22}
+            onChange={event =>
+              onInputChange(event, ["schedule"])
+            }
+          />
+          <br />
+          {error && <p style={{ color: '#f44336', float: 'right', }}>Vul minstens vier tijdsvakken in</p> }
+          <br />
           <Button onClick={() => setFormState({ stage: 0 })} variant="contained" color="primary" className="btn">
             Terug
           </Button>
-          <Button onClick={() => setFormState({ stage: 2 })} variant="contained" color="primary" className="btn is-pulled-right">
+          <Button onClick={this.next} variant="contained" color="primary" className="btn is-pulled-right">
             Volgende
           </Button>
         </fieldset>
