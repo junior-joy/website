@@ -89,10 +89,10 @@ const defaultState = {
     other_trainer_last_year: null,
     first_name_child: '',
     last_name_child: '',
-    date_of_birth_child: new Date(),
+    date_of_birth_child: null,
     email: '',
     phone: null,
-    iban: 'NL',
+    iban: '',
     name_card: '',
     check_transfer: false,
     check_newsletter: false,
@@ -152,6 +152,7 @@ class App extends Component {
       competition_seasons_amount,
       color_last_year,
       trainer_last_year,
+      other_trainer_last_year,
     } = contact
     const priceColor = colorPrices[color.verbose]
     const extraItems = extras(color).filter( item => extra[item.value] )
@@ -174,6 +175,7 @@ class App extends Component {
       competition_seasons_amount: competition_seasons_amount,
       color_last_year: color_last_year,
       trainer_last_year: trainer_last_year,
+      other_trainer_last_year: other_trainer_last_year,
     }
     axios.post(`http://localhost:8888/.netlify/functions/sheets`, data, )
       .then(res => {

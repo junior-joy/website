@@ -94,6 +94,7 @@ exports.handler = async function(event, context, callback) {
       competition_seasons_amount,
       color_last_year,
       trainer_last_year,
+      other_trainer_last_year,
     } = params
     const dataToSheet = [
       new Date,
@@ -114,6 +115,7 @@ exports.handler = async function(event, context, callback) {
       competition_seasons_amount,
       color_last_year,
       trainer_last_year,
+      other_trainer_last_year,
     ]
     const value = totalPrice
     const col = toColumnName(dataToSheet.length)

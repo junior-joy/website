@@ -1,6 +1,10 @@
 import React from 'react';
 import red from '@material-ui/core/colors/red';
-import Checkbox from '@material-ui/core/Checkbox';
+import Checkbox from '@material-ui/core/Checkbox';import {
+  MuiPickersUtilsProvider,
+  KeyboardTimePicker,
+  KeyboardDatePicker,
+} from '@material-ui/pickers';
 import { ValidatorComponent } from 'react-material-ui-form-validator';
 
 const red300 = red['500'];
@@ -14,11 +18,14 @@ class CheckboxValidatorElement extends ValidatorComponent {
 
     render() {
         const { errorMessages, validators, requiredError, value, ...rest } = this.props;
+        const { isValid } = this.state;
 
         return (
             <div>
-                <Checkbox
+                <KeyboardDatePicker
+                    className={ isValid || 'inputError' }
                     {...rest}
+                    value={value  }
                     ref={(r) => { this.input = r; }}
                 />
                 {this.errorText()}

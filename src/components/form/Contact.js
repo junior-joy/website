@@ -3,6 +3,7 @@ import 'date-fns';
 import nlLocale from "date-fns/locale/nl";
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 import CheckboxValidatorElement from '../CheckboxValidator'
+import DatePickerValidatorElement from '../DatePickerValidator'
 import PropTypes from "prop-types";
 import { colorPrices, extras, determineStartPrice } from './App'
 
@@ -191,7 +192,7 @@ class ContactInfo extends Component {
                         type="text"
                         value={contact.other_trainer_last_year}
                         onChange={event =>
-                          onInputChange(event.target.value, ["contact", "other_trainer_last_year"])
+                            onInputChange(event.target.value, ["contact", "other_trainer_last_year"])
                         }
                       />
                     } />
@@ -235,14 +236,17 @@ class ContactInfo extends Component {
             <div className="columns">
               <div className="column is-12">
                 <MuiPickersUtilsProvider utils={DateFnsUtils} locale={nlLocale}>
-                  <KeyboardDatePicker
+                  <DatePickerValidatorElement
                     fullWidth
                     variant="outlined"
                     inputVariant="outlined"
                     format="dd/MM/yyyy"
                     margin="normal"
                     id="date-picker-inline"
-                    label="Geboortedatum"
+                    invalidDateMessage="Selecteer een geldige datum"
+                    label="Geboortedatum Kind"
+                    validators={['required']}
+                    errorMessages={['Dit veld is verplicht']}
                     value={contact.date_of_birth_child}
                     onChange={event =>
                       onInputChange(event, ["contact", "date_of_birth_child"])
@@ -278,12 +282,14 @@ class ContactInfo extends Component {
             </div>
             <div className="columns">
               <div className="column is-12">
-                <TextField
+                <TextValidator
                   fullWidth
                   variant="outlined"
                   name="name_child"
                   autoComplete="tel"
                   label="Telefoonnummer"
+                  validators={['required']}
+                  errorMessages={['Dit veld is verplicht']}
                   type="number"
                   InputProps={{
                     startAdornment: <InputAdornment position="end"><PhoneIcon/></InputAdornment>
@@ -366,6 +372,12 @@ class ContactInfo extends Component {
                     }
                     label={`Ik machtig Junior Joy om een eenmalige vergoeding van € ${ totalPrice } van mijn bankrekening te innen.`}
                   />
+                </FormGroup>
+              </div>
+            </div>
+            <div className="columns">
+              <div className="column is-12">
+                <FormGroup>
                   <FormControlLabel
                     control={
                       <Checkbox checked={contact.check_newsletter} onChange={event => onInputChange(event.target.checked, ["contact", "check_newsletter"])} />

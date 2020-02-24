@@ -5,6 +5,11 @@ gallery, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+.unsubmitted .MuiFormHelperText-root.Mui-error{ display: none; } .unsubmitted .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline{ color: #3f51b5!important; border-color: #3f51b5!important; } .unsubmitted .MuiFormLabel-root.Mui-error{ color: #3f51b5!important }
+.inputError > div > fieldset { border-color: #f44336!important; }
+.inputError > label { color: #f44336!important; }
+
+
 .MuiRadio-colorSecondary.Mui-checked {
     color: #13ae9e!important;
 }

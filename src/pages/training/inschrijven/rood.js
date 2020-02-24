@@ -72,7 +72,7 @@ export default class Index extends React.Component {
             Inschrijven Rood
           </h1>
         </div>
-        <section className="section section--gradient">
+        <section className="section--gradient">
           <Form color={{ code: "#F64E4C", verbose: 'rood' }}/>
           <div className="columns">
             <div className="column is-10 is-offset-1">
