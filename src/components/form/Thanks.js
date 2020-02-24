@@ -8,18 +8,12 @@ class Thanks extends Component {
     const { contact } = this.props;
     return (
       <div>
-        <div className="page__header">
-          <div className="page__header__container">
-            <h1 className="page__title">Ask me anything! I always respond quickly</h1>
-          </div>
-        </div>
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
               <div className="content">
-                <h3>Thank you {contact.name},<br /><br />
-                  I'll make sure to get back to you soon.<br /><br />
-                   - Norwin
+                <h3>Bedankt voor het inschrijven,<br /><br />
+                  Je ontvangt een bevestiging op { contact.email }
                 </h3>
               </div>
             </div>

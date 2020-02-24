@@ -11,6 +11,7 @@ import { tryParseJSON } from "../../utils/helpers";
 import CardSummary from "../CardSummary"
 import TwoTrainings from "./TwoTrainings";
 import Contact from "./Contact";
+import Thanks from "./Thanks";
 import ExtraAndSchedule from "./ExtraAndSchedule";
 
 import './form.css'
@@ -21,6 +22,19 @@ export const colorPrices = {
   oranje: 199,
   groen: 199,
   geel: 199,
+}
+
+
+
+export const determineStartPrice = ( color, packageChoice ) => {
+  switch( packageChoice ) {
+    case 'single':
+      return color === 'rood' ? 135 : 199
+    case 'basic':
+      return color === 'rood' ? 195 : 265
+    case 'extra':
+      return color === 'rood' ? 195 : 265
+  }
 }
 
 
@@ -75,13 +89,14 @@ const defaultState = {
     other_trainer_last_year: null,
     first_name_child: '',
     last_name_child: '',
-    date_of_birth_child: null,
+    date_of_birth_child: new Date(),
     email: '',
     phone: null,
     iban: 'NL',
     name_card: '',
     check_transfer: false,
     check_newsletter: false,
+    comment: '',
   },
 };
 
@@ -121,19 +136,51 @@ class App extends Component {
 
   handleSubmit( event ) {
     event.preventDefault();
+    const { color } = this.props
+    const { extra, packageChoice, contact, } = this.state
+    const {
+      email,
+      first_name_child,
+      last_name_child,
+      date_of_birth_child,
+      phone,
+      comment,
+      iban,
+      name_card,
+      years_tennis,
+      competition_experience,
+      competition_seasons_amount,
+      color_last_year,
+      trainer_last_year,
+    } = contact
+    const priceColor = colorPrices[color.verbose]
+    const extraItems = extras(color).filter( item => extra[item.value] )
+    const totalPrice = determineStartPrice(color.verbose, packageChoice) + extraItems.reduce( (aa, bb) => aa + bb.price, 0 )
     const data = {
-      value: 'test'
+      totalPrice: totalPrice,
+      color: color.verbose,
+      packageChoice: packageChoice,
+      extraItems: extraItems,
+      email: email,
+      first_name_child: first_name_child,
+      last_name_child: last_name_child,
+      date_of_birth_child: date_of_birth_child,
+      phone: phone,
+      comment: comment,
+      iban: iban,
+      name_card: name_card,
+      years_tennis: years_tennis,
+      competition_experience: competition_experience,
+      competition_seasons_amount: competition_seasons_amount,
+      color_last_year: color_last_year,
+      trainer_last_year: trainer_last_year,
     }
-    axios.post(`/.netlify/lambda/sheets`, data, )
+    axios.post(`http://localhost:8888/.netlify/functions/sheets`, data, )
       .then(res => {
-        this.setState({
-          stage: 0,
-        })
+        this.setState({ stage: 3 })
       })
       .catch( err => {
-        this.setState({
-          stage: 0,
-        })
+        console.log('comething went wrong')
       })
   }
 
@@ -144,6 +191,23 @@ class App extends Component {
       color: color,
       packageChoice: packageChoice,
       extra: extra,
+      email: contact.email,
+      phone: contact.phone,
+      comment: contact.comment,
+      first_name_child: contact.first_name_child,
+      last_name_child: contact.last_name_child,
+      iban: contact.iban,
+      name_card: contact.name_card,
+      check_transfer: contact.check_transfer,
+      check_newsletter: contact.check_newsletter,
+      years_tennis: contact.years_tennis,
+      competition_experience: contact.competition_experience,
+      competition_seasons_amount: contact.competition_seasons_amount,
+      color_last_year: contact.color_last_year,
+      trainer_last_year: contact.trainer_last_year,
+      other_trainer_last_year: contact.other_trainer_last_year,
+      date_of_birth_child: contact.date_of_birth_child,
+      schedule: schedule,
     }
     switch( stage ) {
       case 0:
@@ -169,6 +233,7 @@ class App extends Component {
       case 2:
         return(
           <Contact
+            color={color}
             contact={contact}
             extra={extra}
             priceSummary={priceSummary}
@@ -176,6 +241,12 @@ class App extends Component {
             setFormState={this.setFormState}
             handleSubmit={this.handleSubmit}
             {...this.props}
+          />
+        )
+      case 3:
+        return(
+          <Thanks
+            contact={contact}
           />
         )
       default:
