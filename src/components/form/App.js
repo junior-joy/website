@@ -177,7 +177,7 @@ class App extends Component {
       trainer_last_year: trainer_last_year,
       other_trainer_last_year: other_trainer_last_year,
     }
-    axios.post(`http://localhost:8888/.netlify/functions/sheets`, data, )
+    axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {
         this.setState({ stage: 3 })
       })
