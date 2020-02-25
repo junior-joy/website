@@ -303,45 +303,6 @@ class ContactInfo extends Component {
             </div>
             <div className="columns">
               <div className="column is-12">
-                <TextValidator
-                  fullWidth
-                  label="IBAN"
-                  validators={['required']}
-                  errorMessages={['Dit veld is verplicht']}
-                  variant="outlined"
-                  type="text"
-                  InputProps={{
-                    startAdornment: <InputAdornment position="end"><CreditCardIcon/></InputAdornment>
-                  }}
-                  value={contact.iban}
-                  onChange={event =>
-                    onInputChange(event.target.value, ["contact", "iban"])
-                  }
-                />
-              </div>
-            </div>
-            <div className="columns">
-              <div className="column is-12">
-                <TextValidator
-                  fullWidth
-                  label="Naam op bankpas"
-                  validators={['required']}
-                  errorMessages={['Dit veld is verplicht']}
-                  variant="outlined"
-                  type="text"
-                  autoComplete="name"
-                  InputProps={{
-                    startAdornment: <InputAdornment position="end"><CreditCardIcon/></InputAdornment>
-                  }}
-                  value={contact.name}
-                  onChange={event =>
-                    onInputChange(event.target.value, ["contact", "name"])
-                  }
-                />
-              </div>
-            </div>
-            <div className="columns">
-              <div className="column is-12">
                 <TextField
                   fullWidth
                   multiline={true}
@@ -370,6 +331,47 @@ class ContactInfo extends Component {
                     }
                   >
                     <FormControlLabel value="transfer" control={<Radio />} label={`Ik machtig Junior Joy om een eenmalige vergoeding van € ${ totalPrice } van mijn bankrekening te innen. `} />
+                    <div className={ contact.check_transfer==='transfer' ? '' : 'hidden' }>
+                      <br /><div className="columns">
+                        <div className="column is-12">
+                          <TextValidator
+                            fullWidth
+                            label="IBAN"
+                            validators={['required']}
+                            errorMessages={['Dit veld is verplicht']}
+                            variant="outlined"
+                            type="text"
+                            InputProps={{
+                              startAdornment: <InputAdornment position="end"><CreditCardIcon/></InputAdornment>
+                            }}
+                            value={contact.iban}
+                            onChange={event =>
+                              onInputChange(event.target.value, ["contact", "iban"])
+                            }
+                          />
+                        </div>
+                      </div>
+                      <div className="columns">
+                        <div className="column is-12">
+                          <TextValidator
+                            fullWidth
+                            label="Naam op bankpas"
+                            validators={['required']}
+                            errorMessages={['Dit veld is verplicht']}
+                            variant="outlined"
+                            type="text"
+                            autoComplete="name"
+                            InputProps={{
+                              startAdornment: <InputAdornment position="end"><CreditCardIcon/></InputAdornment>
+                            }}
+                            value={contact.name}
+                            onChange={event =>
+                              onInputChange(event.target.value, ["contact", "name"])
+                            }
+                          />
+                        </div>
+                      </div>
+                    </div>
                     <FormControlLabel value="invoice" control={<Radio />} label="Ik betaal via de factuur in de email" />
                   </RadioGroup>
                 </FormControl>
