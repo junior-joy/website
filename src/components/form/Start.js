@@ -17,10 +17,10 @@ class Start extends Component {
               <p>
                 Als je bij Junior Joy komt trainen dan ben je verplicht om lid te zijn van tennisvereniging Joy Jaagpad. Kijk op <a href="https://joyjaagpad.nl/lidmaatschap/">joyjaagpad.nl/lidmaatschap</a> voor meer informatie en inschrijven. De trainingsprijzen zijn exclusief contributie voor lidmaatschap.
               </p><br />
-              <Link className="btn-primary" to="/training/categorieen">
+              <Link className="btn-primary" style={{ marginRight: '1rem' }} to="/training/categorieen">
                 Info kleuren →
               </Link>
-              <Link className="btn" style={{ marginLeft: '1rem' }} to="/training/aanbod">
+              <Link className="btn" to="/training/aanbod">
                 Info aanbod →
               </Link><br /><br />
               <div className="columns">
