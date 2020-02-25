@@ -83,17 +83,15 @@ class ContactInfo extends Component {
 
     return (
       <div className="page">
-        <div className="page__header">
-          <div className="page__header__container">
-            <h1 className="page__title">Jouw gegevens</h1>
-          </div>
-        </div>
         <ValidatorForm
           ref="form"
           onSubmit={handleSubmit}
         >
           <fieldset id="contact" className={`fieldset fieldset--contact ${ submitted ? '' : 'unsubmitted' }`}>
-            <FormLabel component="legend">Laat hieronder jouw gegevens achter. Nadat jij de inschrijving verstuurt gaan wij aan de slag met indelen.</FormLabel>
+            <h4 className="title is-size-3 has-text-weight-bold is-bold-light">
+              Jouw gegevens
+            </h4>
+            <p>Laat hieronder jouw gegevens achter. Nadat jij de inschrijving verstuurt gaan wij aan de slag met indelen.</p><br />
             <div className="columns">
               <div className="column is-12">
                 <TextField

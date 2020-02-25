@@ -11,9 +11,9 @@ class Start extends Component {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h4 className="title is-size-4 has-text-weight-bold is-bold-light">
                 Kies de categorie waarvoor jij wil inschrijven
-              </h2>
+              </h4>
               <p>
                 Als je bij Junior Joy komt trainen dan ben je verplicht om lid te zijn van tennisvereniging Joy Jaagpad. Kijk op <a href="https://joyjaagpad.nl/lidmaatschap/">joyjaagpad.nl/lidmaatschap</a> voor meer informatie en inschrijven. De trainingsprijzen zijn exclusief contributie voor lidmaatschap.
               </p><br />

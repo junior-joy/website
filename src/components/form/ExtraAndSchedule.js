@@ -40,12 +40,10 @@ class ContactInfo extends Component {
           {(packageChoice === 'extra') && (
             <div className="columns">
               <div className="column is-12">
-                <div className="page__header">
-                  <div className="page__header__container">
-                    <h1 className="page__title">Selecteer jouw uitbreiding</h1>
-                    <p>Breid jouw basispakket uit door hieronder jouw keuze aan te vinken.</p>
-                  </div>
-                </div>
+                <h4 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  Selecteer jouw uitbreiding
+                </h4>
+                <p>Breid jouw basispakket uit door hieronder jouw keuze aan te vinken.</p><br />
                 <FormGroup>
                   {extras(color).map( item => (!(color.verbose==='rood' && item.value.includes('prive')) &&
                     <FormControlLabel
@@ -59,11 +57,11 @@ class ContactInfo extends Component {
               </div>
             </div>
           )}
-          <div className="page__header">
-            <div className="page__header__container">
-              <h2 className="page__title">Selecteer de uren waarop jouw kind beschikbaar is</h2>
-              <p>Geef voldoende beschikbaarheid op zodat er genoeg speling voor ons is om jou in een passende groep te plaatsen.</p>
-            </div>
+          <div>
+            <h4 className="title is-size-3 has-text-weight-bold is-bold-light">
+              Selecteer de uren waarop jouw kind beschikbaar is
+            </h4>
+            <p>Geef voldoende beschikbaarheid op zodat er genoeg speling voor ons is om jou in een passende groep te plaatsen.</p><br />
           </div>
           <ScheduleSelector
             dateFormat={ { format: 'dd', options: { locale: nlLocale } } }
