@@ -30,7 +30,10 @@ class Start extends Component {
                     price={color === 'rood' ? 135 : 199}
                     items={["1 x Tennistraining / week", "", "",  "12 weken", ]}
                     action="Kies"
-                    goTo={() => setFormState({ stage: 1, packageChoice: 'single' })}
+                    goTo={() => {
+                      window.scrollTo(0, 0)
+                      setFormState({ stage: 1, packageChoice: 'single' })
+                  }}
                   />
                 </div>
                 <div className="column">
@@ -41,7 +44,10 @@ class Start extends Component {
                     price={color === 'rood' ? 195 : 265}
                     items={["1 x Tennistraining / week", "1 x Skillstraining / week", "", "", "","12 weken"]}
                     action="Kies"
-                    goTo={() => setFormState({ stage: 1, packageChoice: 'basic' })}
+                    goTo={() => {
+                      window.scrollTo(0, 0)
+                      setFormState({ stage: 1, packageChoice: 'basic' })
+                    }}
                   />
                 </div>
                 <div className="column">
@@ -52,7 +58,10 @@ class Start extends Component {
                     price={color === 'rood' ? 255 : 330}
                     items={["1 x Basispakket", "+ Training naar keuze", "", "12 weken"]}
                     action="Kies"
-                    goTo={() => setFormState({ stage: 1, packageChoice: 'extra' })}
+                    goTo={() => {
+                      window.scrollTo(0, 0)
+                      setFormState({ stage: 1, packageChoice: 'extra' })
+                    }}
                   />
                 </div>
               </div>

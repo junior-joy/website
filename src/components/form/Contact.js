@@ -85,7 +85,7 @@ class ContactInfo extends Component {
       <div className="page">
         <div className="page__header">
           <div className="page__header__container">
-            <h1 className="page__title">Jouw gegevens?</h1>
+            <h1 className="page__title">Jouw gegevens</h1>
           </div>
         </div>
         <ValidatorForm

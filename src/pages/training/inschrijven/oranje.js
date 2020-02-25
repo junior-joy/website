@@ -69,7 +69,7 @@ export default class Index extends React.Component {
               padding: '1rem',
             }}
           >
-            Inschrijven Oranje
+            Inschrijven ORANJE
           </h1>
         </div>
         <section className="section--gradient">

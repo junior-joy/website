@@ -65,7 +65,9 @@ class Start extends Component {
                     price={colorPrices.geel}
                     items={["April - juli", "12 weken"]}
                     action="Inschrijven"
-                    goTo={() => navigate('/training/inschrijven/geel')}
+                    goTo={() => {
+                      navigate('/training/inschrijven/geel')
+                    }}
                   />
                 </div>
               </div>

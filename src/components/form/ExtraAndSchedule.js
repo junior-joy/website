@@ -21,6 +21,7 @@ class ContactInfo extends Component {
 
   next() {
     const { schedule, setFormState } = this.props
+    window.scrollTo(0, 0)
     if ( schedule.length <= 3 ) {
       this.setState({ error: true })
     } else {
@@ -45,7 +46,7 @@ class ContactInfo extends Component {
                   </div>
                 </div>
                 <FormGroup>
-                  {extras(color).map( item => (!(color.verbose==='rood' && item.value.includes('prive')) && 
+                  {extras(color).map( item => (!(color.verbose==='rood' && item.value.includes('prive')) &&
                     <FormControlLabel
                       control={
                         <Checkbox checked={extra[item.value]} onChange={event => onInputChange(event.target.checked, ["extra", item.value])} />
@@ -60,8 +61,7 @@ class ContactInfo extends Component {
           <div className="page__header">
             <div className="page__header__container">
               <h2 className="page__title">Selecteer de uren waarop jouw kind beschikbaar is</h2>
-              <p>Geef voldoende beschikbaarheid op zodat er genoeg speling voor ons is om jou in een passende groep te plaatsen.
-</p>
+              <p>Geef voldoende beschikbaarheid op zodat er genoeg speling voor ons is om jou in een passende groep te plaatsen.</p>
             </div>
           </div>
           <ScheduleSelector

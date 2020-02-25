@@ -69,7 +69,7 @@ export default class Index extends React.Component {
               padding: '1rem',
             }}
           >
-            Inschrijven Rood
+            Inschrijven ROOD
           </h1>
         </div>
         <section className="section--gradient">
@@ -92,7 +92,7 @@ Index.propTypes = {
 
 export const pageQuery = graphql`
   query RoodPageQuery {
-    headerBackground: imageSharp(fluid: { originalName: { regex: "/IMG_7641_suey6h/" } }) {
+    headerBackground: imageSharp(fluid: { originalName: { regex: "/IMG_7641 _suey6h/" } }) {
       fluid(maxWidth: 2400, maxHeight: 1200) {
         ...GatsbyImageSharpFluid
       }
