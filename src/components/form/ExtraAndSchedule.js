@@ -21,7 +21,8 @@ class ContactInfo extends Component {
 
   next() {
     const { schedule, setFormState } = this.props
-    window.scrollTo(0, 0)
+    const con = document.querySelector('.parralax')
+    con.scrollTop = 0
     if ( schedule.length <= 3 ) {
       this.setState({ error: true })
     } else {

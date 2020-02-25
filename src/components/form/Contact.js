@@ -359,20 +359,20 @@ class ContactInfo extends Component {
             </div>
             <div className="columns">
               <div className="column is-12">
-                <FormGroup>
-                  <FormControlLabel
-                    control={
-                      <CheckboxValidatorElement
-                        validators={['isTruthy']}
-                        errorMessages={['Dit veld is verplicht']}
-                        checked={contact.check_transfer}
-                        value={contact.check_transfer}
-                        onChange={event => onInputChange(event.target.checked, ["contact", "check_transfer"])}
-                      />
+                <FormControl component="fieldset">
+                  <FormLabel component="legend">Kies een betaalmethode</FormLabel>
+                  <RadioGroup
+                    aria-label="gender"
+                    name="gender1"
+                    value={contact.check_transfer}
+                    onChange={event =>
+                      onInputChange(event.target.value, ["contact", "check_transfer"])
                     }
-                    label={`Ik machtig Junior Joy om een eenmalige vergoeding van € ${ totalPrice } van mijn bankrekening te innen.`}
-                  />
-                </FormGroup>
+                  >
+                    <FormControlLabel value="transfer" control={<Radio />} label={`Ik machtig Junior Joy om een eenmalige vergoeding van € ${ totalPrice } van mijn bankrekening te innen. `} />
+                    <FormControlLabel value="invoice" control={<Radio />} label="Ik betaal via de factuur in de email" />
+                  </RadioGroup>
+                </FormControl>
               </div>
             </div>
             <div className="columns">

@@ -31,7 +31,8 @@ class Start extends Component {
                     items={["1 x Tennistraining / week", "", "",  "12 weken", ]}
                     action="Kies"
                     goTo={() => {
-                      window.scrollTo(0, 0)
+                      const con = document.querySelector('.parralax')
+                      con.scrollTop = 0
                       setFormState({ stage: 1, packageChoice: 'single' })
                   }}
                   />
@@ -45,7 +46,8 @@ class Start extends Component {
                     items={["1 x Tennistraining / week", "1 x Skillstraining / week", "", "", "","12 weken"]}
                     action="Kies"
                     goTo={() => {
-                      window.scrollTo(0, 0)
+                      const con = document.querySelector('.parralax')
+                      con.scrollTop = 0
                       setFormState({ stage: 1, packageChoice: 'basic' })
                     }}
                   />
@@ -59,7 +61,8 @@ class Start extends Component {
                     items={["1 x Basispakket", "+ Training naar keuze", "", "12 weken"]}
                     action="Kies"
                     goTo={() => {
-                      window.scrollTo(0, 0)
+                      const con = document.querySelector('.parralax')
+                      con.scrollTop = 0
                       setFormState({ stage: 1, packageChoice: 'extra' })
                     }}
                   />
