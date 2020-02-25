@@ -45,9 +45,9 @@ import PrintIcon from '@material-ui/icons/Print';
 const renderTitle = packageChoice => {
   switch( packageChoice ) {
     case 'single':
-      return '1x / week'
+      return '1 x / week'
     case 'basic':
-      return 'Basis Pakket'
+      return 'Basispakket'
     case 'extra':
       return 'Uitgebreid Pakket'
   }
@@ -91,7 +91,7 @@ const Tags = ({ priceSummary }) => {
       </CardMedia>
       <CardContent>
         <Typography gutterBottom variant="h5" component="h2" className="has-text-primary">
-          €{determineStartPrice(color.verbose, packageChoice)} {renderTitle(packageChoice)} - {color.verbose}
+          €{determineStartPrice(color.verbose, packageChoice)} {renderTitle(packageChoice)} - {color.verbose.toUpperCase()}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           {extraItems.map( item => (

@@ -85,7 +85,7 @@ class ContactInfo extends Component {
       <div className="page">
         <div className="page__header">
           <div className="page__header__container">
-            <h1 className="page__title">Hoe kunnen we u bereiken?</h1>
+            <h1 className="page__title">Jouw gegevens?</h1>
           </div>
         </div>
         <ValidatorForm
@@ -93,7 +93,7 @@ class ContactInfo extends Component {
           onSubmit={handleSubmit}
         >
           <fieldset id="contact" className={`fieldset fieldset--contact ${ submitted ? '' : 'unsubmitted' }`}>
-            <FormLabel component="legend">Bedankt. Vul dit formulier in en uw kind is onderdeel van het team. Let's go! </FormLabel>
+            <FormLabel component="legend">Laat hieronder jouw gegevens achter. Nadat jij de inschrijving verstuurt gaan wij aan de slag met indelen.</FormLabel>
             <div className="columns">
               <div className="column is-12">
                 <TextField
@@ -133,7 +133,7 @@ class ContactInfo extends Component {
             <div className="columns">
               <div className="column is-12">
                 <FormControl component="fieldset">
-                  <FormLabel component="legend">Hoeveel seizoenen heb jij meegetraind in de competitie?</FormLabel>
+                  <FormLabel component="legend">Hoeveel seizoenen heb jij meegespeeld in de competitie?</FormLabel>
                   <RadioGroup
                     aria-label="gender"
                     name="gender1"
@@ -162,10 +162,10 @@ class ContactInfo extends Component {
                       onInputChange(event.target.value, ["contact", "color_last_year"])
                     }
                   >
-                    <FormControlLabel value="rood" control={<Radio />} label="Rood" />
-                    <FormControlLabel value="oranje" control={<Radio />} label="Oranje" />
-                    <FormControlLabel value="groen" control={<Radio />} label="Groen" />
-                    <FormControlLabel value="geel" control={<Radio />} label="Geel" />
+                    <FormControlLabel value="rood" control={<Radio />} label="ROOD" />
+                    <FormControlLabel value="oranje" control={<Radio />} label="ORANJE" />
+                    <FormControlLabel value="groen" control={<Radio />} label="GROEN" />
+                    <FormControlLabel value="geel" control={<Radio />} label="GEEL" />
                     <FormControlLabel value="nvt" control={<Radio />} label="Niet van toepassing" />
                   </RadioGroup>
                 </FormControl>
@@ -207,7 +207,7 @@ class ContactInfo extends Component {
                   fullWidth
                   variant="outlined"
                   name="name_child"
-                  label="Voornaam Kind"
+                  label="Voornaam kind"
                   validators={['required']}
                   errorMessages={['Dit veld is verplicht']}
                   type="text"
@@ -222,7 +222,7 @@ class ContactInfo extends Component {
                   fullWidth
                   variant="outlined"
                   name="name_child"
-                  label="Achternaam Kind"
+                  label="Achternaam kind"
                   validators={['required']}
                   errorMessages={['Dit veld is verplicht']}
                   type="text"
@@ -244,7 +244,7 @@ class ContactInfo extends Component {
                     margin="normal"
                     id="date-picker-inline"
                     invalidDateMessage="Selecteer een geldige datum"
-                    label="Geboortedatum Kind"
+                    label="Geboortedatum kind"
                     validators={['required']}
                     errorMessages={['Dit veld is verplicht']}
                     value={contact.date_of_birth_child}

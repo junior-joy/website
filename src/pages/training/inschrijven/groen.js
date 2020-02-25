@@ -74,14 +74,6 @@ export default class Index extends React.Component {
         </div>
         <section className="section--gradient">
           <Form color={{ code: "#57CCA4", verbose: 'groen' }} />
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="section">
-                <Link to="/training/categorieen">→ Lees meer over de kleuren</Link><br />
-                <Link to="/training/aanbod">→ Lees meer over ons aanbod</Link><br />
-              </div>
-            </div>
-          </div>
         </section>
       </Layout>
     )

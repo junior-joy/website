@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { navigate } from 'gatsby'
+import { navigate, Link } from 'gatsby'
 import Card from '../CardEnroll'
 import { colorPrices } from './App'
 
@@ -12,12 +12,21 @@ class Start extends Component {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                Schrijf je in
+                Kies de categorie waarvoor jij wil inschrijven
               </h2>
+              <p>
+                Als je bij Junior Joy komt trainen dan ben je verplicht om lid te zijn van tennisvereniging Joy Jaagpad. Kijk op <a href="https://joyjaagpad.nl/lidmaatschap/">joyjaagpad.nl/lidmaatschap</a> voor meer informatie en inschrijven. De trainingsprijzen zijn exclusief contributie voor lidmaatschap.
+              </p><br />
+              <Link className="btn-primary" to="/training/categorieen">
+                Info kleuren →
+              </Link>
+              <Link className="btn" style={{ marginLeft: '1rem' }} to="/training/aanbod">
+                Info aanbod →
+              </Link><br /><br />
               <div className="columns">
                 <div className="column">
                   <Card
-                    name="Pakket Rood"
+                    name="Training ROOD"
                     color="#F64E4C"
                     prePrice="vanaf"
                     price={colorPrices.rood}
@@ -28,7 +37,7 @@ class Start extends Component {
                 </div>
                 <div className="column">
                   <Card
-                    name="Pakket Oranje"
+                    name="Training ORANJE"
                     color="#F6924C"
                     prePrice="vanaf"
                     price={colorPrices.oranje}
@@ -39,7 +48,7 @@ class Start extends Component {
                 </div>
                 <div className="column">
                   <Card
-                    name="Pakket Groen"
+                    name="Training GROEN"
                     color="#57CCA4"
                     prePrice="vanaf"
                     price={colorPrices.groen}
@@ -50,7 +59,7 @@ class Start extends Component {
                 </div>
                 <div className="column">
                   <Card
-                    name="Pakket Geel"
+                    name="Training GEEL"
                     color="#F6F84C"
                     prePrice="vanaf"
                     price={colorPrices.geel}

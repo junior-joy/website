@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Card from '../CardEnroll'
+import { Link } from 'gatsby'
 
 class Start extends Component {
   render() {
@@ -11,30 +12,34 @@ class Start extends Component {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h4 className="title is-size-4 has-text-weight-bold is-bold-light">
-                Je hebt gekozen om te komen trainen in categorie {color.verbose}.
+                Je hebt gekozen om te komen trainen in categorie {color.verbose.toUpperCase()}.
               </h4>
               <p>
-                 Wij willen graag een compleet en betrokken trainingsprogramma aanbieden. Om mee te kunnen doen met verschillende trainingen raden we aan om twee keer in de week te komen trainen. Zo leren kinderen de beter tennissen, en raken ze meer betrokken met hun vriendjes op de club.
+                Tennis is leuk maar wel een moeilijk spel, daarom is onze visie dat we de jeugd het liefst minimaal 2x per week begeleiden. Op deze manier zal het kind sneller succesbeleving ervaren. Daarnaast maken kinderen sneller tennisvrienden als ze vaker andere kinderen op de club ontmoeten.<br /><br />
+                Wij adviseren het basispakket; 1 x tennistraining en 1 x skillstraining per week. Maar je kunt ook 1 x per week of  juist meer dan 2 x per week komen trainen. Maak hieronder jouw keuze.
               </p><br />
+              <Link className="btn-primary" to="/training/aanbod">
+                Info Trainingspakketten →
+              </Link><br /><br />
               <div className="columns">
                 <div className="column">
                   <Card
-                    name="1x / week"
+                    name="1 x / week"
                     color={color.code}
-                    prePrice="slechts"
+                    prePrice=""
                     price={color === 'rood' ? 135 : 199}
-                    items={["1x Tennis training / week", "Techniek", "Tactiek",  "Voetenwerk", ]}
+                    items={["1 x Tennistraining / week", "", "",  "12 weken", ]}
                     action="Kies"
                     goTo={() => setFormState({ stage: 1, packageChoice: 'single' })}
                   />
                 </div>
                 <div className="column">
                   <Card
-                    name="Basis Pakket"
+                    name="Basispakket"
                     color={color.code}
-                    prePrice="slechts"
+                    prePrice=""
                     price={color === 'rood' ? 195 : 265}
-                    items={["1x Tennis training / week", "1x skills training / week", "Mentale vaardigheden ontwikkelen", "Leren spelen van wedstrijden", "14 weken"]}
+                    items={["1 x Tennistraining / week", "1 x Skillstraining / week", "", "", "","12 weken"]}
                     action="Kies"
                     goTo={() => setFormState({ stage: 1, packageChoice: 'basic' })}
                   />
@@ -45,7 +50,7 @@ class Start extends Component {
                     color={color.code}
                     prePrice="vanaf"
                     price={color === 'rood' ? 255 : 330}
-                    items={["1x Tennis training / week", "1x skills training / week", "Mentale vaardigheden ontwikkelen", "Leren spelen van wedstrijden"]}
+                    items={["1 x Basispakket", "+ Training naar keuze", "", "12 weken"]}
                     action="Kies"
                     goTo={() => setFormState({ stage: 1, packageChoice: 'extra' })}
                   />

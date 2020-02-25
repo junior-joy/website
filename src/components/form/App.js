@@ -42,22 +42,22 @@ export const determineStartPrice = ( color, packageChoice ) => {
 export const extras = color =>  [
   {
     value: 'group',
-    label: (color.verbose==='rood') ? 'groepstraining rood - 12 weken' : 'groepstraining - 12 weken',
+    label: (color.verbose==='rood') ? 'Groepstraining ROOD - 12 weken' : 'Groepstraining - 12 weken',
     price: (color.verbose==='rood') ? 115 : 180,
   },
   {
     value: 'prive',
-    label: 'priveles - 12 weken',
+    label: 'Privéles - 12 weken',
     price: 640,
   },
   {
     value: 'prive5',
-    label: 'priveles strippenkaart - 5 keer',
+    label: 'Privéles strippenkaart - 5 keer',
     price: 275,
   },
   {
     value: 'prive1',
-    label: 'priveles - 1 keer',
+    label: 'Privéles - 1 keer',
     price: 60,
   },
   {
@@ -137,7 +137,7 @@ class App extends Component {
   handleSubmit( event ) {
     event.preventDefault();
     const { color } = this.props
-    const { extra, packageChoice, contact, } = this.state
+    const { extra, packageChoice, contact, schedule } = this.state
     const {
       email,
       first_name_child,
@@ -176,10 +176,12 @@ class App extends Component {
       color_last_year: color_last_year,
       trainer_last_year: trainer_last_year,
       other_trainer_last_year: other_trainer_last_year,
+      schedule: schedule,
     }
     axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {
-        this.setState({ stage: 3 })
+        //this.setState({ stage: 3 })
+        console.log(res)
       })
       .catch( err => {
         console.log('comething went wrong')
