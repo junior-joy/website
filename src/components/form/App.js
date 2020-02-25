@@ -145,6 +145,8 @@ class App extends Component {
       date_of_birth_child,
       phone,
       comment,
+      check_transfer,
+      check_newsletter,
       iban,
       name_card,
       years_tennis,
@@ -168,6 +170,8 @@ class App extends Component {
       date_of_birth_child: date_of_birth_child,
       phone: phone,
       comment: comment,
+      check_transfer: check_transfer,
+      check_newsletter: check_newsletter,
       iban: iban,
       name_card: name_card,
       years_tennis: years_tennis,
@@ -180,7 +184,7 @@ class App extends Component {
     }
     axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {
-        //this.setState({ stage: 3 })
+        this.setState({ stage: 3 })
         console.log(res)
       })
       .catch( err => {

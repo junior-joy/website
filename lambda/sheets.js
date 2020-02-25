@@ -91,6 +91,8 @@ exports.handler = async function(event, context, callback) {
       date_of_birth_child,
       phone,
       comment,
+      check_transfer,
+      check_newsletter,
       iban,
       name_card,
       years_tennis,
@@ -101,8 +103,7 @@ exports.handler = async function(event, context, callback) {
       other_trainer_last_year,
       schedule,
     } = params
-    const scheduleMapped = fullSchedule.map( item => schedule.includes( item ) )
-    console.log(scheduleMappede)
+    const scheduleMapped = fullSchedule.map( item => schedule.includes( item ) ? 1 : 0 )
     const dataToSheet = [
       new Date,
       totalPrice,
@@ -115,6 +116,8 @@ exports.handler = async function(event, context, callback) {
       date_of_birth_child,
       phone,
       comment,
+      check_transfer,
+      check_newsletter,
       iban,
       name_card,
       years_tennis,
@@ -127,7 +130,6 @@ exports.handler = async function(event, context, callback) {
     const colData = dataToSheet.concat( scheduleMapped )
     const col = toColumnName(dataToSheet.length)
     const sheetsRes = await addToCol(`A1`, colData)
-    console.log(`A1:${col}1`)
     return {
       statusCode: sheetsRes.status,
       body: `respnse ${ JSON.stringify(sheetsRes) }`,
