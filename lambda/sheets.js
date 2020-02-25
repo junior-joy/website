@@ -103,7 +103,7 @@ exports.handler = async function(event, context, callback) {
       other_trainer_last_year,
       schedule,
     } = params
-    const scheduleMapped = fullSchedule.map( item => schedule.includes( item ) ? 1 : 0 )
+    const scheduleMapped = fullSchedule.map( item => schedule.includes( item ) ? item : 0 )
     const dataToSheet = [
       new Date,
       totalPrice,
