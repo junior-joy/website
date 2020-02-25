@@ -363,9 +363,9 @@ class ContactInfo extends Component {
                               InputProps={{
                                 startAdornment: <InputAdornment position="end"><CreditCardIcon/></InputAdornment>
                               }}
-                              value={contact.name}
+                              value={contact.name_card}
                               onChange={event =>
-                                onInputChange(event.target.value, ["contact", "name"])
+                                onInputChange(event.target.value, ["contact", "name_card"])
                               }
                             />
                           </div>
