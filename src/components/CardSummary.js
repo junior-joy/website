@@ -77,7 +77,7 @@ const Tags = ({ priceSummary }) => {
   return(
     <Card style={{ position: 'sticky', top: '8rem', minWidth: '14rem' }}>
       <CardMedia
-        image="https://res.cloudinary.com/junior-joy/image/upload/v1581536341/impressie/Schermafbeelding_2020-02-12_om_20.39.00_ljwjmj.png  "
+        image="https://res.cloudinary.com/junior-joy/image/upload/q_auto,f_auto/v1577884542/impressie/teun_olu3pd.jpg"
         title="Paella dish"
         style={{ height: '12rem' }}
       >

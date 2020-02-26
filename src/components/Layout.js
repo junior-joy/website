@@ -12,8 +12,8 @@ const TemplateWrapper = ({ children, onSwipedLeft, onSwipedRight, phoneTitle }) 
   const { title, description } = useSiteMetadata()
   return (
     <Swipeable
-      onSwipedLeft={onSwipedLeft}
-      onSwipedRight={onSwipedRight}
+      onSwipedLeft={()=>null}
+      onSwipedRight={()=>null}
     >
       <div className="parralax">
         <Helmet>

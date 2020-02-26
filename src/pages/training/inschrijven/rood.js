@@ -92,7 +92,7 @@ Index.propTypes = {
 
 export const pageQuery = graphql`
   query RoodPageQuery {
-    headerBackground: imageSharp(fluid: { originalName: { regex: "/IMG_7641 _suey6h/" } }) {
+    headerBackground: imageSharp(fluid: { originalName: { regex: "/IMG_7641_suey6h/" } }) {
       fluid(maxWidth: 2400, maxHeight: 1200) {
         ...GatsbyImageSharpFluid
       }
