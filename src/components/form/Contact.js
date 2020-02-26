@@ -4,6 +4,7 @@ import nlLocale from "date-fns/locale/nl";
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 import CheckboxValidatorElement from '../CheckboxValidator'
 import DatePickerValidatorElement from '../DatePickerValidator'
+import RadioValidator from '../RadioValidator'
 import PropTypes from "prop-types";
 import { colorPrices, extras, determineStartPrice } from './App'
 
@@ -65,7 +66,7 @@ class ContactInfo extends Component {
   }
 
   render() {
-    const { contact, priceSummary, onInputChange, setFormState, handleSubmit } = this.props;
+    const { contact, priceSummary, onInputChange, setFormState, handleSubmit, errorMessage } = this.props;
     const { submitted, success } = this.state
     const { color, packageChoice, extra } = priceSummary
     const priceColor = colorPrices[priceSummary.color.verbose]
@@ -320,10 +321,12 @@ class ContactInfo extends Component {
               <div className="column is-12">
                 <FormControl component="fieldset">
                   <FormLabel component="legend">Kies een betaalmethode</FormLabel>
-                  <RadioGroup
+                  <RadioValidator
                     aria-label="gender"
                     name="gender1"
                     value={contact.check_transfer}
+                    validators={['required']}
+                    errorMessages={['Dit veld is verplicht']}
                     onChange={event =>
                       onInputChange(event.target.value, ["contact", "check_transfer"])
                     }
@@ -373,7 +376,7 @@ class ContactInfo extends Component {
                       </div>
                     )}
                     <FormControlLabel value="invoice" control={<Radio />} label="Ik betaal via de factuur in de email" />
-                  </RadioGroup>
+                  </RadioValidator>
                 </FormControl>
               </div>
             </div>
@@ -395,11 +398,11 @@ class ContactInfo extends Component {
             <Button onClick={() => this.setState({ submitted: true })} type="submit" variant="contained" color="primary" className="btn is-pulled-right">
               Inschrijven
             </Button>
+            { submitted && !success && errorMessage && (
+              <p>Er is iets fout gegaan. {errorMessage}</p>
+            )}
           </fieldset>
         </ValidatorForm>
-        { submitted && success && (
-          <p>Bedankt. Je ontvangt een email met een bevestiging.</p>
-        )}
       </div>
     );
   }

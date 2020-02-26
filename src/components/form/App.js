@@ -70,6 +70,7 @@ export const extras = color =>  [
 
 
 const defaultState = {
+  errorMessage: '',
   stage: 0,
   packageChoice: null,
   extra: {
@@ -94,7 +95,7 @@ const defaultState = {
     phone: null,
     iban: '',
     name_card: '',
-    check_transfer: false,
+    check_transfer: null,
     check_newsletter: false,
     comment: '',
   },
@@ -109,8 +110,6 @@ class App extends Component {
 
     this.state = {
       ...state,
-      send: false,
-      success: null,
     }
 
     this.setFormState = this.setFormState.bind( this )
@@ -188,13 +187,14 @@ class App extends Component {
         console.log(res)
       })
       .catch( err => {
-        console.log('comething went wrong')
+        this.setState({ errorMessage: err })
+        console.log(err)
       })
   }
 
   renderSwitch() {
     const { color } = this.props
-    const { stage, extra, schedule, packageChoice, contact } = this.state
+    const { stage, extra, schedule, packageChoice, contact, errorMessage } = this.state
     const priceSummary = {
       color: color,
       packageChoice: packageChoice,
@@ -248,6 +248,7 @@ class App extends Component {
             onInputChange={this.onInputChange}
             setFormState={this.setFormState}
             handleSubmit={this.handleSubmit}
+            errorMessage={errorMessage}
             {...this.props}
           />
         )
