@@ -3,7 +3,7 @@ templateKey: about-page
 title: FAQ
 ---
 
-> Waarom betaal ik nu meer voor training dan voorheen?
+> ### Waarom betaal ik nu meer voor training dan voorheen?
 
 Het uurtarief voor jeugdtraining ligt lager dan voorheen, echter werken wij met kleinere groepen vanaf categorie ORANJE. 
 
