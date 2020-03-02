@@ -18,3 +18,7 @@ Het aanbod zoals het was willen we herzien en opnieuw gaan vormgeven. Deze zomer
 
 
 Tijdens skilltraining wordt er veel aandacht besteed aan de motorische ontwikkeling. Maar er wordt ook gewoon getennist, tijdens het tennissen ligt de focus vooral op het leren spelen van wedstrijden. 
+
+> ### Is er een overdracht van de trainers die voorheen de jeugdlessen gaven?
+
+De trainers gaan ons helpen om aan te geven op welk niveua en in welke ontwikkelfase het kind zich bevindt. Zo kunnen wij makkelijker passende groepen samenstellen.
