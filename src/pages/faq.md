@@ -14,7 +14,7 @@ _Ons uurtarief voor jeugdtraining ligt lager dan voorheen. Echter werken wij met
 _Het aanbod zoals het was willen we herzien en opnieuw gaan vormgeven. Deze zomer staat in het teken van het leren kennen van de kinderen en samen met de jeugdcommissie het beleid rondom extra stimulering vormgeven._
 
 
->### Wat is Skilltraining?
+>### Wat is Skillstraining?
 
 
 _Tijdens skilltraining wordt er veel aandacht besteed aan de motorische ontwikkeling. Maar er wordt ook gewoon getennist, tijdens het tennissen ligt de focus vooral op het leren spelen van wedstrijden._
