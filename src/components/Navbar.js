@@ -138,6 +138,11 @@ const Navbar = class extends React.Component {
                         Inspire
                       </Link>
                     </li>
+                    <li>
+                      <Link className="navbar-item" to="/faq" activeClassName="is-active" partiallyActive={true}>
+                        F.A.Q.
+                      </Link>
+                    </li>
                   </List>
                 </ExpansionPanelDetails>
               </ExpansionPanel>
