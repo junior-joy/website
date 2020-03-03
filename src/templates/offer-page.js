@@ -25,6 +25,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                   {title}
                 </h2>
+                <p>
+                  Wij adviseren om naast de basistraining ook onze skilltraining te volgen, samen vormen ze het basispakket. Op deze manier krijg je tennis sneller en beter onder de knie en ben je vaker op de club met je vrienden.<br /><br />
+                </p>
                 <div className="columns">
                   <div className="column">
                     <Card
@@ -97,7 +100,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 </div>
                 <br />
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  TEST Het basis pakket uitbreiden? Dat kan met korting!
+                  Het basis pakket uitbreiden? Dat kan met korting!
                 </h2>
                 <ExpansionPanel>
                   <ExpansionPanelSummary
@@ -105,19 +108,21 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>Tweede groepstraining</Typography>
+                    <Typography>Tweede groepstraining:</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
-                    <Typography paragraph variant="h5">Tweede groepstraining</Typography>
-                    <Typography paragraph>
-                      Ga met korting nog een keer extra in de week naar de tennistraining of naar de skillstraining. Jouw keuze.
-                    </Typography>
-                    <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                      <li>Rood: €115 - 12 weken</li>
-                      <li>Oranje: €180 - 12 weken</li>
-                      <li>Groen: €180 - 12 weken</li>
-                      <li>Geel: €180 - 12 weken</li>
-                    </ul><br />
+                    <div>
+                      <Typography paragraph variant="h5">Tweede groepstraining</Typography>
+                      <Typography paragraph>
+                        Kom een tweede keer trainen in de groep. Dit is een zelfde training als de basistraining. Hiermee train je dus 3 x per week en zul je grote stappen maken in jouw tennisontwikkeling!
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>Rood: €115 - 12 weken</li>
+                        <li>Oranje: €180 - 12 weken</li>
+                        <li>Groen: €180 - 12 weken</li>
+                        <li>Geel: €180 - 12 weken</li>
+                      </ul><br />
+                    </div>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel>
@@ -126,13 +131,18 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                   >
-                    <Typography>Expansion Panel 2</Typography>
+                    <Typography>Duotraining:</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
-                    <Typography>
-                      Duotraining, training met spelers:
-     - €320,- voor 12 weken.
-                    </Typography>
+                    <div>
+                      <Typography paragraph variant="h5">Duotraining</Typography>
+                      <Typography paragraph>
+                        Tijdens de duotraining heeft de trainer veel aandacht voor jouw en geeft een leuke training waarin jullie elkaar uitdagen om beter te worden.
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>€320 - 12 weken</li>
+                      </ul><br />
+                    </div>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel>
@@ -141,12 +151,20 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel3a-content"
                     id="panel3a-header"
                   >
-                    <Typography>Privétraining:
-
-    - €640,- voor 12 weken
-
-    - €60,- per keer.  </Typography>
+                    <Typography>Privétraining:</Typography>
                   </ExpansionPanelSummary>
+                  <ExpansionPanelDetails>
+                    <div>
+                      <Typography paragraph variant="h5">Privétraining</Typography>
+                      <Typography paragraph>
+                        Een privétraining is een 1-op-1 training waarin de volledige aandacht ligt op jouw leerdoelen. Zo nu en dan een privétraining inplannen geeft de ontwikkeling een boost. Privétrainingen geven we normaliter pas aan kinderen vanaf 8 jaar oud.
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>€640 - 12 weken</li>
+                        <li>€60 - losse les</li>
+                      </ul><br />
+                    </div>
+                  </ExpansionPanelDetails>
                 </ExpansionPanel>
 
                 <br/>
