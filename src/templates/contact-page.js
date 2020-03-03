@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { navigate } from 'gatsby-link'
+import ContactForm from '../components/contact/App'
+
 import Layout from '../components/Layout'
 import Maps from '../components/Maps'
 import {  graphql } from 'gatsby'
@@ -47,66 +49,7 @@ export class ContactPageTemplate extends React.Component {
               <div className="column is-6">
                 <PageContent className="content" content={left} />
                 <div className="content">
-                  <form action="https://juniorjoy.us4.list-manage.com/subscribe/post?u=2b4f240fe10a82bc83cdad4f6&amp;id=1bd5b4f914" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                    <input type="hidden" name="form-name" value="contact" />
-                    <div hidden>
-                      <label>
-                        Dit niet invullen:{' '}
-                        <input name="bot-field" onChange={this.handleChange} />
-                      </label>
-                    </div>
-                    <div className="field">
-                      <label className="label" htmlFor={'name'}>
-                        Jouw naam
-                      </label>
-                      <div className="control">
-                    	  <input
-                          type="text"
-                          value=""
-                          name="FNAME"
-                          className="input"
-                          id="mce-FNAME"
-                          required={true}
-                        />
-                      </div>
-                    </div>
-                    <div className="field">
-                      <label className="label" htmlFor={'email'}>
-                        Email
-                      </label>
-                      <div className="control">
-                      	<input
-                          type="email"
-                          value=""
-                          name="EMAIL"
-                          className="input"
-                          id="mce-EMAIL"
-                          required={true}
-                        />
-                      </div>
-                    </div>
-                    <div className="field">
-                      <label className="label" htmlFor={'message'}>
-                        Bericht
-                      </label>
-                      <div className="control">
-                        <textarea
-                          type="text"
-                          value=""
-                          name="MMERGE6"
-                          id="mce-MMERGE6"
-                          className="textarea"
-                          required={true}
-                        />
-                      </div>
-                    </div>
-                    <div className="field">
-                      <button className="button" type="submit">
-                        Verstuur
-                      </button>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
               <div className="column is-6">
