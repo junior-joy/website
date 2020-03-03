@@ -199,13 +199,13 @@ class App extends Component {
       naam: first_name_child,
       kleur: color.verbose.toUpperCase(),
       pakket: packageChoices[packageChoice],
-      extras: extraItems.join(', '),
+      extras: extraItems.map( item => item.label ).join(', '),
       totale_prijs: totalPrice,
       email: email,
       voornaam_kind: first_name_child,
       achternaam_kind: last_name_child,
       geboortedatum: date_of_birth_child.toLocaleDateString(),
-      schema: schedule.join(', '),
+      schema: schedule.map( date => date.toLocaleTimeString() ).join(', '),
     }
     axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {
