@@ -26,6 +26,20 @@ export const colorPrices = {
 
 
 
+export const packageChoices = {
+  single: {
+    name: "1 x / week",
+  },
+  basic: {
+    name: "Basispakket",
+  },
+  extra: {
+    name: "Uitgebreid pakket",
+  },
+}
+
+
+
 export const determineStartPrice = ( color, packageChoice ) => {
   switch( packageChoice ) {
     case 'single':
@@ -183,14 +197,15 @@ class App extends Component {
     }
     const mailData = {
       naam: first_name_child,
-      pakket: packageChoice,
-      extras: extraItems,
+      kleur: color.verbose.toUpperCase(),
+      pakket: packageChoices[packageChoice],
+      extras: extraItems.join(', '),
       totale_prijs: totalPrice,
       email: email,
       voornaam_kind: first_name_child,
       achternaam_kind: last_name_child,
-      geboortedatum: date_of_birth_child,
-      schema: schedule,
+      geboortedatum: date_of_birth_child.toLocaleDateString(),
+      schema: schedule.join(', '),
     }
     axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {
