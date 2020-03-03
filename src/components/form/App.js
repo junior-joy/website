@@ -181,10 +181,31 @@ class App extends Component {
       other_trainer_last_year: other_trainer_last_year,
       schedule: schedule,
     }
+    const mailData = {
+      naam: first_name_child,
+      pakket: packageChoice,
+      extras: extraItems,
+      totale_prijs: totalPrice,
+      email: email,
+      voornaam_kind: first_name_child,
+      achternaam_kind: last_name_child,
+      geboortedatum: date_of_birth_child,
+      schema: schedule,
+    }
     axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {
+        axios.post(`https://api.plathena.com/plathena/mail/inschrijven/inspire/junior-joy/`, mailData, )
+          .then(res => {
+            this.setState({
+              send: true,
+              success: true,
+            })
+          })
+          .catch( err => {
+            this.setState({ errorMessage: err })
+            console.log(err)
+          })
         this.setState({ stage: 3 })
-        console.log(res)
       })
       .catch( err => {
         this.setState({ errorMessage: err })
