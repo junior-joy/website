@@ -78,7 +78,7 @@ const Tags = ({ priceSummary }) => {
     <Card style={{ position: 'sticky', top: '8rem', minWidth: '14rem' }}>
       <CardMedia
         image="https://res.cloudinary.com/junior-joy/image/upload/q_auto,f_auto/v1577884542/impressie/teun_olu3pd.jpg"
-        title="Paella dish"
+        title={ color.code }
         style={{ height: '12rem' }}
       >
         <div style={{ background: `linear-gradient(${ color.code }64, ${ color.code }64)`, height: '100%' }}>

@@ -58,7 +58,7 @@ const OfficeStories = ({ image, firstName, fullName, quote }) => {
          <CardMedia
            style={{ height: '16rem' }}
            image={image}
-           title="Contemplative Reptile"
+           title={ firstName }
          />
          <CardContent>
            <Typography gutterBottom variant="h5" component="h2">

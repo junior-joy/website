@@ -61,7 +61,7 @@ class JCard extends Component {
       <Card elevation={3}>
         <CardMedia
           image={image}
-          title="Paella dish"
+          title={ title }
           style={{ height: '12rem' }}
         >
           <div style={{ background: 'linear-gradient(rgba(1, 19, 17, 0.7), rgba(2, 38, 34, 0.7))', height: '100%' }}>
