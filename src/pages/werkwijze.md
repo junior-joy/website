@@ -11,10 +11,6 @@ Tennis is leuk, maar wel een moeilijk spel. We werken met duidelijke doelen om d
 * (wed)**Strijd:** Dat moet je leren en daar helpen wij jou bij!
 * **Ontwikkeling:** Jouw doel is om beter te worden en daar gaan we samen voor zorgen!
 
-**Ons beleid met betrekking tot indelen van tennistraining**
-
-Wij vinden het belangrijk dat kinderen het goed met elkaar kunnen vinden in de groep, maar primair kijken wij bij indelen naar het niveau. Trainen met kinderen van gelijk niveau is van groot belang voor de succesbeleving en de ontwikkeling.
-
 Om de jeugd goed op te leiden biedt het Junior Joy-programma verschillende trainingsvarianten en -momenten aan. Zo leren kinderen de vaardigheden om zich het tennisspel eigen te maken.
 
 **1) Tennistraining**  \
@@ -28,7 +24,7 @@ Hierin ligt de focus puur op het verbeteren van de tennisvaardigheden, zoals:
 Hierin ligt de focus op de bredere ontwikkeling, zoals:
 
 * Breed motorische ontwikkeling
-* Leren spelen van wedstrijden
+* Wedstrijdspel
 * Mentale vaardigheden
 
 > **Wat leert een kind bij ons?**

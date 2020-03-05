@@ -1,4 +1,4 @@
 ---
 templateKey: offer-page
-title: 'Ons basispakket: tennistraining + skilltraining'
+title: 'Ons basispakket: basistraining + skilltraining'
 ---

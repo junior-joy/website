@@ -8,7 +8,7 @@ title: FAQ
 _Ons uurtarief voor jeugdtraining ligt lager dan voorheen. Echter werken wij met kleinere groepen vanaf categorie ORANJE waardoor de prijs gedeeld wordt door minder kinderen. Kleine groepen zorgt voor meer aandacht voor het kind en dus meer kwaliteit in training._
 
 
->### Waarom is er geen Jeugdplanaanbod deze zomer? 
+>### Waarom is er geen Jeugdplanaanbod deze zomer?
 
 
 _Het aanbod zoals het was willen we herzien en opnieuw gaan vormgeven. Deze zomer staat in het teken van het leren kennen van de kinderen en samen met de jeugdcommissie het beleid rondom extra stimulering vormgeven._
@@ -27,8 +27,4 @@ _De trainers gaan ons helpen om aan te geven op welk niveua en in welke ontwikke
 
 >### Wordt er in de winter binnen getraind?
 
-We beginnen nu met een seizoen van 3 maanden, april t/m juni. Tijdens deze periode gaan we goed bekijken wat we gaan aanbieden vanaf september. Hierover blijven we jullie informeren. 
-
-
-
-
+We beginnen nu met een seizoen van 3 maanden, april t/m juni. Tijdens deze periode gaan we goed bekijken wat we gaan aanbieden vanaf september. Hierover blijven we jullie informeren.

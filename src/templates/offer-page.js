@@ -100,7 +100,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 </div>
                 <br />
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  Het basis pakket uitbreiden? Dat kan met korting!
+                  Het basis pakket uitbreiden? Dat kan!
                 </h2>
                 <ExpansionPanel>
                   <ExpansionPanelSummary
@@ -161,7 +161,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
                         <li>€640 - 12 weken</li>
-                        <li>€60 - losse les</li>
+                        <li>€60 - losse training</li>
                       </ul><br />
                     </div>
                   </ExpansionPanelDetails>

@@ -31,9 +31,9 @@ class Start extends Component {
                     items={["1 x Tennistraining / week", "", "",  "12 weken", ]}
                     action="Kies"
                     goTo={() => {
+                      setFormState({ stage: 1, packageChoice: 'single' })
                       const con = document.querySelector('.parralax')
                       con.scrollTop = 0
-                      setFormState({ stage: 1, packageChoice: 'single' })
                   }}
                   />
                 </div>
@@ -46,9 +46,9 @@ class Start extends Component {
                     items={["1 x Tennistraining / week", "1 x Skillstraining / week", "", "", "","12 weken"]}
                     action="Kies"
                     goTo={() => {
+                      setFormState({ stage: 1, packageChoice: 'basic' })
                       const con = document.querySelector('.parralax')
                       con.scrollTop = 0
-                      setFormState({ stage: 1, packageChoice: 'basic' })
                     }}
                   />
                 </div>
@@ -61,9 +61,9 @@ class Start extends Component {
                     items={["1 x Basispakket", "+ Training naar keuze", "", "12 weken"]}
                     action="Kies"
                     goTo={() => {
+                      setFormState({ stage: 1, packageChoice: 'extra' })
                       const con = document.querySelector('.parralax')
                       con.scrollTop = 0
-                      setFormState({ stage: 1, packageChoice: 'extra' })
                     }}
                   />
                 </div>

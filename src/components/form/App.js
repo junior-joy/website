@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import {  BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { format } from 'date-fns'
+import { nl } from 'date-fns/locale'
 import axios from 'axios';
 import set from "lodash/set";
 import cloneDeep from "lodash/cloneDeep";
@@ -15,6 +17,7 @@ import Thanks from "./Thanks";
 import ExtraAndSchedule from "./ExtraAndSchedule";
 
 import './form.css'
+
 
 
 export const colorPrices = {
@@ -61,17 +64,17 @@ export const extras = color =>  [
   },
   {
     value: 'prive',
-    label: 'Privéles - 12 weken',
+    label: 'Privétraining - 12 weken',
     price: 640,
   },
   {
     value: 'prive5',
-    label: 'Privéles strippenkaart - 5 keer',
+    label: 'Privétraining strippenkaart - 5 keer',
     price: 275,
   },
   {
     value: 'prive1',
-    label: 'Privéles - 1 keer',
+    label: 'Privétraining - 1 keer',
     price: 60,
   },
   {
@@ -198,14 +201,14 @@ class App extends Component {
     const mailData = {
       naam: first_name_child,
       kleur: color.verbose.toUpperCase(),
-      pakket: packageChoices[packageChoice],
+      pakket: packageChoices[packageChoice].name,
       extras: extraItems.map( item => item.label ).join(', '),
-      totale_prijs: totalPrice,
+      totale_prijs: '€' + totalPrice,
       email: email,
       voornaam_kind: first_name_child,
       achternaam_kind: last_name_child,
-      geboortedatum: date_of_birth_child.toLocaleDateString(),
-      schema: schedule.map( date => date.toLocaleTimeString() ).join(', '),
+      geboortedatum: format( date_of_birth_child, "dd-MM-yyyy" ),
+      schema: schedule.map( date => format( date, "EEEEEE H", {locale: nl} ) + "u" ).join(', '),
     }
     axios.post(`/.netlify/functions/sheets`, data, )
       .then(res => {

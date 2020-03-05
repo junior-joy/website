@@ -2,7 +2,12 @@
 templateKey: about-page
 title: Inspire
 ---
-Junior Joy is een initiatief van Inspire Tennisopleiding en biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma aan.
+Junior Joy is een initiatief van Inspire Tennisopleiding en biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma.
+
+Inspire is in 2016 opgericht door [Teun Kuijken](https://juniorjoy.nl/trainers/Teun) met in eerste instantie een toptennis afdeling [Inspire Top Tennis](https://juniorjoy.nl/trainers/Teun) waarbinnen talentvolle jeugdspelers worden opgeleid. Met de start op Joy Jaagpad verbreedt Inspire zijn horizon om zo meer kinderen het plezier van het tennis bij te brengen!
+
+[Raymon Janson](https://juniorjoy.nl/trainers/raymon/) zal vanuit Inspire de hoofdtrainer voor Junior Joy zijn en zet samen met Teun en de vereniging de lijnen uit. [Raoul Killaars](https://juniorjoy.nl/trainers/Raoul) maakt het vaste Junior Joy team compleet. Indien nodig breiden we het team uit, we houden je hierover op de hoogte.
+
 
 > **Wij maken tennis verslavend leuk, bieden een sociale omgeving en zorgen ervoor dat de jeugd zich blijft ontwikkelen.**
 
