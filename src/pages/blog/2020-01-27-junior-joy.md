@@ -13,14 +13,14 @@ tags:
 ---
 <font color = "#ee7501"><i>
 
-Binnenkort opent de inschrijving voor het zomerseizoen 2020. </i></font>
+De inschrijving voor het zomerseizoen 2020 is geopend.</i></font>
 
-> Een nieuwe tennisschool betekent een frisse wind maar ook veranderingen. 
+> Een nieuwe tennisschool betekent een frisse wind maar ook veranderingen.
 
 ## **Nieuwe trainers**
 
 Een team van ervaren jeugdtrainers gaat vanaf april met de jeugd aan de slag. \
-Nieuwsgierig? [Lees hier](https://juniorjoy.nl/trainers) meer over de trainers van Junior Joy! 
+Nieuwsgierig? [Lees hier](https://juniorjoy.nl/trainers) meer over de trainers van Junior Joy!
 
 ![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_267/v1580156277/blog/de_trainers_dbxa9l.png)
 
@@ -32,7 +32,7 @@ Daarom is onze visie dat we de jeugd het liefst minimaal 2x per week begeleiden.
 
 ## Starten met een kort seizoen
 
-> We willen de Junior Joy kids en ouders leren kennen, onze ideeën verder vorm geven en de samenwerking met de jeugdcommissie sterk maken. 
+> We willen de Junior Joy kids en ouders leren kennen, onze ideeën verder vorm geven en de samenwerking met de jeugdcommissie sterk maken.
 
 We gaan in april starten met een kort seizoen: april tot de zomervakantie. In deze periode zullen we de tijd nemen om ons aanbod verder vorm te geven. Na de zomervakantie zal dan een nieuw seizoen gaan beginnen. Om tot een optimaal aanbod te komen, willen we vooraf graag met jeugdleden en ouders hierover in gesprek gaan.
 

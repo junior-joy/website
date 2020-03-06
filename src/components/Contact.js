@@ -47,7 +47,7 @@ class Contact extends Component {
         <div className="">
           <div className="">
             <h1 className="page__title">Junior Joy start in April 2020</h1>
-            <h3 style={{ marginTop: '1rem', textAlign: 'center' }}>Binnenkort wordt het aanbod bekend en de inschrijving geopend. Blijf op de hoogte. Meld je aan voor de nieuwsbrief.</h3>
+            <h3 style={{ marginTop: '1rem', textAlign: 'center' }}>Blijf op de hoogte. Meld je aan voor de nieuwsbrief.</h3>
           </div>
         </div>
         <ValidatorForm
