@@ -17,7 +17,7 @@ const defaultState = {
   contact: {
     name: '',
     email: '',
-    topic: 'workspace',
+    topic: 'inschrijving',
     message: '',
   },
 };
