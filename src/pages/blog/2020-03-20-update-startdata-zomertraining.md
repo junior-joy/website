@@ -13,7 +13,7 @@ In strijd tegen het coronavirus heeft het kabinet maatregelen genomen t/m 28 apr
 
 Maatregelen rondom het virus zijn onzeker, maar voor nu gaan we ervan uit dat we na 28 april kunnen starten met de trainingen. Mochten er verdere maatregelen genomen worden, dan informeren we je uiteraard hierover via de mail en/of onze website.
 
-Aangezien er na 28 april eerst nog een meivakantie gepland staat. Zetten we de start van de training nu op 11 mei. 
+Aangezien er na 28 april eerst nog een meivakantie gepland staat, zetten we de start van de training nu op 11 mei. 
 
 **Aantal trainingen en betaling**
 
