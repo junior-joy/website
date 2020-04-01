@@ -1,21 +1,17 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import TextField from '@material-ui/core/TextField';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
 import Button from '@material-ui/core/Button';
 
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
-import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
-import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 class Start extends Component {
   render() {
-    const { contact, toggleHeader, onInputChange } = this.props;
+    const { contact, onInputChange } = this.props;
     return (
       <div>
         <fieldset id="contact" className="">
@@ -114,7 +110,6 @@ Start.propTypes = {
   contact: PropTypes.object,
   onInputChange: PropTypes.func,
   onRemoveSection: PropTypes.func,
-  toggleHeader: PropTypes.func
 };
 
 export default Start;

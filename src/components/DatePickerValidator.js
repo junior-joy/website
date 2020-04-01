@@ -1,8 +1,6 @@
 import React from 'react';
 import red from '@material-ui/core/colors/red';
-import Checkbox from '@material-ui/core/Checkbox';import {
-  MuiPickersUtilsProvider,
-  KeyboardTimePicker,
+import {
   KeyboardDatePicker,
 } from '@material-ui/pickers';
 import { ValidatorComponent } from 'react-material-ui-form-validator';

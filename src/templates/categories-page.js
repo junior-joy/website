@@ -4,12 +4,7 @@ import { graphql, navigate, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Content, { HTMLContent } from '../components/Content'
-
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -28,7 +23,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <p>
                   De kleuren staan voor de balsoort en baangrootte. In onderstaand schema staat weergegeven welke leeftijd bij welke kleur hoort. Het niveau van het kind is bepalend voor de kleur waarin het speelt, vandaar dat er in het schema veel overlap in leeftijd te zien is.
                 </p>
-                <img src="https://res.cloudinary.com/junior-joy/image/upload/v1581803370/Cards/tenniskids-leeftijdsindeling_bjcnbw.jpg" style={{  width: "100%" }}/><br />
+                <img alt="KNLTB Kleurenindeling" src="https://res.cloudinary.com/junior-joy/image/upload/v1581803370/Cards/tenniskids-leeftijdsindeling_bjcnbw.jpg" style={{  width: "100%" }}/><br />
                 <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
                   Door naar de volgende kleur
                 </h3>

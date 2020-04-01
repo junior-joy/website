@@ -2,17 +2,14 @@ import React, { Component } from "react";
 import 'date-fns';
 import nlLocale from "date-fns/locale/nl";
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
-import CheckboxValidatorElement from '../CheckboxValidator'
 import DatePickerValidatorElement from '../DatePickerValidator'
 import RadioValidator from '../RadioValidator'
 import PropTypes from "prop-types";
-import { colorPrices, extras, determineStartPrice } from './App'
+import { extras, determineStartPrice } from './App'
 
 import FormLabel from '@material-ui/core/FormLabel';
 import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
 import Button from '@material-ui/core/Button';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -20,7 +17,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
-import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailIcon from '@material-ui/icons/Mail';
@@ -28,8 +24,6 @@ import CreditCardIcon from '@material-ui/icons/CreditCard';
 
 import {
   MuiPickersUtilsProvider,
-  KeyboardTimePicker,
-  KeyboardDatePicker,
 } from '@material-ui/pickers';
 
 import DateFnsUtils from '@date-io/date-fns';
@@ -69,19 +63,8 @@ class ContactInfo extends Component {
     const { contact, priceSummary, onInputChange, setFormState, handleSubmit, errorMessage } = this.props;
     const { submitted, success } = this.state
     const { color, packageChoice, extra } = priceSummary
-    const priceColor = colorPrices[priceSummary.color.verbose]
     const extraItems = extras(color).filter( item => extra[item.value] )
     const totalPrice = determineStartPrice(color.verbose, packageChoice) + extraItems.reduce( (aa, bb) => aa + bb.price, 0 )
-    var pricePackage = 0
-    if ( !priceSummary.packageChoice === 'single' ) {
-      const pricePackage = 200
-    }
-    var priceExtras = 0
-    if ( priceSummary.packageChoice === 'extra' ) {
-      priceExtras = extras(priceSummary.color).filter( item => extra[item.value] === true ).map(item => item.price ).reduce((acc, current) => acc + current, 0 )
-    }
-    const price = priceColor + pricePackage + priceExtras
-
     return (
       <div className="page">
         <ValidatorForm

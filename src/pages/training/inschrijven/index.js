@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { navigate, graphql, Link } from 'gatsby'
+import { navigate, graphql } from 'gatsby'
 import Img from "gatsby-image"
 import Layout from '../../../components/Layout'
 import Form from '../../../components/form/Start'

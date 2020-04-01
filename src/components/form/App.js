@@ -1,7 +1,5 @@
-/* globals window, document */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import {  BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { format } from 'date-fns'
 import { nl } from 'date-fns/locale'
 import axios from 'axios';
@@ -122,7 +120,6 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    const fromSaveLink = tryParseJSON(props.location && props.location.search);
     const state = defaultState//fromSaveLink ? fromSaveLink : store.get("data") || defaultState;
 
     this.state = {
@@ -143,7 +140,6 @@ class App extends Component {
   }
 
   onInputChange = (value, key) => {
-    const sc = this.state.schedule
     const newState = cloneDeep(this.state);
     set(newState, key, value);
     this.setState(newState);
@@ -172,7 +168,6 @@ class App extends Component {
       trainer_last_year,
       other_trainer_last_year,
     } = contact
-    const priceColor = colorPrices[color.verbose]
     const extraItems = extras(color).filter( item => extra[item.value] )
     const totalPrice = determineStartPrice(color.verbose, packageChoice) + extraItems.reduce( (aa, bb) => aa + bb.price, 0 )
     const data = {

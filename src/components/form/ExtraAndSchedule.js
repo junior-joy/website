@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { extras } from './App'
-import FormLabel from '@material-ui/core/FormLabel';
 import Button from '@material-ui/core/Button';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -33,7 +32,6 @@ class ContactInfo extends Component {
   render() {
     const { schedule, extra, color, packageChoice, onInputChange, setFormState } = this.props;
     const { error } = this.state
-    const labelExtraGrouptraining = (color.verbose==='rood') ? 'groepstraining rood - 12 weken - €115' : 'groepstraining - 12 weken - €180'
     return (
       <div className="page">
         <fieldset id="contact" className="fieldset fieldset--contact">
