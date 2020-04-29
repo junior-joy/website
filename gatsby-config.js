@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Junior Joy',
     description:
-      'Next level jeugd tennis by In spire, voor de kinderen van Joy Jaagpad...',
+      'Het jeugdtennis voor de kinderen van Joy Jaagpad',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
