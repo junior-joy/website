@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Baanplanner jeugd
+title: Planner jeugd
 ---
 
 <a href="https://form.jotform.com/201153059677053" target="_blank">
