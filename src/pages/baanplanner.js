@@ -1,8 +1,3 @@
----
-templateKey: about-page
-title: Baanplanner jeugd
----
-
 <html lang=""><head><title>Meivakantie baanplanner jeugd</title><link rel="canonical" href="https://form.jotform.com/201153059677053"/><link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=http://www.jotform.com/form/201153059677053" title="oEmbed Form"/><link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=http://www.jotform.com/form/&#x27;201153059677053" title="oEmbed Form"/><meta property="og:title" content="Meivakantie baanplanner jeugd"/><meta property="og:url" content="http://www.jotform.com/form/201153059677053"/><meta property="og:description" content=""/><meta name="slack-app-id" content="AHNMASS8M"/><link id="default-css" type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/stylebuilder/default.css?e404d01a"/><link id="form-css" type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/stylebuilder/201153059677053.css?themeID=5ea42221d0202a4b9013eef1&amp;smartEmbed=1"/><style>
         body { overflow: hidden; }
         body ul,
