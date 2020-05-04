@@ -46,8 +46,8 @@ class Contact extends Component {
         <style>{'.unsubmitted .MuiFormHelperText-root.Mui-error{ display: none; } .unsubmitted .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline{ color: #3f51b5!important; border-color: #3f51b5!important; } .unsubmitted .MuiFormLabel-root.Mui-error{ color: #3f51b5!important }'}</style>
         <div className="">
           <div className="">
-            <h1 className="page__title">Junior Joy start in April 2020</h1>
-            <h3 style={{ marginTop: '1rem', textAlign: 'center' }}>Blijf op de hoogte. Meld je aan voor de nieuwsbrief.</h3>
+            <h1 className="page__title">Blijf op de hoogte. Meld je aan voor de nieuwsbrief</h1>
+            <h3 style={{ marginTop: '1rem', textAlign: 'center' }}>Nieuwsbrief met: activiteiten, aankondigingen, leuke tennisinfo, nuttige informatie.</h3>
           </div>
         </div>
         <ValidatorForm
