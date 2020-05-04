@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'We zijn van start! '
-date: 2020-03-20T20:59:23.537Z
+date: 2020-05-04T19:59:23.537Z
 description: 'Eindelijk was het zover, de Junior Joy trainers gingen van start!'
 featuredpost: true
 featuredimage: >-
