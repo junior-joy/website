@@ -46,7 +46,7 @@ class Contact extends Component {
         <style>{'.unsubmitted .MuiFormHelperText-root.Mui-error{ display: none; } .unsubmitted .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline{ color: #3f51b5!important; border-color: #3f51b5!important; } .unsubmitted .MuiFormLabel-root.Mui-error{ color: #3f51b5!important }'}</style>
         <div className="">
           <div className="">
-            <h1 className="page__title">Blijf op de hoogte. Meld je aan voor de nieuwsbrief.</h2>
+            <h1 className="page__title">Blijf op de hoogte. Meld je aan voor de nieuwsbrief.</h3>
             <h3 style={{ marginTop: '1rem', textAlign: 'center' }}>Activiteiten, aankondigingen, leuke tennisinfo, nuttige informatie.</h3>
           </div>
         </div>
