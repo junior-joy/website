@@ -101,8 +101,8 @@ const Navbar = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/maakkennismettennis" activeClassName="is-active" partiallyActive={true}>
-                        Maak kennis met tennis
+                      <Link className="navbar-item" to="/data" activeClassName="is-active" partiallyActive={true}>
+                        Data
                       </Link>
                     </li>
                     <li>
