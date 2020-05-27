@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Neem de tijd voor iedere kleur!
 date: 2020-05-27T07:06:26.272Z
 description: >-
-  Met welke balkleur een kind zou moeten spelen zorgt nog nog wel eens voor
+  Met welke balkleur een kind zou moeten spelen zorgt nog wel eens voor
   discussie en vragen. Aan de hand van deze blog deel ik graag met jullie onze
   visie rondom tenniskids en het doorgroeien naar een volgende balkleur. 
 featuredpost: true
