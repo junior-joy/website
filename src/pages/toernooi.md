@@ -4,4 +4,4 @@ title: Toernooi
 ---
 
 Binnenkort zal hier de link voor de clubkampioenschappen geplaatst worden!
-v
+
