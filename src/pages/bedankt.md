@@ -1,8 +1,6 @@
 ---
 templateKey: about-page
-title: Bedankt
+title: Bedankt voor aanmelden
 ---
 
-Bedankt voor het aanmelden!
-
-<a href=><img src="https://res.cloudinary.com/junior-joy/image/upload/v1591559270/morvanic-lee-GiUJ02Yj_io-unsplash_bfwyek.jpg"></a>
+<img src="https://res.cloudinary.com/junior-joy/image/upload/t_media_lib_thumb/v1591559270/morvanic-lee-GiUJ02Yj_io-unsplash_bfwyek.jpg"></a>
