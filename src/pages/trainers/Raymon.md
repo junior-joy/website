@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Raymon Janson
 ---
-![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_348/v1577894556/ray_foto_noh0tf.jpg "Raymon Janson")
+![](https://res.cloudinary.com/junior-joy/image/upload/v1590565989/WhatsApp_Image_2020-05-06_at_08.51.08_1_p01bbg.jpg "Raymon Janson")
 
 * 41 jaar  
 * Hoofdtrainer Junior Joy
