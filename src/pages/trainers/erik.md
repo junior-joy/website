@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Erik Faneker
 ---
-![](https://res.cloudinary.com/junior-joy/image/upload/v1591608590/WhatsApp_Image_2020-06-08_at_11.29.31_rmabiz.jpg "Erik Faneker")
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_456/v1591608590/WhatsApp_Image_2020-06-08_at_11.29.31_rmabiz.jpg "Erik Faneker")
 
 * 26 jaar  
 * Trainer Junior Joy
