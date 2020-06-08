@@ -47,7 +47,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1591608590/WhatsApp_Image_2020-06-08_at_11.29.31_rmabiz.jpg"
                       firstName="Erik"
-                      fullName="Erik Killaars"
+                      fullName="Erik Faneker"
                       quote='Met Junior Joy hoop ik speelse doch intensieve trainingen te organiseren: toegankelijk, maar ook uitdagend.'
                     />
                   </div>
