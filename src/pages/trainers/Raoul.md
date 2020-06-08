@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Raoul Killaars
 ---
-![](https://res.cloudinary.com/dzbt2ovfb/image/upload/c_scale,w_400/v1580400553/customers/junior-joy/raoul_myawek.jpg)
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_556/v1591611946/WhatsApp_Image_2020-06-08_at_12.24.42_rzdqiq.jpg "Raoul Killaars")
 
 * 28 jaar
 * Trainer Junior Joy
