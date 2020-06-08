@@ -21,7 +21,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <div className="columns">
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/junior-joy/image/upload/v1577894223/teun_ffehbw.png"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_521/v1591612176/WhatsApp_Image_2020-06-08_at_12.29.04_ksg1kh.jpg"
                       firstName="Teun"
                       fullName="Teun Kuijken"
                       quote='Vanaf jonge leeftijd wist ik het al: "Ik word later tennistrainer".'
@@ -29,7 +29,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </div>
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_348/v1577894556/ray_foto_noh0tf.jpg"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1590565989/WhatsApp_Image_2020-05-06_at_08.51.08_1_p01bbg.jpg"
                       firstName="Raymon"
                       fullName="Raymon Janson"
                       quote='Met mijn enthousiasme, humor en vakmanschap begeleid ik de jeugd bij hun tennisontwikkeling.'
@@ -37,7 +37,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </div>
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/dzbt2ovfb/image/upload/v1580400553/customers/junior-joy/raoul_myawek.jpg"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1591611946/WhatsApp_Image_2020-06-08_at_12.24.42_rzdqiq.jpg"
                       firstName="Raoul"
                       fullName="Raoul Killaars"
                       quote='Plezier, enthousiasme en een positieve mentaliteit vind ik belangrijke elementen.'
