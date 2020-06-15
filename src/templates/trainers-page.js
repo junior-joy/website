@@ -54,7 +54,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_488/v1591614909/WhatsApp_Image_2020-06-08_at_13.14.01_lzqqx7.jpg"
-                      firstName="André"
+                      firstName="Andre"
                       fullName="André Hillenius"
                       quote='André is enthousiast en houdt van het spelletje en brengt dit over als geen ander!'
                     />
