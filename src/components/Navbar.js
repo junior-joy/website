@@ -162,7 +162,7 @@ const Navbar = class extends React.Component {
                   Toernooi
                 </Link>
                 <Link className="navbar-item" to="/kamp" activeClassName="is-active" partiallyActive={true}>
-                  kamp
+                  Kamp
                 </Link>
               </div>
             </div>
