@@ -161,6 +161,9 @@ const Navbar = class extends React.Component {
                 <Link className="navbar-item" to="/toernooi" activeClassName="is-active" partiallyActive={true}>
                   Toernooi
                 </Link>
+                <Link className="navbar-item" to="/kamp" activeClassName="is-active" partiallyActive={true}>
+                  kamp
+                </Link>
               </div>
             </div>
             <div className="navbar-end has-text-centered" activeClassName="is-active" partiallyActive={true}>
