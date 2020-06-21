@@ -3,7 +3,7 @@ templateKey: about-page
 title: Planner jeugd
 ---
 
-Meld je aan voor GRATIS inlooptraining op maandag en vrijdag.
+Meld je aan voor GRATIS inlooptraining op dinsdag, maandag en vrijdag.
 
 <a href="https://form.jotform.com/Inspire_tennis/inloop-training"><img src="https://res.cloudinary.com/junior-joy/image/upload/v1592763378/knop_aanmeld_paqvyz.png"></a>
  
