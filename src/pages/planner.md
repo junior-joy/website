@@ -5,7 +5,7 @@ title: Planner jeugd
 
 Meld je aan voor GRATIS inlooptraining op maandag en vrijdag.
 
-<a href="https://eu.jotform.com/Kuijken/inloop-training"><img src="https://res.cloudinary.com/junior-joy/image/upload/v1588190997/inloop_drilul.png"></a>
+<a href="https://form.jotform.com/Inspire_tennis/inloop-training"><img src="https://res.cloudinary.com/junior-joy/image/upload/v1588190997/inloop_drilul.png"></a>
  
  
 <b>Wat is inlooptraining?</b></p>
