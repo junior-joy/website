@@ -7,7 +7,7 @@ featuredpost: true
 featuredimage: >-
   https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_521/v1591873503/gary-m-prior-getty-goran_rz44uo.jpg
 tags:
-  - nieuws
+  - Goran
 ---
 Mijn blog gaat deze keer over Goran Ivanišević, een fantastische tennisser met een opvallend karakter.
 
