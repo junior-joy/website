@@ -152,17 +152,11 @@ const Navbar = class extends React.Component {
                 </ExpansionPanelDetails>
               </ExpansionPanel>
               <div className="navbar-start has-text-centered">
-                <Link className="navbar-item" to="/planner/" activeClassName="is-active" partiallyActive={true}>
-                  Planner
-                </Link>
                 <Link className="navbar-item" to="/contact" activeClassName="is-active" partiallyActive={true}>
                   Contact
                 </Link>
-                <Link className="navbar-item" to="/toernooi" activeClassName="is-active" partiallyActive={true}>
-                  Toernooi
-                </Link>
-                <Link className="navbar-item" to="/kamp" activeClassName="is-active" partiallyActive={true}>
-                  Kamp
+                <Link className="navbar-item" to="/clubuitwisseling" activeClassName="is-active" partiallyActive={true}>
+                  clubuitwisseling
                 </Link>
               </div>
             </div>
