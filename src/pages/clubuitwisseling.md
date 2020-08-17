@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: clubuitwisseling
+title: Clubuitwisseling
 ---
 
 ## Jij doet toch ook mee op 30 augustus?
