@@ -105,16 +105,6 @@ const Navbar = class extends React.Component {
                         Data
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/training/inschrijven" activeClassName="is-active" partiallyActive={true}>
-                        Inschrijven
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/training/aanbod" activeClassName="is-active" partiallyActive={true}>
-                        Aanbod
-                      </Link>
-                    </li>
                   </List>
                 </ExpansionPanelDetails>
               </ExpansionPanel>
