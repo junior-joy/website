@@ -156,7 +156,7 @@ const Navbar = class extends React.Component {
                   Contact
                 </Link>
                 <Link className="navbar-item" to="/clubuitwisseling" activeClassName="is-active" partiallyActive={true}>
-                  clubuitwisseling
+                  Clubuitwisseling
                 </Link>
               </div>
             </div>
