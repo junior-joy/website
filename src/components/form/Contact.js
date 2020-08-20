@@ -3,7 +3,7 @@ import 'date-fns';
 import nlLocale from "date-fns/locale/nl";
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 import DatePickerValidatorElement from '../DatePickerValidator'
-import RadioValidator from '../RadioValidator'
+import RadioValidatorElement from '../RadioValidator'
 import PropTypes from "prop-types";
 import { extras, determineStartPrice } from './App'
 
@@ -304,7 +304,7 @@ class ContactInfo extends Component {
               <div className="column is-12">
                 <FormControl component="fieldset">
                   <FormLabel component="legend">Kies een betaalmethode</FormLabel>
-                  <RadioValidator
+                  <RadioValidatorElement
                     aria-label="gender"
                     name="gender1"
                     value={contact.check_transfer}
@@ -359,7 +359,7 @@ class ContactInfo extends Component {
                       </div>
                     )}
                     <FormControlLabel value="invoice" control={<Radio />} label="Ik betaal via de factuur in de email" />
-                  </RadioValidator>
+                  </RadioValidatorElement>
                 </FormControl>
               </div>
             </div>
