@@ -1,0 +1,6 @@
+## Authenticatie
+
+Stap1: Get key and secret: https://trello.com/app-key
+Stap2: Login using generated auth URL (/work/softw/active/getSecret)
+Stap3: Get id of board fromURL and test API request. Also test if Never Expires in settings
+Stap4: Create Test list in board

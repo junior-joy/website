@@ -105,9 +105,15 @@ class App extends Component {
     }
     axios.post(`https://api.plathena.com/plathena/mail/contact/junior-joy/`, data, )
       .then(res => {
-        this.setState({
-          send: true,
-          success: true,
+        axios.post(`/.netlify/functions/trello`, data, ).then( res1 => {
+          this.setState({
+            send: true,
+            success: true,
+          })
+        }).catch ( err => {
+          this.setState({
+            success: false,
+          })
         })
       })
       .catch( err => {

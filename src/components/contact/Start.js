@@ -71,6 +71,7 @@ class Start extends Component {
                     >
                        <FormControlLabel value="inschrijving" control={<Radio />} label="Inschrijving" />
                        <FormControlLabel value="trainingsprogramma" control={<Radio />} label="Trainingen" />
+                       <FormControlLabel value="klacht" control={<Radio />} label="Klacht" />
                        <FormControlLabel value="anders" control={<Radio />} label="Anders" />
                      </RadioGroup>
                    </FormControl>
