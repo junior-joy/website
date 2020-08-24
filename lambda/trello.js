@@ -40,10 +40,8 @@ module.exports.handler = async function(event, context) {
        function (e, data, res) {
          if (e) console.error(e);
          resData.data = data
-         console.log('test1', resData.data)
          return
        });
-  console.log('test2', resData.data)
   return {
     // return null to show no errors
     statusCode: 200, // http status code
