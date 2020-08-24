@@ -31,6 +31,13 @@ module.exports.handler = async function(event, context) {
   );
   const resData = {}
   console.log(email, naam, topic, message)
+  console.log(
+    process.env.TRELLO_URL_REQUEST,
+    process.env.TRELLO_URL_ACCESS,
+    process.env.TRELLO_CLIENT_KEY,
+    process.env.TRELLO_CLIENT_SECRET,
+    process.env.TRELLO_OAUTH_TOKEN,
+    process.env.TRELLO_OAUTH_SECRET,)
   oauth.post(
        `https://api.trello.com/1/cards/?idList=5ecf9b6964bcc78b1945d4e9&name=Email%20${encodeURI(naam)}&desc=Naam%3A%20${encodeURI(naam)}%0AEmail%3A%20${encodeURI(email)}%0AReden%20van%20contact%3A%20${encodeURI(topic)}%0A%0A---%0A%0A${encodeURI(truncateString(message, 40))}`,
        process.env.TRELLO_OAUTH_TOKEN,
@@ -43,6 +50,7 @@ module.exports.handler = async function(event, context) {
          console.log(data)
          return
        });
+
   return {
     // return null to show no errors
     statusCode: 200, // http status code
