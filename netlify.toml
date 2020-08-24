@@ -1,7 +1,7 @@
 [build]
   publish = "public"
   command = "npm run build"
-  functions = "lambda"
+  functions = "functions"
   [[headers]]
     for = "/static/*"
     [headers.values]
