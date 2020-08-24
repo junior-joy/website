@@ -6,15 +6,17 @@ import { ValidatorComponent } from 'react-material-ui-form-validator';
 const red300 = red['500'];
 
 const style = {
+    right: 0,
     fontSize: '12px',
     color: red300,
+    position: 'absolute',
+    marginTop: '-25px',
 };
 
-class RadioValidator extends ValidatorComponent {
+class CheckboxValidatorElement extends ValidatorComponent {
 
-    render() {
+    renderValidatorComponent() {
         const { errorMessages, validators, requiredError, value, children, ...rest } = this.props;
-        const isValid = this.state;
 
         return (
             <div>
@@ -44,4 +46,4 @@ class RadioValidator extends ValidatorComponent {
     }
 }
 
-export default RadioValidator;
+export default CheckboxValidatorElement;

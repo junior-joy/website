@@ -4,11 +4,18 @@ module.exports = {
   siteMetadata: {
     title: 'Junior Joy',
     description:
-      'Next level jeugd tennis by In spire, voor de kinderen van Joy Jaagpad...',
+      'Het jeugdtennis voor de kinderen van Joy Jaagpad',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-97788127-2",
+        cookieDomain: "juniorjoy.nl",
+      },
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',

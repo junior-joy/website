@@ -21,7 +21,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <div className="columns">
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/junior-joy/image/upload/v1577894223/teun_ffehbw.png"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_521/v1591612176/WhatsApp_Image_2020-06-08_at_12.29.04_ksg1kh.jpg"
                       firstName="Teun"
                       fullName="Teun Kuijken"
                       quote='Vanaf jonge leeftijd wist ik het al: "Ik word later tennistrainer".'
@@ -29,7 +29,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </div>
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_348/v1577894556/ray_foto_noh0tf.jpg"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1590565989/WhatsApp_Image_2020-05-06_at_08.51.08_1_p01bbg.jpg"
                       firstName="Raymon"
                       fullName="Raymon Janson"
                       quote='Met mijn enthousiasme, humor en vakmanschap begeleid ik de jeugd bij hun tennisontwikkeling.'
@@ -37,10 +37,26 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </div>
                   <div className="column">
                     <Card
-                      image="https://res.cloudinary.com/dzbt2ovfb/image/upload/v1580400553/customers/junior-joy/raoul_myawek.jpg"
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1591611946/WhatsApp_Image_2020-06-08_at_12.24.42_rzdqiq.jpg"
                       firstName="Raoul"
                       fullName="Raoul Killaars"
                       quote='Plezier, enthousiasme en een positieve mentaliteit vind ik belangrijke elementen.'
+                    />
+                  </div>
+                  <div className="column">
+                    <Card
+                      image="https://res.cloudinary.com/junior-joy/image/upload/v1591608590/WhatsApp_Image_2020-06-08_at_11.29.31_rmabiz.jpg"
+                      firstName="Erik"
+                      fullName="Erik Faneker"
+                      quote='Met Junior Joy hoop ik speelse doch intensieve trainingen te organiseren: toegankelijk, maar ook uitdagend.'
+                    />
+                  </div>
+                    <div className="column">
+                    <Card
+                      image="https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_488/v1591614909/WhatsApp_Image_2020-06-08_at_13.14.01_lzqqx7.jpg"
+                      firstName="Andre"
+                      fullName="André Hillenius"
+                      quote='André is enthousiast en houdt van het spelletje en brengt dit over als geen ander!'
                     />
                   </div>
                 </div>

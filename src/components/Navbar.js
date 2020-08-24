@@ -101,13 +101,8 @@ const Navbar = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/training/inschrijven" activeClassName="is-active" partiallyActive={true}>
-                        Inschrijven
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/training/aanbod" activeClassName="is-active" partiallyActive={true}>
-                        Aanbod
+                      <Link className="navbar-item" to="/data" activeClassName="is-active" partiallyActive={true}>
+                        Data
                       </Link>
                     </li>
                   </List>
@@ -147,14 +142,11 @@ const Navbar = class extends React.Component {
                 </ExpansionPanelDetails>
               </ExpansionPanel>
               <div className="navbar-start has-text-centered">
-                <Link className="navbar-item" to="/blog" activeClassName="is-active" partiallyActive={true}>
-                  Blog
-                </Link>
                 <Link className="navbar-item" to="/contact" activeClassName="is-active" partiallyActive={true}>
                   Contact
                 </Link>
-                <Link className="navbar-item" to="/photos" activeClassName="is-active" partiallyActive={true}>
-                  Impressie
+                <Link className="navbar-item" to="/clubuitwisseling" activeClassName="is-active" partiallyActive={true}>
+                  Clubuitwisseling
                 </Link>
               </div>
             </div>

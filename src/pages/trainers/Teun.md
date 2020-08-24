@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Teun Kuijken
 ---
-![](https://res.cloudinary.com/junior-joy/image/upload/v1577894223/teun_ffehbw.png "Teun Kuijken ")
+![](https://res.cloudinary.com/junior-joy/image/upload/c_scale,w_509/v1591612176/WhatsApp_Image_2020-06-08_at_12.29.04_ksg1kh.jpg "Teun Kuijken ")
 
 * 34 jaar  
 * Oprichter Inspire

@@ -15,8 +15,8 @@ import colors from './colors'
 import selectionSchemes from './selection-schemes'
 
 const formatHour = hour => {
-  const h = hour === 0 || hour === 12 || hour === 24 ? 12 : hour % 12
-  const abb = hour < 12 || hour === 24 ? 'am' : 'pm'
+  //const h = hour === 0 || hour === 12 || hour === 24 ? 12 : hour % 12
+  //const abb = hour < 12 || hour === 24 ? 'am' : 'pm'
   return `${hour}:00 uur`
 }
 

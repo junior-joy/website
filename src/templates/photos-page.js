@@ -2,11 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, navigate } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import Gallery from 'react-grid-gallery';
 
 export const PhotosPageTemplate = ({ edges, contentComponent }) => {
-  const PageContent = contentComponent || Content
   const images = edges.map( edge => {
     const thumbnail = edge.node.secure_url.split('upload/').join('upload/t_media_lib_thumb/')
     return ({

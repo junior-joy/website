@@ -1,6 +1,4 @@
-/* globals window, document */
 import React, { Component } from "react";
-import {  BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from 'axios';
 import set from "lodash/set";
 import cloneDeep from "lodash/cloneDeep";
@@ -17,7 +15,7 @@ const defaultState = {
   contact: {
     name: '',
     email: '',
-    topic: 'workspace',
+    topic: 'inschrijving',
     message: '',
   },
 };
@@ -107,9 +105,15 @@ class App extends Component {
     }
     axios.post(`https://api.plathena.com/plathena/mail/contact/junior-joy/`, data, )
       .then(res => {
-        this.setState({
-          send: true,
-          success: true,
+        axios.post(`/.netlify/functions/trello`, data, ).then( res1 => {
+          this.setState({
+            send: true,
+            success: true,
+          })
+        }).catch ( err => {
+          this.setState({
+            success: false,
+          })
         })
       })
       .catch( err => {
