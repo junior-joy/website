@@ -12,7 +12,7 @@ function truncateString(str, num) {
 }
 
 // For more info, check https://www.netlify.com/docs/functions/#javascript-lambda-functions
-module.exports.handler = async function(event, context) {
+module.exports.handler = function(event, context) {
   const params = JSON.parse(event.body);
   const {
     email,
@@ -42,6 +42,8 @@ module.exports.handler = async function(event, context) {
          console.log(data)
          return data
        });
+
+     callback(null, { statusCode: 200, body: "" });
 }
 
 // Now you are ready to access this API from anywhere in your Gatsby app! For example, in any event handler or lifecycle method, insert:
