@@ -43,7 +43,6 @@ module.exports.handler = function(event, context) {
          return data
        });
 
-     callback(null, { statusCode: 200, body: "" });
 }
 
 // Now you are ready to access this API from anywhere in your Gatsby app! For example, in any event handler or lifecycle method, insert:
