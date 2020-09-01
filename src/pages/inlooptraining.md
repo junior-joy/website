@@ -3,7 +3,7 @@ templateKey: about-page
 title: Inlooptraining
 ---
 
-## Inlooptraining 
+## Kom jij ook extra trainen?
 
 Wat is inlooptraining?
 
