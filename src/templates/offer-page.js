@@ -26,74 +26,60 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   {title}
                 </h2>
                 <p>
-                  Wij adviseren om naast de basistraining ook onze skilltraining te volgen, samen vormen ze het basispakket. Op deze manier krijg je tennis sneller en beter onder de knie en ben je vaker op de club met je vrienden.<br /><br />
+                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn.<br> Lees hier de mogelijkheden. 
                 </p>
                 <div className="columns">
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png"
-                      title="Basistraining"
-                      subtitle="Tennisspecifieke vaardigheden"
+                      title="Buiten en binnen"
+                      subtitle="3 maanden binnen en 3 maanden buiteb"
                       items={[
-                        "Techniek",
-                        "Tactiek",
-                        "Voetenwerk"
+                        "Oktober, november en maart buiten op Joy Jaagpad (met garantie op uitwijk naar binnen)",
+                        "December, januari, februari binnen op Tennispark Sloterplas of TV Osdorp (je kunt een voorkeur aangeven)",
                       ]}
-                      actionText="Training met gelijkwaardige spelers en persoonlijke aandacht."
+                      actionText="LET OP: voor deze optie geldt een beperkt aantal plekken."
                     >
-                      <Typography paragraph variant="h5">Wat leer je tijdens de basistraining?</Typography>
+                      <Typography paragraph variant="h5">Kosten</Typography>
                       <Typography paragraph variant="paragraph">
-                        De basistraining is de training waarin gewerkt wordt aan tennisspecifieke vaardigheden.
-                        Met heldere doelen werken we met de jeugd stap voor stap aan het ontwikkeling van technische vaardigheden om het tennisspel goed onder de knie te krijgen.
-                        De techniek staat in dienst van de tactiek die het tennisspel in zich heeft, welke tactieken zijn dat?
+                        De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. Er wordt niet getraind tijdens schoolvakanties en feestdagen. Voor alle jeudgleden van Joy Jaagpad geldt een subsidie van €50,- pp. op deze training, dit om de kosten van de binnenbaanhuur wat te drukken.                      
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>Vastheid: de bal kunnen controleren </li>
-                        <li>Plaatsing: de bal kunnen sturen</li>
-                        <li>Vaart: de bal kunnen versnellen</li>
-                        <li>Rotatie: de bal laten draaien </li>
-                        <li>Tempo: de bal snel of juist laat na de stuit pakken</li>
+                        <li>ROOD (4-8jr): €220,- pp. in een groep van maximaal 8 kinderen.</li>
+                        <li>ORANJE / GROEN / GEEL: €382,- pp. in een groep van maximaal 4 kinderen.</li>
                       </ul><br />
-                      <Typography paragraph variant="h5">Groepsgrootte</Typography>
-                        Er wordt getraind in compacte groepen waarbij de trainers indeling op niveau.
-                        Alleen als het niveau van de kinderen ongeveer gelijk is kunnen de kinderen van elkaar leren.<br/><br/>
-                        De groepsgrootte:<br /><br />
-                        ROOD: 6-8 personen<br />
-                        ORANJE / GROEN / GEEL: maximaal 4 personen
                       <Typography paragraph variant="paragraph">
-
                       </Typography>
-                      <Typography paragraph variant="h5">Uitbreiding basispakket</Typography>
+                      <Typography paragraph variant="h5">Vaker dan 1 keer trainen per week?</Typography>
                       <Typography paragraph variant="paragraph">
-                        Het basispakket bestaat uit de basistraining + skillstraining.
-                        Wil jij nog meer trainen? Dat kan. Breid jouw pakket uit met de trainingen die hieronder vermeld staan.
+                        Dat kan! <br>Je kunt meedoen aan de inlooptraining <a href="https://juniorjoy.nl/inlooptraining/">KLIK HIER</a> om er alles over te lezen. <br>Daarnaast kun je ook een vaste 2de training aanvragen. 
                       </Typography>
                     </Card>
                   </div>
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1581536341/impressie/Schermafbeelding_2020-02-12_om_20.39.00_ljwjmj.png"
-                      title="Skillstraining"
-                      subtitle="Voor de brede ontwikkeling"
+                      title="Buiten training"
+                      subtitle="Buiten training met uitwijk"
                       items={[
-                        "Fysieke / motorische ontwikkeling",
-                        "Leren spelen van wedstrijden",
-                        "Mentale vaardigheden"
+                        "6 maanden buiten training",
+                        "Training gaat bij te slecht weer niet door",
+                        "18 weken training, waarvan 16 weken gegarandeerd"
                       ]}
-                      actionText="Een sterke basis om tennis nog sneller onder de knie te krijgen."
+                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn wijken we uit naar de all-weather buitenbanen van Tennispark Sloterplas"
                       >
-                        <Typography paragraph variant="h5">Wat leer je tijdens de skillstraining?</Typography>
+                        <Typography paragraph variant="h5">Kosten</Typography>
                         <Typography paragraph variant="paragraph">
-                          Beter leren bewegen is sneller en beter leren tennissen. Tijdens de skillstraining staat het breedmotorisch leren centraal. Wij leren ze beter bewegen dit doen we op een leuke en speelse manier, denk daarbij bijvoorbeeld aan spelsport, circuit training en tikspelen. Ook zal er aandacht besteed worden aan het leren spelen van wedstrijden. Leer de tennisspelregels, leer om te gaan met je tegenstander en leer mentale vaardigheden.
+                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een gerantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen. 
                         </Typography>
-                        <Typography paragraph variant="h5">Groepsgrootte</Typography>
-                          Er wordt gewerkt in grote groepen, tot wel 20 kinderen, hierdoor houden we de kosten laag en leren kinderen nieuwe kinderen kennen. De training wordt gegeven door de tennistrainer die bijgestaan wordt door een assistent trainer.
+                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>ROOD (4-8jr): €180,- pp. in een groep van maximaal 8 kinderen.</li>
+                        <li>ORANJE / GROEN / GEEL: €315,- pp. in een groep van maximaal 4 kinderen.</li>
+                      </ul><br />
+                        <Typography paragraph variant="h5">Vaker dan 1 keer trainen per week?</Typography>
+                          <Typography paragraph variant="paragraph">
+                        Dat kan! <br>Je kunt meedoen aan de inlooptraining <a href="https://juniorjoy.nl/inlooptraining/">KLIK HIER</a> om er alles over te lezen. <br> Daarnaast kun je ook een vaste 2de training aanvragen. 
                         <Typography paragraph variant="paragraph">
-
-                        </Typography>
-                        <Typography paragraph variant="h5">Vrije inloop </Typography>
-                        <Typography paragraph variant="paragraph">
-                          De skillstraining wordt op meerdere momenten in de week aangeboden. De planning wordt afgestemd op de beschikbaarheid van de kinderen. Je mag zelf weten op welk moment je komt, dat kan per week verschillen. Kun je een weekje niet komen, dan kom je een volgende week gewoon twee keer!
                         </Typography>
                       </Card>
                   </div>
