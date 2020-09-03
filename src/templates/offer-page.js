@@ -26,14 +26,14 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   {title}
                 </h2>
                 <p>
-                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn.<br> Lees hier de mogelijkheden. 
+                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn. Lees hier de mogelijkheden. 
                 </p>
                 <div className="columns">
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png"
                       title="Buiten en binnen"
-                      subtitle="3 maanden binnen en 3 maanden buiteb"
+                      subtitle="3 maanden binnen en 3 maanden buiten"
                       items={[
                         "Oktober, november en maart buiten op Joy Jaagpad (met garantie op uitwijk naar binnen)",
                         "December, januari, februari binnen op Tennispark Sloterplas of TV Osdorp (je kunt een voorkeur aangeven)",
@@ -52,7 +52,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       </Typography>
                       <Typography paragraph variant="h5">Vaker dan 1 keer trainen per week?</Typography>
                       <Typography paragraph variant="paragraph">
-                        Dat kan! <br>Je kunt meedoen aan de inlooptraining <a href="https://juniorjoy.nl/inlooptraining/">KLIK HIER</a> om er alles over te lezen. <br>Daarnaast kun je ook een vaste 2de training aanvragen. 
+                        Dat kan! Je kunt meedoen aan de inlooptraining. Daarnaast kun je ook een vaste 2de training aanvragen. 
                       </Typography>
                     </Card>
                   </div>
@@ -78,7 +78,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       </ul><br />
                         <Typography paragraph variant="h5">Vaker dan 1 keer trainen per week?</Typography>
                           <Typography paragraph variant="paragraph">
-                        Dat kan! <br>Je kunt meedoen aan de inlooptraining <a href="https://juniorjoy.nl/inlooptraining/">KLIK HIER</a> om er alles over te lezen. <br> Daarnaast kun je ook een vaste 2de training aanvragen. 
+                        Dat kan! Je kunt meedoen aan de inlooptraining. Daarnaast kun je ook een vaste 2de training aanvragen. 
                         <Typography paragraph variant="paragraph">
                         </Typography>
                       </Card>
