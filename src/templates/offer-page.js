@@ -39,6 +39,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "December, januari, februari binnen op Tennispark Sloterplas of TV Osdorp (je kunt een voorkeur aangeven)",
                       ]}
                       actionText="LET OP: voor deze optie geldt een beperkt aantal plekken."
+                      actionButton={{ header: 'Aanmelden', to: '/inlooptraining' }}
                     >
                       <Typography paragraph variant="h5">Kosten</Typography>
                       <Typography paragraph variant="paragraph">
@@ -67,6 +68,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "18 weken training, waarvan 16 weken gegarandeerd"
                       ]}
                       actionText="LET OP: Als de gravelbanen onbespeelbaar zijn wijken we uit naar de all-weather buitenbanen van Tennispark Sloterplas"
+                      actionButton={{ header: 'Aanmelden', to: '/inlooptraining' }}
                       >
                         <Typography paragraph variant="h5">Kosten</Typography>
                         <Typography paragraph variant="paragraph">

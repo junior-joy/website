@@ -98,7 +98,7 @@ class Start extends Component {
               </div>
             </li>
           </ul>
-          <Button onClick={this.props.handleSubmit} variant="contained" color="primary" className="btn is-pulled-right">
+          <Button onClick={this.props.handleSubmit} variant="contained" color="dfa" className="btn is-pulled-right">
             Verstuur
           </Button>
         </fieldset>

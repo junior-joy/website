@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -7,6 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import List from '@material-ui/core/List';
@@ -31,7 +33,7 @@ class JCard extends Component {
   };
 
   render() {
-    const { children, image, title, subtitle, items, actionText, info } = this.props
+    const { children, actionButton, image, title, subtitle, items, actionText, info } = this.props
     const { expanded } = this.state
     return(
       <Card elevation={3}>
@@ -65,21 +67,26 @@ class JCard extends Component {
         </List>
         <p style={{ padding: '1rem' }}>{actionText}</p>
         <CardActions disableSpacing
-        onClick={this.handleExpandClick}>
-          <span style={{
-          marginLeft: 'auto',}}>Meer informatie</span>
-          <IconButton
-            style={{
-              transform: 'rotate(0deg)',
-              transitionProperty: 'all',
-              transitionDuration: '.5s',
-              transform: (expanded ? 'rotate(180deg)' : ''),
-            }}
-            aria-label="show more"
-            aria-expanded={expanded}
-          >
-            <ExpandMoreIcon />
-          </IconButton>
+        >
+          {actionButton ? (
+            <Link to={actionButton.to}><Button variant="contained" primary className="btn">{actionButton.header}</Button></Link>
+          ):null}
+          <div onClick={this.handleExpandClick} style={{
+          marginLeft: 'auto' }}>
+            <span >Meer informatie</span>
+            <IconButton
+              style={{
+                transform: 'rotate(0deg)',
+                transitionProperty: 'all',
+                transitionDuration: '.5s',
+                transform: (expanded ? 'rotate(180deg)' : ''),
+              }}
+              aria-label="show more"
+              aria-expanded={expanded}
+            >
+              <ExpandMoreIcon />
+            </IconButton>
+          </div>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
