@@ -1,4 +1,4 @@
 ---
 templateKey: offer-page
-title: 'Ons basispakket: basistraining + skilltraining'
+title: 'Training oktober t/m maart'
 ---
