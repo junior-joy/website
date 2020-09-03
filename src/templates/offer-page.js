@@ -26,7 +26,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   {title}
                 </h2>
                 <p>
-                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn. Lees hier de mogelijkheden. 
+                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn. Lees hier de mogelijkheden.
                 </p>
                 <div className="columns">
                   <div className="column">
@@ -42,7 +42,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     >
                       <Typography paragraph variant="h5">Kosten</Typography>
                       <Typography paragraph variant="paragraph">
-                        De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. Er wordt niet getraind tijdens schoolvakanties en feestdagen. Voor alle jeudgleden van Joy Jaagpad geldt een subsidie van €50,- pp. op deze training, dit om de kosten van de binnenbaanhuur wat te drukken.                      
+                        De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. Er wordt niet getraind tijdens schoolvakanties en feestdagen. Voor alle jeudgleden van Joy Jaagpad geldt een subsidie van €50,- pp. op deze training, dit om de kosten van de binnenbaanhuur wat te drukken.
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
                         <li>ROOD (4-8jr): €220,- pp. in een groep van maximaal 8 kinderen.</li>
@@ -52,7 +52,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       </Typography>
                       <Typography paragraph variant="h5">Vaker dan 1 keer trainen per week?</Typography>
                       <Typography paragraph variant="paragraph">
-                        Dat kan! Je kunt meedoen aan de inlooptraining. Daarnaast kun je ook een vaste 2de training aanvragen. 
+                        Dat kan! Je kunt meedoen aan de inlooptraining. Daarnaast kun je ook een vaste 2de training aanvragen.
                       </Typography>
                     </Card>
                   </div>
@@ -70,16 +70,15 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       >
                         <Typography paragraph variant="h5">Kosten</Typography>
                         <Typography paragraph variant="paragraph">
-                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een gerantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen. 
+                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een gerantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen.
                         </Typography>
                        <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
                         <li>ROOD (4-8jr): €180,- pp. in een groep van maximaal 8 kinderen.</li>
                         <li>ORANJE / GROEN / GEEL: €315,- pp. in een groep van maximaal 4 kinderen.</li>
                       </ul><br />
                         <Typography paragraph variant="h5">Vaker dan 1 keer trainen per week?</Typography>
-                          <Typography paragraph variant="paragraph">
-                        Dat kan! Je kunt meedoen aan de inlooptraining. Daarnaast kun je ook een vaste 2de training aanvragen. 
                         <Typography paragraph variant="paragraph">
+                          Dat kan! Je kunt meedoen aan de inlooptraining. Daarnaast kun je ook een vaste 2de training aanvragen.
                         </Typography>
                       </Card>
                   </div>
