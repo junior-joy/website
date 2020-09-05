@@ -32,7 +32,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png"
-                      title="Buiten en binnen training"
+                      title="Buiten en binnen"
                       subtitle="3 maanden binnen en 3 maanden buiten"
                       items={[
                         "Oktober, november en maart buiten op Joy Jaagpad (met garantie op uitwijk naar binnen)",
@@ -67,12 +67,12 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Training gaat bij te slecht weer niet door",
                         "18 weken training, waarvan 16 weken gegarandeerd"
                       ]}
-                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn, is het in overleg mogelijk om uit te wijken naar de all-weather buitenbanen van Tennispark Sloterplas"
+                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn wijken we uit naar de all-weather buitenbanen van Tennispark Sloterplas"
                       actionButton={{ header: 'Aanmelden', to: '/inlooptraining' }}
                       >
                         <Typography paragraph variant="h5">Kosten</Typography>
                         <Typography paragraph variant="paragraph">
-                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een garantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen.
+                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een gerantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen.
                         </Typography>
                        <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
                         <li>ROOD (4-8jr): €180,- pp. in een groep van maximaal 8 kinderen.</li>
@@ -84,4 +84,133 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         </Typography>
                       </Card>
                   </div>
-        
+                </div>
+                <br />
+                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  Het basis pakket uitbreiden? Dat kan!
+                </h2>
+                <ExpansionPanel>
+                  <ExpansionPanelSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                  >
+                    <Typography>Tweede groepstraining:</Typography>
+                  </ExpansionPanelSummary>
+                  <ExpansionPanelDetails>
+                    <div>
+                      <Typography paragraph variant="h5">Tweede groepstraining</Typography>
+                      <Typography paragraph>
+                        Kom een tweede keer trainen in de groep. Dit is een zelfde training als de basistraining. Hiermee train je dus 3 x per week en zul je grote stappen maken in jouw tennisontwikkeling!
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>Rood: €115 - 12 weken</li>
+                        <li>Oranje: €180 - 12 weken</li>
+                        <li>Groen: €180 - 12 weken</li>
+                        <li>Geel: €180 - 12 weken</li>
+                      </ul><br />
+                    </div>
+                  </ExpansionPanelDetails>
+                </ExpansionPanel>
+                <ExpansionPanel>
+                  <ExpansionPanelSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                  >
+                    <Typography>Duotraining:</Typography>
+                  </ExpansionPanelSummary>
+                  <ExpansionPanelDetails>
+                    <div>
+                      <Typography paragraph variant="h5">Duotraining</Typography>
+                      <Typography paragraph>
+                        Tijdens de duotraining heeft de trainer veel aandacht voor jouw en geeft een leuke training waarin jullie elkaar uitdagen om beter te worden.
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>€320 - 12 weken</li>
+                      </ul><br />
+                    </div>
+                  </ExpansionPanelDetails>
+                </ExpansionPanel>
+                <ExpansionPanel>
+                  <ExpansionPanelSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel3a-content"
+                    id="panel3a-header"
+                  >
+                    <Typography>Privétraining:</Typography>
+                  </ExpansionPanelSummary>
+                  <ExpansionPanelDetails>
+                    <div>
+                      <Typography paragraph variant="h5">Privétraining</Typography>
+                      <Typography paragraph>
+                        Een privétraining is een 1-op-1 training waarin de volledige aandacht ligt op jouw leerdoelen. Zo nu en dan een privétraining inplannen geeft de ontwikkeling een boost. Privétrainingen geven we normaliter pas aan kinderen vanaf 8 jaar oud.
+                      </Typography>
+                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
+                        <li>€640 - 12 weken</li>
+                        <li>€60 - losse training</li>
+                      </ul><br />
+                    </div>
+                  </ExpansionPanelDetails>
+                </ExpansionPanel>
+
+                <br/>
+
+                <PageContent className="content" content={content} />
+              </div>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="section">
+                <Link to="/werkwijze">→ Lees meer over onze werkwijze</Link><br />
+                <Link to="/training/inschrijven">→ Schrijf je nu in</Link><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+AboutPageTemplate.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
+}
+
+const AboutPage = ({ data }) => {
+  const { markdownRemark: post } = data
+
+  return (
+    <Layout
+      onSwipedLeft={() => navigate( '/blog' )}
+      onSwipedRight={() => navigate( '/' )}
+      phoneTitle={'Over ons'}
+    >
+      <AboutPageTemplate
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
+      />
+    </Layout>
+  )
+}
+
+AboutPage.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
+export default AboutPage
+
+export const AboutPageQuery = graphql`
+  query OfferPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+`
