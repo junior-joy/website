@@ -32,7 +32,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png"
-                      title="Buiten en binnen"
+                      title="Buiten en binnen training"
                       subtitle="3 maanden binnen en 3 maanden buiten"
                       items={[
                         "Oktober, november en maart buiten op Joy Jaagpad (met garantie op uitwijk naar binnen)",
@@ -121,34 +121,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     </div>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
-                <ExpansionPanel>
-                  <ExpansionPanelSummary>
-                    <Typography>Privétraining:</Typography>
-                  </ExpansionPanelSummary>
-                  <ExpansionPanelDetails>
-                    <div>
-                      <Typography paragraph variant="h5">Privétraining</Typography>
-                      <Typography paragraph>
-                        Een privétraining is een 1-op-1 training waarin de volledige aandacht ligt op jouw leerdoelen. Zo nu en dan een privétraining inplannen geeft de ontwikkeling een boost. Privétrainingen geven we normaliter pas aan kinderen vanaf 8 jaar oud.
-                      </Typography>
-                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>€990,- - 18 weken; 6 maanden buiten</li>
-                        <li>€1700,- - 18 weken; 3 maanden binnen en 3 maanden buiten</li>
-                      </ul><br />
-                    </div>
-                  </ExpansionPanelDetails>
-                </ExpansionPanel>
-
-                <br/>
-
-                <PageContent className="content" content={content} />
-              </div>
-            </div>
-          </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="section">
-                <Link to="/werkwijze">→ Lees meer over onze werkwijze</Link><br />
               </div>
             </div>
           </div>
