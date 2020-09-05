@@ -67,7 +67,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Training gaat bij te slecht weer niet door",
                         "18 weken training, waarvan 16 weken gegarandeerd"
                       ]}
-                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn wijken we uit naar de all-weather buitenbanen van Tennispark Sloterplas"
+                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn, dat bestaat er de mogelijkheid om uit te wijken naar de all-weather banen van Sloterplas"
                       actionButton={{ header: 'Aanmelden', to: '/inlooptraining' }}
                       >
                         <Typography paragraph variant="h5">Kosten</Typography>
@@ -99,15 +99,12 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <div>
-                      <Typography paragraph variant="h5">Tweede groepstraining</Typography>
+                      <Typography paragraph variant="h5">Fysieke training</Typography>
                       <Typography paragraph>
-                        Kom een tweede keer trainen in de groep. Dit is een zelfde training als de basistraining. Hiermee train je dus 3 x per week en zul je grote stappen maken in jouw tennisontwikkeling!
+                        krijg een betere conditie en ga beter bewegen.
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>Rood: €115 - 12 weken</li>
-                        <li>Oranje: €180 - 12 weken</li>
-                        <li>Groen: €180 - 12 weken</li>
-                        <li>Geel: €180 - 12 weken</li>
+                        <li>€100 - 18 weken</li>
                       </ul><br />
                     </div>
                   </ExpansionPanelDetails>
@@ -127,7 +124,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         Tijdens de duotraining heeft de trainer veel aandacht voor jouw en geeft een leuke training waarin jullie elkaar uitdagen om beter te worden.
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>€320 - 12 weken</li>
+                        <li>vanaf €540,- - 18 weken buiten</li>
                       </ul><br />
                     </div>
                   </ExpansionPanelDetails>
@@ -147,8 +144,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         Een privétraining is een 1-op-1 training waarin de volledige aandacht ligt op jouw leerdoelen. Zo nu en dan een privétraining inplannen geeft de ontwikkeling een boost. Privétrainingen geven we normaliter pas aan kinderen vanaf 8 jaar oud.
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>€640 - 12 weken</li>
-                        <li>€60 - losse training</li>
+                        <li>Vanaf €990,- - 18 weken buiten</li>
+                        <li>€60,- - losse training</li>
                       </ul><br />
                     </div>
                   </ExpansionPanelDetails>
