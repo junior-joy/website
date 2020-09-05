@@ -161,7 +161,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
             <div className="column is-10 is-offset-1">
               <div className="section">
                 <Link to="/werkwijze">→ Lees meer over onze werkwijze</Link><br />
-                <Link to="/training/inschrijven">→ Schrijf je nu in</Link><br />
+                <Link to="https://form.jotform.com/Inspire_tennis/junior-joy-wintertraining-202021">→ Schrijf je nu in</Link><br />
               </div>
             </div>
           </div>
