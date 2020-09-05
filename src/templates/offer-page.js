@@ -122,11 +122,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
                 <ExpansionPanel>
-                  <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel3a-content"
-                    id="panel3a-header"
-                  >
+                  <ExpansionPanelSummary>
                     <Typography>Privétraining:</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
