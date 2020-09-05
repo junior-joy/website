@@ -39,7 +39,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "December, januari, februari binnen op Tennispark Sloterplas of TV Osdorp (je kunt een voorkeur aangeven)",
                       ]}
                       actionText="LET OP: voor deze optie geldt een beperkt aantal plekken."
-                      actionButton={{ header: 'Aanmelden', to: '/inlooptraining' }}
+                      actionButton={{ header: 'Aanmelden', to: 'https://form.jotform.com/Inspire_tennis/junior-joy-wintertraining-202021' }}
                     >
                       <Typography paragraph variant="h5">Kosten</Typography>
                       <Typography paragraph variant="paragraph">
