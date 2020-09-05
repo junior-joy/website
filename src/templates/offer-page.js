@@ -32,7 +32,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   <div className="column">
                     <Card
                       image="https://res.cloudinary.com/junior-joy/image/upload/v1580153447/Schermafbeelding_2019-12-30_om_20.15.09_rlineu.png"
-                      title="Buiten en binnen"
+                      title="Buiten en binnen training"
                       subtitle="3 maanden binnen en 3 maanden buiten"
                       items={[
                         "Oktober, november en maart buiten op Joy Jaagpad (met garantie op uitwijk naar binnen)",
@@ -95,7 +95,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>Tweede groepstraining:</Typography>
+                    <Typography>Fysieke training:</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <div>
