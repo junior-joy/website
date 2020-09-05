@@ -67,12 +67,12 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Training gaat bij te slecht weer niet door",
                         "18 weken training, waarvan 16 weken gegarandeerd"
                       ]}
-                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn wijken we uit naar de all-weather buitenbanen van Tennispark Sloterplas"
+                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn, is het in overleg mogelijk om uit te wijken naar de all-weather buitenbanen van Tennispark Sloterplas"
                       actionButton={{ header: 'Aanmelden', to: '/inlooptraining' }}
                       >
                         <Typography paragraph variant="h5">Kosten</Typography>
                         <Typography paragraph variant="paragraph">
-                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een gerantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen.
+                           De kosten zijn gebasseerd op 18 weken training van 60 minuten, van oktober t/m maart. We hopen natuurlijk op een zachte winter en dat alle trainingen gegeven kunnen worden, maar we geven in ieder geval een garantie van 16 weken training. Er wordt niet getraind tijdens schoolvakanties en feestdagen.
                         </Typography>
                        <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
                         <li>ROOD (4-8jr): €180,- pp. in een groep van maximaal 8 kinderen.</li>
@@ -87,7 +87,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 </div>
                 <br />
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  Het basis pakket uitbreiden? Dat kan!
+                  Privé of duotraining volgen? Dit kun je aanvragen!
                 </h2>
                 <ExpansionPanel>
                   <ExpansionPanelSummary
@@ -97,18 +97,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   >
                     <Typography>Tweede groepstraining:</Typography>
                   </ExpansionPanelSummary>
-                  <ExpansionPanelDetails>
-                    <div>
-                      <Typography paragraph variant="h5">Tweede groepstraining</Typography>
-                      <Typography paragraph>
-                        Kom een tweede keer trainen in de groep. Dit is een zelfde training als de basistraining. Hiermee train je dus 3 x per week en zul je grote stappen maken in jouw tennisontwikkeling!
-                      </Typography>
-                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>Rood: €115 - 12 weken</li>
-                        <li>Oranje: €180 - 12 weken</li>
-                        <li>Groen: €180 - 12 weken</li>
-                        <li>Geel: €180 - 12 weken</li>
-                      </ul><br />
                     </div>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -127,7 +115,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         Tijdens de duotraining heeft de trainer veel aandacht voor jouw en geeft een leuke training waarin jullie elkaar uitdagen om beter te worden.
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>€320 - 12 weken</li>
+                        <li>€540,- - 18 weken; 6 maanden buiten</li>
+                        <li>€900,- - 18 weken; 3 maanden binnen en 3 maanden buiten</li>
                       </ul><br />
                     </div>
                   </ExpansionPanelDetails>
@@ -147,8 +136,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         Een privétraining is een 1-op-1 training waarin de volledige aandacht ligt op jouw leerdoelen. Zo nu en dan een privétraining inplannen geeft de ontwikkeling een boost. Privétrainingen geven we normaliter pas aan kinderen vanaf 8 jaar oud.
                       </Typography>
                       <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>€640 - 12 weken</li>
-                        <li>€60 - losse training</li>
+                        <li>€990,- - 18 weken; 6 maanden buiten</li>
+                        <li>€1700,- - 18 weken; 3 maanden binnen en 3 maanden buiten</li>
                       </ul><br />
                     </div>
                   </ExpansionPanelDetails>
@@ -164,7 +153,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
             <div className="column is-10 is-offset-1">
               <div className="section">
                 <Link to="/werkwijze">→ Lees meer over onze werkwijze</Link><br />
-                <Link to="/training/inschrijven">→ Schrijf je nu in</Link><br />
               </div>
             </div>
           </div>
