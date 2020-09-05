@@ -85,39 +85,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                       </Card>
                   </div>
                 </div>
-                <br />
-                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  Privé of duotraining volgen? Dit kun je aanvragen!
-                </h2>
-                <ExpansionPanel>
-                  <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                  >
-                    <Typography>Tweede groepstraining:</Typography>
-                  </ExpansionPanelSummary>
-                    </div>
-                  </ExpansionPanelDetails>
-                </ExpansionPanel>
-                <ExpansionPanel>
-                  <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2a-content"
-                    id="panel2a-header"
-                  >
-                    <Typography>Duotraining:</Typography>
-                  </ExpansionPanelSummary>
-                  <ExpansionPanelDetails>
-                    <div>
-                      <Typography paragraph variant="h5">Duotraining</Typography>
-                      <Typography paragraph>
-                        Tijdens de duotraining heeft de trainer veel aandacht voor jouw en geeft een leuke training waarin jullie elkaar uitdagen om beter te worden.
-                      </Typography>
-                      <ul style={{ listStyle: 'initial', marginLeft: '2rem' }}>
-                        <li>€540,- - 18 weken; 6 maanden buiten</li>
-                        <li>€900,- - 18 weken; 3 maanden binnen en 3 maanden buiten</li>
-                      </ul><br />
                     </div>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
