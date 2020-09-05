@@ -20,7 +20,7 @@ Hierin ligt de focus puur op het verbeteren van de tennisvaardigheden, zoals:
 * Tactische vaardigheden
 * Voetenwerk
 
-**2) Skillstraining**  \
+**2) Inlooptraining**  \
 Hierin ligt de focus op de bredere ontwikkeling, zoals:
 
 * Breed motorische ontwikkeling
