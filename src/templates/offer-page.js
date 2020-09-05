@@ -84,7 +84,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         </Typography>
                       </Card>
                   </div>
-                </div>
                     </div>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
