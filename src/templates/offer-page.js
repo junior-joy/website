@@ -26,7 +26,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   {title}
                 </h2>
                 <p>
-                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn. Lees hier de mogelijkheden.<br/>
+                  In het winterseizoen, oktober t/m maart, gaan we zowel binnen als buiten training geven. De banen van Joy Jaagpad blijven 6 maanden open, mits het weer het toelaat. Maar voor de continuïteit hebben we wel al nagedacht over een vangnet op het moment dat de banen op Joy onbespeelbaar zijn. Lees hier de mogelijkheden.<br/><br/>
                 </p>
                 <div className="columns">
                   <div className="column">
