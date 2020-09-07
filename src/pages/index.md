@@ -3,7 +3,7 @@ templateKey: index-page
 title: 'Inspire: partner voor de Joy Jaagpag jeugd'
 image: >-
   https://res.cloudinary.com/junior-joy/image/upload/v1588604455/De_eerste_inlooptraining_2_jqstkm.jpg
-subheading: Inspire tennisopleiding biedt leuke en leerzame trainingen
+subheading: Leuke en leerzame trainingen voor jeugd
 ---
 #### Raak verslingerd aan tennis, de club en je vrienden
 
