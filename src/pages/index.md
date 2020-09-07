@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 'Het nieuwe jeugdtennis van Joy Jaagpad '
+title: 'Training voor de jeugdleden van Joy Jaagpad '
 image: >-
   https://res.cloudinary.com/junior-joy/image/upload/v1588604455/De_eerste_inlooptraining_2_jqstkm.jpg
-subheading: Inspire biedt de jeugd van Joy Jaagpad een fantastisch jeugdprogramma
+subheading: Inspire biedt de jeugd van Joy Jaagpad leuke en leerzame training, en ondersteunt het jeugdprogramma van Joy Jaagpad
 ---
 #### Raak verslingerd aan tennis, de club en je vrienden
 
