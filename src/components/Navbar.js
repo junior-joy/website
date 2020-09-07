@@ -96,6 +96,11 @@ const Navbar = class extends React.Component {
                 <ExpansionPanelDetails className="nav-drop" style={{ padding: '0' }}>
                   <List style={{ width: '100%' }}>
                     <li>
+                      <Link className="navbar-item" to="/training/aanbod" activeClassName="is-active" partiallyActive={true}>
+                        Aanbod winter 20/21
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/training/categorieen" activeClassName="is-active" partiallyActive={true}>
                         Categorieën
                       </Link>
