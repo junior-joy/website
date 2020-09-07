@@ -87,7 +87,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 </div>
                 <br />
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                  Het basis pakket uitbreiden? Dat kan!
+                  Vaker trainen? Dat kan!
                 </h2>
                 <ExpansionPanel>
                   <ExpansionPanelSummary
