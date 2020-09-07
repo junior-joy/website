@@ -67,7 +67,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                         "Training gaat bij te slecht weer niet door",
                         "18 weken training, waarvan 16 weken gegarandeerd"
                       ]}
-                      actionText="LET OP: Als de gravelbanen onbespeelbaar zijn, dan bestaat er de mogelijkheid om uit te wijken naar de all-weather banen van Sloterplas"
+                      actionText="LET OP: als de gravelbanen onbespeelbaar zijn, dan bestaat er de mogelijkheid om uit te wijken naar de all-weather banen van Sloterplas"
                       actionButton={{ header: 'Aanmelden', to: 'https://form.jotform.com/Inspire_tennis/junior-joy-wintertraining-202021' }}
                       >
                         <Typography paragraph variant="h5">Kosten</Typography>
