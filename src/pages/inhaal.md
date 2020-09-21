@@ -23,7 +23,7 @@ title: Inhaal
 
 4 juni 17:00 - 19:00 uur --> INHALEN OP: donderdag 24 september  <br><br>
 3 september 15:15 - 19:00 uur --> INHALEN OP: donderdag 1 oktober<br><br>
-17 septmeber 16:00 - 17:00 uur (training van Teun) --> INHALEN OP: nog in te plannen 
+17 septmeber 16:00 - 17:00 uur (training van Teun) --> INHALEN OP: nog in te plannen,  we nemen contact met je op. 
 
 ## Vrijdagtraining 
 
