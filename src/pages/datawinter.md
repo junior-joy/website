@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Data zomer 2020
+title: Data winter 2020/21
 ---
 
 [KLIK HIER voor de inhaaldata zomer 2020](https://juniorjoy.nl/inhaal/)
