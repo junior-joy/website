@@ -16,8 +16,6 @@ title: Inhaal
 ## Woensdagtraining
 
 26 augustus 13:00 - 18:30 uur --> INHALEN OP: woensdag 23 september  <br><br>
-1 juli 13:00 - 18:30 uur --> INHALEN OP: woensdag 30 september  <br><br>
-9 september 17:30 - 18:30 en 17:00 - 18:00 uur --> INHALEN OP: nog te plannen, we nemen contact met je op.
 
 ## Donderdagtraining 
 
