@@ -106,7 +106,7 @@ const Navbar = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/data" activeClassName="is-active" partiallyActive={true}>
+                      <Link className="navbar-item" to="/datawinter/" activeClassName="is-active" partiallyActive={true}>
                         Data
                       </Link>
                     </li>
