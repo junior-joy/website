@@ -20,5 +20,5 @@ Wanneer?
 
 Klik snel door om te zien wanneer de eerstvolgende is.
 
-<a href="https://form.jotform.com/Inspire_tennis/inloop-training"><img src="https://res.cloudinary.com/junior-joy/image/upload/v1592763378/knop_aanmeld_paqvyz.png"></a>
+<a href="https://openspot.tennis/fp/open-spots/locatie/26"><img src="https://res.cloudinary.com/junior-joy/image/upload/v1592763378/knop_aanmeld_paqvyz.png"></a>
 
